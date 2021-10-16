@@ -1,0 +1,300 @@
+/* ------------------------START------------------------ */
+* {
+    font-family: sans-serif;
+}
+
+/* ALL */
+body {
+    background-image: url(../ASSET/BACKGROUND/luke-chesser-pJadQetzTkI-unsplash.jpg);
+    background-size: cover;
+}
+
+/* //ALL\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* SIGN_IN */
+.konten {
+    width: 760px;
+    margin-top: 75px;
+    margin-left: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gm {
+    margin-left: -12px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.fm {
+    margin-right: 20px;
+}
+
+.gl {
+    margin-left: 128px;
+    width: 75px;
+}
+
+.na {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #30397E;
+}
+
+.bt {
+    background-color: #30397E;
+    color: white;
+    font-weight: bold;
+}
+
+.bt:hover {
+    background-color: #2A9DC9;
+    color: white;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.fp {
+    text-decoration: none;
+    color: #30397E;
+    font-weight: bold;
+}
+
+.fp:hover {
+    color: #2A9DC9;
+}
+
+.cp {
+    margin-top: 39px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* //SIGN_IN\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* FORGOT_PASSWORD */
+.tam {
+    width: 760px;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 100px 0px 100px;
+}
+
+.nan {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #30397E;
+}
+
+.il {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.bn {
+    background-color: #30397E;
+    color: white;
+    font-weight: bold;
+}
+
+.bn:hover {
+    background-color: #2A9DC9;
+    color: white;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.pf {
+    text-decoration: none;
+    color: #30397E;
+    font-weight: bold;
+}
+
+.pf:hover {
+    color: #2A9DC9;
+}
+
+.pc {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* //FORGOT_PASSWORD\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* VERIFICATION */
+.dam {
+    width: 760px;
+    margin-top: 18px;
+    margin-left: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 100px 0px 100px;
+}
+
+.ban {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #30397E;
+}
+
+.en {
+    text-align: center;
+}
+
+.ol {
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+
+.co {
+    margin-left: 130px;
+}
+
+.bd {
+    background-color: #30397E;
+    color: white;
+    font-weight: bold;
+}
+
+.bd:hover {
+    background-color: #2A9DC9;
+    color: white;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.pd {
+    text-decoration: none;
+    color: #30397E;
+    font-weight: bold;
+}
+
+.pd:hover {
+    color: #2A9DC9;
+}
+.xc {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* //VERIFICATION\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* NEW_PASSWORD*/
+.dek {
+    width: 760px;
+    margin-top: 9px;
+    margin-left: 262px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 100px 0px 100px;
+}
+
+.bia {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #30397E;
+}
+
+.zn {
+    text-align: center;
+}
+
+.vl {
+    width: 205px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.sd {
+    background-color: #30397E;
+    color: white;
+    font-weight: bold;
+}
+
+.sd:hover {
+    background-color: #2A9DC9;
+    color: white;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.ad {
+    text-decoration: none;
+    color: #30397E;
+    font-weight: bold;
+}
+.ad:hover {
+    color: #2A9DC9;
+}
+
+.xw {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* //NEW_PASSWORD\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* POP_UP */
+.modal-title {
+    color: #30397E;
+    font-weight: bold;
+}
+
+.mg {
+    width: 200px;
+    margin-left: 135px;
+}
+
+.sus {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.vn {
+    font-size: 22px;
+    text-align: center;
+}
+
+.bu {
+    background-color: #30397E;
+    color: white;
+    font-weight: bold;
+}
+
+.bu:hover {
+    background-color: #2A9DC9;
+    color: white;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+/* //POP_UP\\ */
+
+/* -------------------------END------------------------- */

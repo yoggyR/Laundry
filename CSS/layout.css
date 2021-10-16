@@ -1,0 +1,222 @@
+/* ------------------------START------------------------ */
+/* ALL */
+* {
+    font-family: sans-serif;
+}
+
+/* //ALL\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* MAIN */
+
+/* HEADER */
+.he {
+    background-color: #EEEEEE;
+    border-bottom-right-radius: 20px;
+
+}
+
+.navbar-brand {
+    background-color: white;
+    width: 90px;
+    height: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.logo {
+    width: 60px;
+    margin-top: -11px;
+    margin-left: 13px;
+}
+
+.not {
+    width: 20px;
+    margin-top: -3px;
+}
+
+.not:hover {
+    content: url(../ASSET/ICON/BACK/4964018_alarm_alert_attention_bell_notification_icon.svg);
+}
+
+.kal {
+    width: 20px;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+.cal {
+    margin-right: 324px;
+}
+
+.sc {
+    margin-right: 200px;
+}
+
+.sct {
+    border-radius: 10px;
+}
+
+.sa {
+    background-color: #30397E;
+    color: white;
+}
+
+.sa:hover {
+    background-color: #2A9DC9;
+    color: white;
+    border: 1px solid #30397E;
+}
+
+.wm {
+    margin-right: 5px;
+}
+
+.men {
+    margin-left: -105px;
+}
+
+.z:hover {
+    background-color: #30397E;
+    color: white;
+}
+
+/* //HEADER\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 185px 15px 0;
+    width: 90px;
+    background-color: #EEEEEE;
+    border-bottom-right-radius: 20px;
+}
+
+.hom {
+    width: 25px;
+    text-align: center;
+}
+
+.hom:hover {
+    content: url(../ASSET/ICON/BACK/216242_home_icon.svg);
+}
+
+.sta {
+    width: 25px;
+}
+
+.sta:hover {
+    content: url(../ASSET/ICON/BACK/623070_box_label_storage_delivery_gift_icon.svg);
+}
+
+.cus {
+    width: 25px;
+}
+
+.cus:hover {
+    content: url(../ASSET/ICON/BACK/171447_users_group_icon.svg);
+}
+
+.cas {
+    width: 25px;
+}
+
+.cas:hover {
+    content: url(../ASSET/ICON/BACK/3533402_business_management_plan_project_report_icon.svg);
+}
+
+.xas {
+    margin-top: 110px;
+    width: 25px;
+}
+
+.xas:hover {
+    content: url(../ASSET/ICON/BACK/1564506_close_exit_logout_power_icon.svg);
+}
+
+.cs {
+    font-size: 7px;
+    text-align: center;
+    margin-top: -2px;
+    font-weight: bold;
+}
+
+/* //SIDEBAR\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* CONTENT */
+.pa {
+    margin-right: 27px;
+}
+
+/* //CONTENT\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* POP UP */
+h5 {
+    color: #30397E;
+    font-weight: bold;
+}
+
+.mg {
+    width: 200px;
+    margin-left: 135px;
+}
+
+.sus {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.vn {
+    font-size: 23px;
+    text-align: center;
+}
+
+.bu {
+    background-color: #30397E;
+    color: white;
+    font-weight: bold;
+}
+
+.bu:hover {
+    background-color: #2A9DC9;
+    color: white;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.ma {
+    width: 150px;
+    margin-left: 152px;
+    margin-top: -13px;
+}
+
+.sws {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: #30397E;
+    margin-top: -40px;
+}
+
+.vx {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* //POP UP\\ */
+
+/* //MAIN\\ */
+
+/* -------------------------END------------------------- */

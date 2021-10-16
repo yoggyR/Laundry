@@ -1,0 +1,371 @@
+/* ------------------------START------------------------ */
+* {
+    font-family: sans-serif;
+}
+
+/* EDIT PROFILE */
+.tn {
+    background-color: rgb(206, 114, 2);
+    color: white;
+    border-radius: 10px;
+}
+
+.tn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.to {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+}
+
+.to:hover {
+    background-color: rgb(3, 180, 3);
+    color: white;
+}
+
+.tb {
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+}
+
+.tb:hover {
+    background-color: red;
+    color: white;
+}
+
+/* //EDIT PROFILE\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* CHANGE PASSWORD */
+.cp {
+    width: 415px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.dk {
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 45px;
+    margin-right: px;
+}
+
+.az {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+}
+
+.az:hover {
+    background-color: rgb(3, 180, 3);
+    color: white;
+}
+
+.ax {
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+}
+
+.ax:hover {
+    background-color: red;
+    color: white;
+}
+
+/* //CHANGE PASSWORD\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* HOME */
+.pil {
+    margin-top: 28px;
+    width: 250px;
+    height: 200px;
+    background-color: #30397E;
+    border: none;
+    border-radius: 15px;
+}
+
+.pil:hover {
+    background-color: #2A9DC9;
+}
+
+.merk {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.pac {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.gam {
+    width: 80px;
+    margin-top: -5px;
+    margin-left: 164px;
+}
+
+.ter {
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+    margin-left: 3px;
+    margin-top: -11px;
+    color: white;
+}
+
+/* //HOME\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* NOT */
+.nr {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 420px;
+    margin-bottom: 30px;
+}
+
+.od {
+    margin-left: 440px;
+    font-weight: bold;
+}
+
+.ps {
+    margin-left: 380px;
+}
+
+/* //NOT\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* CS */
+.qa {
+    font-weight: bold;
+    color: #30397E;
+}
+
+.qo {
+    font-weight: bold;
+    color: #2A9DC9;
+}
+
+.sg {
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #30397E;
+    text-align: center;
+}
+
+.pe {
+    font-size: 12px;
+}
+
+.gs {
+    background-color: #30397E;
+    color: white;
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.gs:hover {
+    background-color: #2A9DC9;
+    color: white;
+    border: 1px solid #30397E;
+}
+
+.sae {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fdc {
+    width: 380px;
+    margin-left: -50px;
+    margin-top: -20px;
+}
+
+.ah {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+/* //CS\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* MY PROFILE */
+.myp {
+    margin-top: 40px;
+}
+
+/* //MY PROFILE\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* SERVICE PACKAGES */
+thead {
+    background-color: #ecececff;
+}
+
+.pt {
+    margin-top: 22px;
+}
+
+.als {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.adds {
+    width: 15px;
+    margin-top: -4px;
+    margin-left: -5px;
+}
+
+.srh {
+    width: 305px;
+    margin-left: 257px;
+}
+
+.rh {
+    border: 1px solid #30397E;
+    border-radius: 10px;
+}
+
+.vt {
+    background-color: #30397E;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #30397E;
+}
+
+.vt:hover {
+    background-color: #2A9DC9;
+    color: white;
+
+}
+
+.cnsp {
+    background-color: #30397E;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #30397E;
+
+}
+
+.cnsp:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+.dcv {
+    border: 1px solid #30397E;
+    border-radius: 10px;
+}
+
+.zza {
+    background-color: #30397E;
+    color: white;
+}
+
+.zza:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+.edi {
+    width: 30px;
+    margin-left: -7px;
+    margin-top: -4px;
+}
+
+.ed {
+    background-color: rgb(206, 114, 2);
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.ed:hover {
+    background-color: orange;
+    color: white;
+
+}
+
+.delt {
+    width: 30px;
+    margin-left: -8px;
+    margin-top: -2px;
+}
+
+.del {
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.del:hover {
+    background-color: red;
+    color: white;
+}
+
+.stat {
+    background-color: rgb(3, 180, 3);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin-top: 7px;
+}
+
+.stai {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 7px;
+}
+
+.mt {
+    margin-top: 7px;
+    margin-bottom: -6px;
+}
+
+.arrow1 {
+    width: 15px;
+    margin-top: -2px;
+}
+
+.arrow2 {
+    width: 15px;
+    margin-top: -2px;
+}
+
+.bane {
+    margin-left: 870px;
+    width: 300px;
+}
+
+/* //SERVICE PACKAGES\\ */
+/* -------------------------END------------------------- */

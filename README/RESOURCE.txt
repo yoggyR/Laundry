@@ -1,0 +1,50 @@
+ICON  
+====
+1.  4964018_alarm_alert_attention_bell_notification_icon = https://www.iconfinder.com/search?q=notification&price=free&style=solid&license=gte__1
+2.  216242_home_icon 					 = https://www.iconfinder.com/search?q=home&price=free&style=solid&license=gte__1
+3.  171447_users_group_icon 				 = https://www.iconfinder.com/search?q=users&price=free&style=solid&license=gte__1
+4.  623070_box_label_storage_delivery_gift_icon 	 = https://www.iconfinder.com/search?q=package&price=free&style=solid&license=gte__1
+5.  3533402_business_management_plan_project_report_icon = https://www.iconfinder.com/search?q=report&price=free&style=solid&license=gte__1
+6.  1564506_close_exit_logout_power_icon		 = https://www.iconfinder.com/search?q=log+out&price=free&style=solid&license=gte__1
+7.  2102050_calendar_interface_year_icon 		 = https://www.iconfinder.com/search?q=calendar&price=free&style=solid&license=gte__1
+8.  134224_add_plus_new_icon				 = https://www.iconfinder.com/search?q=add&price=free&license=gte__1
+9.  5208399_delete_garbage_recycle_remove_trash_icon	 = https://www.iconfinder.com/search?q=trash&price=free&style=solid&license=gte__1
+10. 353430_checkbox_pen_edit_pencil_icon		 = https://www.iconfinder.com/search?q=edit&price=free&style=solid&license=gte__1
+11. 352072_arrow_play_icon				 = https://www.iconfinder.com/search?q=arrow&price=free&style=solid&license=gte__1
+
+LOGO
+====
+1.  753105_washer_laundry_machine_wash_washing_icon 	 = https://www.iconfinder.com/search?q=laundry&price=free&style=solid&license=gte__1
+
+IMAGE/FOTO
+===========
+1.  amir-seilsepour-5vg_SarQimA-unsplash 		 = https://unsplash.com/photos/5vg_SarQimA
+2.  alexandra-poliakova-EXCroywwrEw-unsplash 		 = https://unsplash.com/photos/EXCroywwrEw
+
+BACKGROUND
+==========
+1.  luke-chesser-pJadQetzTkI-unsplash 			 = https://unsplash.com/photos/pJadQetzTkI 
+
+COLORS
+======
+1. #30397E						 = https://html-color-codes.info/colors-from-image/#  luke-chesser-pJadQetzTkI-unsplash
+2. #EEEEEE						 = https://colorhunt.co/palette/faff00ff3f008e2657eeeeee
+3. #2A9DC9						 = https://html-color-codes.info/colors-from-image/#  alexandra-poliakova-EXCroywwrEw-unsplash
+
+ILUSTRATION 
+===========
+1.  undraw_void_3ggu
+2.  undraw_Throw_away_re_x60k
+3.  undraw_security_o890
+4.  undraw_Preferences_re_49in
+5.  undraw_No_data_re_kwbl
+6.  undraw_Forgot_password_re_hxwm
+7.  undraw_Done_re_oak4
+8.  undraw_cancel_u1it
+9.  undraw_Add_file_re_s4qf
+
+
+
+ 						
+
+

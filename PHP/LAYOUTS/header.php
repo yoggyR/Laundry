@@ -30,12 +30,12 @@
 
         <div class="dropdown cal" title="Calendar">
             <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="kal"> Today, <span style="font-weight: bold;">October 16</span>
+                <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="kal"> Today, <span style="font-weight: bold;">October 17</span>
             </a>
 
         </div>
 
-        <a href=""><img src="../../ASSET/ICON/FRONT/4964018_alarm_alert_attention_bell_notification_icon.svg" alt="" class="not"></a>
+        <a href=""><img src="../../ASSET/ICON/FRONT/352267_chat_icon.svg" alt="" class="not"></a>
 
         <div class="dropdown wm">
             <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">

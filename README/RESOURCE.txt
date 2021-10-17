@@ -1,6 +1,6 @@
 ICON  
 ====
-1.  4964018_alarm_alert_attention_bell_notification_icon = https://www.iconfinder.com/search?q=notification&price=free&style=solid&license=gte__1
+1.  352267_chat_icon  					 = https://www.iconfinder.com/search?q=chat&price=free&style=solid&license=gte__1
 2.  216242_home_icon 					 = https://www.iconfinder.com/search?q=home&price=free&style=solid&license=gte__1
 3.  171447_users_group_icon 				 = https://www.iconfinder.com/search?q=users&price=free&style=solid&license=gte__1
 4.  623070_box_label_storage_delivery_gift_icon 	 = https://www.iconfinder.com/search?q=package&price=free&style=solid&license=gte__1

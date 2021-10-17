@@ -6,7 +6,7 @@
 
         <div class="row align-items-start pt">
             <div class="col-6">
-                <button type="button" class="btn cnsp"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="adds"> Create New Service Package</button>
+                <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Create New Service Package" type="button" class="btn cnsp"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="adds"> Create New Service Package</a>
             </div>
 
             <div class="col-6 ">
@@ -41,11 +41,11 @@
                         <p class="mt">14 January 2021</p>
                     </td>
                     <td>
-                        <p class="mt"> 15 October 2021</p>
+                        <p class="mt"> 17 October 2021</p>
                     </td>
                     <td><label for="" class="stat">Active</label></td>
                     <td>
-                        <a class="btn ed" type="button" title="Edit"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
+                        <a class="btn ed" type="button" title="Edit" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Edit Service Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
                         |
                         <a class="btn del" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="delt" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>
@@ -61,12 +61,13 @@
                         <p class="mt">10 April 2021</p>
                     </td>
                     <td>
-                        <p class="mt"> 15 October 2021</p>
+                        <p class="mt"> 17 October 2021</p>
                     </td>
                     <td><label for="" class="stat">Active</label></td>
                     <td>
-                        <a class="btn ed" type="button" title="Edit"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"><a> |
-                                <a class="btn del" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="delt" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                        <a class="btn ed" type="button" title="Edit" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Edit Service Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
+                        |
+                        <a class="btn del" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="delt" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>
                 </tr>
                 <tr>
@@ -80,11 +81,11 @@
                         <p class="mt">24 August 2021</p>
                     </td>
                     <td>
-                        <p class="mt"> 15 October 2021</p>
+                        <p class="mt"> 17 October 2021</p>
                     </td>
-                    <td><label for="" class="stai">Non Active</label></td>
+                    <td><label for="" class="stat">Active</label></td>
                     <td>
-                        <a class="btn ed" type="button" title="Edit"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
+                        <a class="btn ed" type="button" title="Edit" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Edit Service Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
                         |
                         <a class="btn del" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="delt" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>
@@ -100,11 +101,11 @@
                         <p class="mt">18 February 2021</p>
                     </td>
                     <td>
-                        <p class="mt"> 15 October 2021</p>
+                        <p class="mt"> 17 October 2021</p>
                     </td>
-                    <td><label for="" class="stat">Active</label></td>
+                    <td><label for="" class="stai">Non Active</label></td>
                     <td>
-                        <a class="btn ed" type="button" title="Edit"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
+                        <a class="btn ed" type="button" title="Edit" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Edit Service Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
                         |
                         <a class="btn del" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="delt" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>
@@ -120,11 +121,11 @@
                         <p class="mt">05 July 2021</p>
                     </td>
                     <td>
-                        <p class="mt"> 15 October 2021</p>
+                        <p class="mt"> 17 October 2021</p>
                     </td>
                     <td><label for="" class="stai">Non Active</label></td>
                     <td>
-                        <a class="btn ed" type="button" title="Edit"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
+                        <a class="btn ed" type="button" title="Edit" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Edit Service Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="edi"></a>
                         |
                         <a class="btn del" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="delt" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>

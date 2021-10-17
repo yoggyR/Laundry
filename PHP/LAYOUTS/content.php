@@ -7,21 +7,27 @@ $pages = isset($_GET['page']) ? $_GET['page'] : '';
     <!-- PAGES -->
     <?php
     if ($pages == 'My Profile') {
-        include('../PAGES/my_profile.php');
+        include('../PAGES/PROFILE/my_profile.php');
     } elseif ($pages == 'Edit Profile') {
-        include('../PAGES/edit_profile.php');
+        include('../PAGES/PROFILE/edit_profile.php');
     } elseif ($pages == 'Change Password') {
-        include('../PAGES/change_password.php');
+        include('../PAGES/PROFILE/change_password.php');
     } elseif ($pages == 'Home') {
-        include('../PAGES/home.php');
-    } elseif ($pages == 'Customers') {
-        include('../PAGES/customers.php');
-    } elseif ($pages == 'Service Packages Controller') {
-        include('../PAGES/service_packages.php');
+        include('../PAGES/HOME/home.php');
+    } elseif ($pages == 'Service Package') {
+        include('../PAGES/HOME/service_package.php');
+    }elseif ($pages == 'Customers') {
+        include('../PAGES/CUSTOMERS/customers.php');
+    } elseif ($pages == 'Controller') {
+        include('../PAGES/SERVICE/controller.php');
+    } elseif ($pages == 'Create New Service Package') {
+        include('../PAGES/SERVICE/create_new_service_package.php');
+    } elseif ($pages == 'Edit Service Package') {
+        include('../PAGES/SERVICE/edit_service_package.php');
     } elseif ($pages == 'Report') {
-        include('../PAGES/report.php');
+        include('../PAGES/REPORT/report.php');
     } else {
-        include('../PAGES/not_found.php');
+        include('../PAGES/ANOTHER/not_found.php');
     }
     ?>
     <!-- //PAGES\\ -->

@@ -13,7 +13,7 @@
                 </a>
             </li>
             <li class=" nav-item mb-3">
-                <a class="nav-link" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Service Packages Controller" type="button" title="Service Packages Controller">
+                <a class="nav-link" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Controller" type="button" title="Controller">
                     <img src="../../ASSET/ICON/FRONT/623070_box_label_storage_delivery_gift_icon.svg" alt="" class="sta">
                 </a>
             </li>

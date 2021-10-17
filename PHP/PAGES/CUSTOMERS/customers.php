@@ -8,7 +8,7 @@
                 <div class="col-md-5">
                     <h1 class="qa">Find</h1>
                     <h1 class="qo">Data</h1>
-                    <h1 class="qa mb-4">Customers</h1>
+                    <h1 class="qa mb-4">Customer</h1>
                     <form action="">
                         <div class="mb-2">
                             <input type="text" class="form-control sg" maxlength="10" placeholder="Customer Id" autocomplete="off" required>

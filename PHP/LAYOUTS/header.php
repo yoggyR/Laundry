@@ -18,42 +18,43 @@
 
 <body>
     <!-- HEADER -->
-    <header class="navbar sticky-top  flex-md-nowrap p-0 he">
+    <header class="navbar sticky-top  flex-md-nowrap p-0">
         <a class="navbar-brand " type="button" data-bs-toggle="modal" data-bs-target="#about" title="About Us Laundry&trade;">
-            <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" class="logo">
+            <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" class="img_logo">
         </a>
 
-        <form class="d-flex sc">
-            <input class="form-control me-2 sct" type="search" placeholder="Search for anything" aria-label="Search">
-            <button class="btn sct sa " type="submit">Search</button>
+        <form class="d-flex form_search_head">
+            <input class="form-control me-2 input_search" type="search" placeholder="Search for anything" aria-label="Search">
+            <button class="btn btn_search " type="submit">Search</button>
         </form>
 
-        <div class="dropdown cal" title="Calendar">
+        <div class="dropdown btn_calendar" title="Calendar">
             <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="kal"> Today, <span style="font-weight: bold;">October 17</span>
+                <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="img_calendar"> Today, <span style="font-weight: bold;">October 17</span>
             </a>
 
         </div>
 
-        <a href=""><img src="../../ASSET/ICON/FRONT/352267_chat_icon.svg" alt="" class="not"></a>
+        <a href=""><img src="../../ASSET/ICON/FRONT/352267_chat_icon.svg" alt="" class="img_chat"></a>
 
-        <div class="dropdown wm">
+        <div class="dropdown btn_profile">
             <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" width="30" height="30" class="rounded-circle">
             </a>
-            <ul class="dropdown-menu men" aria-labelledby="dropdownMenuLink">
+            <ul class="dropdown-menu menu_profile" aria-labelledby="dropdownMenuLink">
                 <li><label class="dropdown-item " style="font-weight: bold;">Hi, Amir Seilsepour</label></li>
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item z" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=My Profile">My Profile</a></li>
-                <li><a class="dropdown-item z" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Edit Profile">Edit Profile</a></li>
-                <li><a class="dropdown-item z" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Change Password">Change Password</a></li>
+                <li><a class="dropdown-item item_profile" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=My Profile">My Profile</a></li>
+                <li><a class="dropdown-item item_profile" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Edit Profile">Edit Profile</a></li>
+                <li><a class="dropdown-item item_profile" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Change Password">Change Password</a></li>
                 </li>
             </ul>
         </div>
     </header>
     <!-- //HEADER// -->
+
     <!-- ABOUT -->
     <div class="modal fade" id="about" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="aboutLabel" aria-hidden="true">
         <div class=" modal-dialog modal-dialog-centered">
@@ -62,14 +63,14 @@
                     <h5 class="modal-title" id="aboutLabel">About Us</h5>
                 </div>
                 <div class="modal-body">
-                    <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" alt="" class="ma">
-                    <p class="sws">Laundry&trade;</p>
-                    <p class="vx">Laundry&trade; was founded in 2021, and currently has spread throughout the territory
-                        of the Republic of Indonesia. We Laundry&trade; have experience in washing all kinds of clothes.
+                    <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" alt="" class="img_emblem">
+                    <p class="txt_title">Laundry&trade;</p>
+                    <p class="txt_description">Laundry&trade; was founded in 2021, and currently has spread throughout the territory
+                        of the Republic of Indonesia. We Laundry&trade; have several months of washing experience.
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn bu" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn_choice" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

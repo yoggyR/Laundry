@@ -8,7 +8,7 @@
                 <div class="col-4">
                     <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="orang tua">
                     <div style="margin-left: 70px; margin-top: 20px;">
-                        <button type="submit" class="btn tn" style="font-weight: bold;">Change Image</button>
+                        <button type="submit" class="btn btn_change_image" style="font-weight: bold;">Change Image</button>
                     </div>
 
                 </div>
@@ -34,8 +34,8 @@
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Access Rights Level</label>
                             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Super Admin" disabled>
                         </div>
-                        <button type="submit" class="btn to" style="font-weight: bold;">Save</button>
-                        <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn tb" style="font-weight: bold;">Cancel</a>
+                        <button type="submit" class="btn btn_save_edit_profile" style="font-weight: bold;">Save</button>
+                        <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn btn_cancel_edit_profile" style="font-weight: bold;">Cancel</a>
                     </form>
                 </div>
             </div>

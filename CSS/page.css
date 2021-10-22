@@ -1,38 +1,52 @@
 /* ------------------------START------------------------ */
+/* ALL */
 * {
     font-family: sans-serif;
 }
 
+/* //ALL\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* MY PROFILE */
+.receptacle_myprofile {
+    margin-top: 40px;
+}
+
+/* //MY PROFILE\\ */
+
+/* ------------------------LIMIT------------------------ */
+
 /* EDIT PROFILE */
-.tn {
+.btn_change_image {
     background-color: rgb(206, 114, 2);
     color: white;
     border-radius: 10px;
 }
 
-.tn:hover {
+.btn_change_image:hover {
     background-color: orange;
     color: white;
 }
 
-.to {
+.btn_save_edit_profile {
     background-color: darkgreen;
     color: white;
     border-radius: 10px;
 }
 
-.to:hover {
+.btn_save_edit_profile:hover {
     background-color: rgb(3, 180, 3);
     color: white;
 }
 
-.tb {
+.btn_cancel_edit_profile {
     background-color: darkred;
     color: white;
     border-radius: 10px;
 }
 
-.tb:hover {
+.btn_cancel_edit_profile:hover {
     background-color: red;
     color: white;
 }
@@ -42,37 +56,39 @@
 /* ------------------------LIMIT------------------------ */
 
 /* CHANGE PASSWORD */
-.cp {
+.img_change_password {
     width: 415px;
     margin-top: 50px;
     margin-left: 30px;
 }
 
-.dk {
+.form_change_password {
     margin-top: 40px;
     margin-left: 400px;
     margin-right: 45px;
     margin-right: px;
 }
 
-.az {
+.btn_save_change_password {
     background-color: darkgreen;
     color: white;
     border-radius: 10px;
+    font-weight: bold;
 }
 
-.az:hover {
+.btn_save_change_password:hover {
     background-color: rgb(3, 180, 3);
     color: white;
 }
 
-.ax {
+.btn_cancel_change_password {
     background-color: darkred;
     color: white;
     border-radius: 10px;
+    font-weight: bold;
 }
 
-.ax:hover {
+.btn_cancel_change_password:hover {
     background-color: red;
     color: white;
 }
@@ -82,7 +98,7 @@
 /* ------------------------LIMIT------------------------ */
 
 /* HOME */
-.pil {
+.btn_package {
     margin-top: 87px;
     width: 250px;
     height: 200px;
@@ -91,11 +107,11 @@
     border-radius: 15px;
 }
 
-.pil:hover {
+.btn_package:hover {
     background-color: #2A9DC9;
 }
 
-.merk {
+.txt_head_package {
     color: white;
     text-align: center;
     font-weight: bold;
@@ -103,20 +119,20 @@
     margin-top: 2px;
 }
 
-.pac {
+.txt_name_package {
     color: white;
     text-align: left;
     font-weight: bold;
     margin-top: 40px;
 }
 
-.gam {
+.img_package {
     width: 80px;
     margin-top: -5px;
     margin-left: 164px;
 }
 
-.ter {
+.txt_powered_by {
     font-weight: bold;
     font-size: 8px;
     text-align: left;
@@ -129,39 +145,23 @@
 
 /* ------------------------LIMIT------------------------ */
 
-/* NOT */
-.nr {
-    width: 200px;
-    margin-top: 100px;
-    margin-left: 420px;
-    margin-bottom: 30px;
+/* CUSTOMER */
+.receptacle_customer {
+    margin-top: 60px;
+    margin-left: 150px;
 }
 
-.od {
-    margin-left: 440px;
-    font-weight: bold;
-}
-
-.ps {
-    margin-left: 380px;
-}
-
-/* //NOT\\ */
-
-/* ------------------------LIMIT------------------------ */
-
-/* CS */
-.qa {
+.txt_title_customer {
     font-weight: bold;
     color: #30397E;
 }
 
-.qo {
+.txt_title_customer_different_colour {
     font-weight: bold;
     color: #2A9DC9;
 }
 
-.sg {
+.form_search_customer_id {
     width: 300px;
     height: 55px;
     border-radius: 10px;
@@ -169,11 +169,11 @@
     text-align: center;
 }
 
-.pe {
+.txt_notif_customer_id {
     font-size: 12px;
 }
 
-.gs {
+.btn_search_customer_id {
     background-color: #30397E;
     color: white;
     width: 300px;
@@ -181,153 +181,90 @@
     border-radius: 10px;
 }
 
-.gs:hover {
+.btn_search_customer_id:hover {
     background-color: #2A9DC9;
     color: white;
     border: 1px solid #30397E;
 }
 
-.sae {
+.txt_btn_search_customer_id {
     font-weight: bold;
     font-size: 24px;
 }
 
-.fdc {
+.img_customer_ilustration {
     width: 380px;
     margin-left: -50px;
     margin-top: -20px;
 }
 
-.ah {
-    margin-top: 60px;
-    margin-left: 150px;
-}
-
-/* //CS\\ */
+/* //CUSTOMER\\ */
 
 /* ------------------------LIMIT------------------------ */
 
-/* MY PROFILE */
-.myp {
-    margin-top: 40px;
-}
-
-/* //MY PROFILE\\ */
-
-/* ------------------------LIMIT------------------------ */
-
-/* SERVICE PACKAGES */
-thead {
-    background-color: #ecececff;
-}
-
-.pt {
+/* PACKAGE SETTING*/
+.receptacle_create_and_seacrh {
     margin-top: 22px;
 }
 
-.als {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+.btn_create_new_package {
+    background-color: #30397E;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #30397E;
+
 }
 
-.adds {
+.btn_create_new_package:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+.img_create_new_package {
     width: 15px;
     margin-top: -4px;
     margin-left: -5px;
 }
 
-.srh {
+.form_search_package_setting {
     width: 305px;
     margin-left: 257px;
 }
 
-.rh {
+.input_search_package_setting {
     border: 1px solid #30397E;
     border-radius: 10px;
 }
 
-.vt {
+.btn_search_package_setting {
     background-color: #30397E;
     color: white;
     border-radius: 10px;
     border: 1px solid #30397E;
 }
 
-.vt:hover {
-    background-color: #2A9DC9;
-    color: white;
-
-}
-
-.cnsp {
-    background-color: #30397E;
-    color: white;
-    border-radius: 10px;
-    border: 1px solid #30397E;
-
-}
-
-.cnsp:hover {
+.btn_search_package_setting:hover {
     background-color: #2A9DC9;
     color: white;
 }
 
-.dcv {
-    border: 1px solid #30397E;
-    border-radius: 10px;
+.table_package_setting {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.zza {
-    background-color: #30397E;
-    color: white;
+thead {
+    background-color: #ecececff;
+    margin-right: 10px;
 }
 
-.zza:hover {
-    background-color: #2A9DC9;
-    color: white;
+.txt_content_package_setting {
+    margin-top: 7px;
+    margin-bottom: -6px;
 }
 
-.edi {
-    width: 30px;
-    margin-left: -7px;
-    margin-top: -4px;
-}
-
-.ed {
-    background-color: rgb(206, 114, 2);
-    color: white;
-    border-radius: 10px;
-    width: 40px;
-    height: 40px;
-}
-
-.ed:hover {
-    background-color: orange;
-    color: white;
-
-}
-
-.delt {
-    width: 30px;
-    margin-left: -8px;
-    margin-top: -2px;
-}
-
-.del {
-    background-color: darkred;
-    color: white;
-    border-radius: 10px;
-    width: 40px;
-    height: 40px;
-}
-
-.del:hover {
-    background-color: red;
-    color: white;
-}
-
-.stat {
+.txt_status_active {
     background-color: rgb(3, 180, 3);
     color: white;
     border-radius: 10px;
@@ -337,7 +274,7 @@ thead {
     margin-top: 7px;
 }
 
-.stai {
+.txt_status_non_active {
     background-color: rgb(41, 40, 40);
     color: white;
     border-radius: 10px;
@@ -347,25 +284,121 @@ thead {
     margin-top: 7px;
 }
 
-.mt {
-    margin-top: 7px;
-    margin-bottom: -6px;
+.btn_edit_package {
+    background-color: rgb(206, 114, 2);
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
 }
 
-.arrow1 {
-    width: 15px;
+.btn_edit_package:hover {
+    background-color: orange;
+    color: white;
+}
+
+.img_edit_package {
+    width: 30px;
+    margin-left: -7px;
+    margin-top: -4px;
+}
+
+.btn_delete_package {
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn_delete_package:hover {
+    background-color: red;
+    color: white;
+}
+
+.img_delete_package {
+    width: 30px;
+    margin-left: -8px;
     margin-top: -2px;
 }
 
-.arrow2 {
-    width: 15px;
-    margin-top: -2px;
-}
-
-.bane {
+.receptacle_btn_next_or_back {
     margin-left: 870px;
     width: 300px;
 }
 
-/* //SERVICE PACKAGES\\ */
+.extra_next_or_back {
+    border: 1px solid #30397E;
+    border-radius: 10px;
+}
+
+.btn_next_or_back {
+    background-color: #30397E;
+    color: white;
+}
+
+.btn_next_or_back:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+.arrow_next_and_back {
+    width: 15px;
+    margin-top: -2px;
+}
+
+/* //PACKAGE SETTING\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* REPORT */
+.table_report {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.txt_data_table_report {
+    margin-top: 20px;
+}
+
+.txt_data_status_on_proses {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.txt_data_status_done {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* //REPORT\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* NOT FOUND */
+.img_not_found {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 420px;
+    margin-bottom: 30px;
+}
+
+.txt_announcement_not_found {
+    margin-left: 440px;
+    font-weight: bold;
+}
+
+.txt_announcement_content_not_found {
+    margin-left: 380px;
+}
+
+/* //NOT FOUND\\ */
+
+
 /* -------------------------END------------------------- */

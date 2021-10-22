@@ -4,7 +4,7 @@
 </div>
 <div class='row'>
     <div class="md-col-12">
-        <div class="container myp" >
+        <div class="container receptacle_myprofile" >
             <div class="row justify-content-center">
                 <div class="col-4">
                     <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="orang tua">

@@ -1,9 +1,10 @@
 /* ------------------------START------------------------ */
+
+/* ALL */
 * {
     font-family: sans-serif;
 }
 
-/* ALL */
 body {
     background-image: url(../ASSET/BACKGROUND/luke-chesser-pJadQetzTkI-unsplash.jpg);
     background-size: cover;
@@ -13,8 +14,29 @@ body {
 
 /* ------------------------LIMIT------------------------ */
 
-/* SIGN_IN */
-.konten {
+/* FVC (Forgot your password, Verification, Create new password) */
+.btn_try_FVC {
+    text-decoration: none;
+    color: #30397E;
+    font-weight: bold;
+}
+
+.btn_try_FVC:hover {
+    color: #2A9DC9;
+}
+
+.txt_copyright_FVC {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* //FVC (Forgot your password, Verification, Create new password)\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* LOG IN */
+.receptacle_login {
     width: 760px;
     margin-top: 75px;
     margin-left: 250px;
@@ -22,23 +44,22 @@ body {
     border-radius: 10px;
 }
 
-.gm {
+.img_washing_machine {
     margin-left: -12px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-.fm {
+.form_login {
     margin-right: 20px;
 }
 
-.gl {
+.img_logo_login {
     margin-left: 128px;
     width: 75px;
 }
 
-.na {
-    font-family: 'Mulish', sans-serif;
+.txt_label_login {
     font-weight: bold;
     margin-top: -40px;
     margin-bottom: 30px;
@@ -46,41 +67,41 @@ body {
     color: #30397E;
 }
 
-.bt {
+.btn_login {
     background-color: #30397E;
     color: white;
     font-weight: bold;
 }
 
-.bt:hover {
+.btn_login:hover {
     background-color: #2A9DC9;
     color: white;
     border: 1px solid;
     font-weight: bold;
 }
 
-.fp {
+.btn_forgot_password {
     text-decoration: none;
     color: #30397E;
     font-weight: bold;
 }
 
-.fp:hover {
+.btn_forgot_password:hover {
     color: #2A9DC9;
 }
 
-.cp {
+.txt_copyright_login {
     margin-top: 39px;
     text-align: center;
     font-size: 12px;
 }
 
-/* //SIGN_IN\\ */
+/* //LOG IN\\ */
 
 /* ------------------------LIMIT------------------------ */
 
 /* FORGOT_PASSWORD */
-.tam {
+.receptacle_forgot {
     width: 760px;
     margin-top: 30px;
     margin-left: 250px;
@@ -89,47 +110,30 @@ body {
     padding: 40px 100px 0px 100px;
 }
 
-.nan {
-    font-family: 'Mulish', sans-serif;
+.txt_label_forgot {
     font-weight: 800;
     text-align: center;
     color: #30397E;
 }
 
-.il {
+.img_forgot {
     width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 180px;
 }
 
-.bn {
+.btn_send {
     background-color: #30397E;
     color: white;
     font-weight: bold;
 }
 
-.bn:hover {
+.btn_send:hover {
     background-color: #2A9DC9;
     color: white;
     border: 1px solid;
     font-weight: bold;
-}
-
-.pf {
-    text-decoration: none;
-    color: #30397E;
-    font-weight: bold;
-}
-
-.pf:hover {
-    color: #2A9DC9;
-}
-
-.pc {
-    margin-top: 60px;
-    text-align: center;
-    font-size: 12px;
 }
 
 /* //FORGOT_PASSWORD\\ */
@@ -137,7 +141,7 @@ body {
 /* ------------------------LIMIT------------------------ */
 
 /* VERIFICATION */
-.dam {
+.receptacle_verification {
     width: 760px;
     margin-top: 18px;
     margin-left: 250px;
@@ -146,54 +150,38 @@ body {
     padding: 40px 100px 0px 100px;
 }
 
-.ban {
-    font-family: 'Mulish', sans-serif;
+.txt_label_verification {
     font-weight: 800;
     text-align: center;
     color: #30397E;
 }
 
-.en {
-    text-align: center;
-}
-
-.ol {
+.img_verification {
     width: 280px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 120px;
 }
 
-.co {
+.txt_description_verification {
+    text-align: center;
+}
+
+.form_input_code_verification {
     margin-left: 130px;
 }
 
-.bd {
+.btn_verification {
     background-color: #30397E;
     color: white;
     font-weight: bold;
 }
 
-.bd:hover {
+.btn_verification:hover {
     background-color: #2A9DC9;
     color: white;
     border: 1px solid;
     font-weight: bold;
-}
-
-.pd {
-    text-decoration: none;
-    color: #30397E;
-    font-weight: bold;
-}
-
-.pd:hover {
-    color: #2A9DC9;
-}
-.xc {
-    margin-top: 60px;
-    text-align: center;
-    font-size: 12px;
 }
 
 /* //VERIFICATION\\ */
@@ -201,7 +189,7 @@ body {
 /* ------------------------LIMIT------------------------ */
 
 /* NEW_PASSWORD*/
-.dek {
+.receptacle_new_password {
     width: 760px;
     margin-top: 9px;
     margin-left: 262px;
@@ -210,91 +198,75 @@ body {
     padding: 40px 100px 0px 100px;
 }
 
-.bia {
-    font-family: 'Mulish', sans-serif;
+.txt_label_new_password {
     font-weight: 800;
     text-align: center;
     color: #30397E;
 }
 
-.zn {
-    text-align: center;
-}
-
-.vl {
+.img_new_password {
     width: 205px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 180px;
 }
 
-.sd {
+.txt_description_new_password {
+    text-align: center;
+}
+
+.btn_reset {
     background-color: #30397E;
     color: white;
     font-weight: bold;
 }
 
-.sd:hover {
+.btn_reset:hover {
     background-color: #2A9DC9;
     color: white;
     border: 1px solid;
     font-weight: bold;
-}
-
-.ad {
-    text-decoration: none;
-    color: #30397E;
-    font-weight: bold;
-}
-.ad:hover {
-    color: #2A9DC9;
-}
-
-.xw {
-    margin-top: 60px;
-    text-align: center;
-    font-size: 12px;
 }
 
 /* //NEW_PASSWORD\\ */
 
 /* ------------------------LIMIT------------------------ */
 
-/* POP_UP */
-.modal-title {
+/* POP UP DONE */
+h5 {
     color: #30397E;
     font-weight: bold;
 }
 
-.mg {
+.img_done {
     width: 200px;
     margin-left: 135px;
 }
 
-.sus {
+.txt_warnig_done {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
 }
 
-.vn {
+.txt_warning_description_done {
     font-size: 22px;
     text-align: center;
 }
 
-.bu {
+.btn_ok_done {
     background-color: #30397E;
     color: white;
     font-weight: bold;
 }
 
-.bu:hover {
+.btn_ok_done:hover {
     background-color: #2A9DC9;
     color: white;
     border: 1px solid;
     font-weight: bold;
 }
 
-/* //POP_UP\\ */
+/* //POP UP DONE\\ */
 
 /* -------------------------END------------------------- */

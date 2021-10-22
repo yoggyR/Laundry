@@ -17,14 +17,14 @@
 
 <body>
     <div class="countainer">
-        <div class="row dam shadow">
+        <div class="row receptacle_verification shadow">
             <div class="col-md-12">
                 <form>
-                    <h2 class="ban">Verification</h2>
-                    <img src="../../ASSET/ILLUSTRATION/undraw_security_o890.svg" alt="" class="ol">
-                    <p class="en">Enter the verification code we just send you on your email address.</p>
+                    <h2 class="txt_label_verification">Verification</h2>
+                    <img src="../../ASSET/ILLUSTRATION/undraw_security_o890.svg" alt="" class="img_verification">
+                    <p class="txt_description_verification">Enter the verification code we just send you on your email address.</p>
 
-                    <div class="row g-2 co mb-3">
+                    <div class="row g-2 form_input_code_verification mb-3">
                         <div class="col-md-2">
                             <input type="text" class="form-control" maxlength="1" style="text-align: center; font-weight: bold;">
                         </div>
@@ -38,9 +38,9 @@
                             <input type="text" class="form-control" maxlength="1" style="text-align: center; font-weight: bold;">
                         </div>
                     </div>
-                    <a class="w-100 btn btn-lg bd mb-2" type="submit" href="../BEGINNING/new_password.php">Verify</a>
-                    <p class="mt-2">Did you remember your password? <span><a class="pd" href="../BEGINNING/log_in.php">Try logging in</a></span></p>
-                    <p class="xc">&copy;2021 Laundry&trade;</p>
+                    <a class="w-100 btn btn-lg btn_verification mb-2" type="submit" href="../BEGINNING/new_password.php">Verify</a>
+                    <p class="mt-2">Did you remember your password? <span><a class="btn_try_FVC" href="../BEGINNING/log_in.php">Try logging in</a></span></p>
+                    <p class="txt_copyright_FVC">&copy;2021 Laundry&trade;</p>
                 </form>
             </div>
         </div>

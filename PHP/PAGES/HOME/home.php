@@ -7,35 +7,35 @@
             <div class="row justify-content-evenly">
 
                 <div class="col-3">
-                    <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Service Package">
-                        <button class="pil shadow">
-                            <p class="merk">Service Package</p>
-                            <h1 class="pac">Regular</h1>
-                            <img class="gam" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
-                            <p class="ter">Powered by Laundry&trade;</p>
+                    <a href="main.php?page=Package">
+                        <button class="btn_package shadow">
+                            <p class="txt_head_package">Package</p>
+                            <h1 class="txt_name_package ">Regular</h1>
+                            <img class="img_package" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
+                            <p class="txt_powered_by">Powered by Laundry&trade;</p>
                         </button>
                     </a>
 
                 </div>
 
                 <div class="col-3">
-                    <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Service Package">
-                        <button class="pil shadow">
-                            <p class="merk">Service Package</p>
-                            <h1 class="pac">Fast</h1>
-                            <img class="gam" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
-                            <p class="ter">Powered by Laundry&trade;</p>
+                    <a href="main.php?page=Package">
+                        <button class="btn_package shadow">
+                            <p class="txt_head_package">Package</p>
+                            <h1 class="txt_name_package ">Fast</h1>
+                            <img class="img_package" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
+                            <p class="txt_powered_by">Powered by Laundry&trade;</p>
                         </button>
                     </a>
                 </div>
 
                 <div class="col-3">
-                    <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Service Package">
-                        <button class="pil shadow">
-                            <p class="merk">Service Package</p>
-                            <h1 class="pac">Super</h1>
-                            <img class="gam" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
-                            <p class="ter">Powered by Laundry&trade;</p>
+                    <a href="main.php?page=Package">
+                        <button class="btn_package shadow">
+                            <p class="txt_head_package">Package</p>
+                            <h1 class="txt_name_package">Super</h1>
+                            <img class="img_package" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
+                            <p class="txt_powered_by">Powered by Laundry&trade;</p>
                         </button>
                     </a>
                 </div>

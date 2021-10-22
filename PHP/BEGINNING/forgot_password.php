@@ -17,23 +17,21 @@
 
 <body>
     <div class="countainer">
-        <div class="row tam shadow">
+        <div class="row receptacle_forgot shadow">
             <div class="col-md-12">
                 <form>
-                    <h2 class="nan">Forgot your password?</h2>
-                    <img src="../../ASSET/ILLUSTRATION/undraw_Forgot_password_re_hxwm.svg" alt="" class="il">
+                    <h2 class="txt_label_forgot">Forgot your password?</h2>
+                    <img src="../../ASSET/ILLUSTRATION/undraw_Forgot_password_re_hxwm.svg" alt="" class="img_forgot">
                     <p>Enter the email associated with your account and we'll send an email with instructions to reset
                         your password.</p>
 
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
-                            autocomplete="off" required>
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off" required>
                         <label for="floatingInput">Email address</label>
                     </div>
-                    <a class="w-100 btn btn-lg bn mb-2" type="submit" href="../BEGINNING/verification.php">Send</a>
-                    <p class="mt-2">Did you remember your password? <span><a class="pf"
-                                href="../BEGINNING/log_in.php">Try logging in</a></span></p>
-                    <p class="pc">&copy;2021 Laundry&trade;</p>
+                    <a class="w-100 btn btn-lg btn_send mb-2" type="submit" href="../BEGINNING/verification.php">Send</a>
+                    <p class="mt-2">Did you remember your password? <span><a class="btn_try_FVC" href="../BEGINNING/log_in.php">Try logging in</a></span></p>
+                    <p class="txt_copyright_FVC">&copy;2021 Laundry&trade;</p>
                 </form>
             </div>
         </div>

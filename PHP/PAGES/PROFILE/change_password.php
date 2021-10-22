@@ -6,10 +6,10 @@
         <div class="container" style="margin-top: 30px;">
             <div class="row">
                 <div class="col-md-1">
-                    <img src="../../ASSET/ILLUSTRATION/undraw_Preferences_re_49in.svg" class="cp">
+                    <img src="../../ASSET/ILLUSTRATION/undraw_Preferences_re_49in.svg" class="img_change_password">
                 </div>
                 <div class="col-md-11">
-                    <form action="" method="POST" class="dk">
+                    <form action="" method="POST" class="form_change_password">
                         <div class="mb-3">
                             <label for="formGroupExampleInput" class="form-label" style="font-weight: bold;">Current Password</label>
                             <input type="password" class="form-control" id="formGroupExampleInput" placeholder="Enter Your Current Password" required>
@@ -23,8 +23,8 @@
                                 Password</label>
                             <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Enter Confirm New Password" required>
                         </div>
-                        <button type="submit" class="btn az" style="font-weight: bold;">Save</button>
-                        <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn ax" style="font-weight: bold;">Cancel</a>
+                        <button type="submit" class="btn btn_save_change_password">Save</button>
+                        <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn btn_cancel_change_password">Cancel</a>
                     </form>
                 </div>
             </div>

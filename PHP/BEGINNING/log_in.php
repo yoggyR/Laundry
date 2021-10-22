@@ -17,14 +17,14 @@
 
 <body>
     <div class="countainer">
-        <div class="row konten shadow">
+        <div class="row receptacle_login shadow">
             <div class="col-md-6">
-                <img src="../../ASSET/FOTO/alexandra-poliakova-EXCroywwrEw-unsplash.jpg" class="img-fluid gm">
+                <img src="../../ASSET/FOTO/alexandra-poliakova-EXCroywwrEw-unsplash.jpg" class="img-fluid img_washing_machine">
             </div>
             <div class="col-md-6">
-                <form class="fm">
-                    <img class="mb-4 gl" src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg">
-                    <h2 class="na">Laundry&trade;</h2>
+                <form class="form_login">
+                    <img class="mb-4 img_logo_login" src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg">
+                    <h2 class="txt_label_login">Laundry&trade;</h2>
 
                     <div class="form-floating mb-2">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off" required>
@@ -39,9 +39,9 @@
                             <input type="checkbox" value="remember-me"> Remember me
                         </label>
                     </div>
-                    <a class="w-100 btn btn-lg bt mb-2" type="submit" href="../../PHP/LAYOUTS/main.php">Log in</a>
-                    <a class="fp" href="../BEGINNING/forgot_password.php">Forgot Password?</a>
-                    <p class="cp">&copy;2021 Laundry&trade;</p>
+                    <a class="w-100 btn btn-lg btn_login mb-2" type="submit" href="../../PHP/LAYOUTS/main.php">Log in</a>
+                    <a class="btn_forgot_password" href="../BEGINNING/forgot_password.php">Forgot Password?</a>
+                    <p class="txt_copyright_login">&copy;2021 Laundry&trade;</p>
                 </form>
             </div>
         </div>

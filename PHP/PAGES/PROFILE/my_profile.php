@@ -1,13 +1,13 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-2 border-bottom">
     <label><span style="font-weight: bold;"> <?php echo ($pages); ?> </span></label>
-    <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn-close pa" title="Close this page"></a>
+    <a href="main.php?page=Home" type="button" class="btn-close pa" title="Close this page"></a>
 </div>
 <div class='row'>
     <div class="md-col-12">
-        <div class="container receptacle_myprofile" >
+        <div class="container receptacle_myprofile">
             <div class="row justify-content-center">
                 <div class="col-4">
-                    <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="orang tua">
+                    <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="Profile">
                 </div>
                 <div class="col-8" style="margin-left: -50px;">
                     <form action="" method="POST">

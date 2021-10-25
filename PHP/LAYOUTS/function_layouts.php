@@ -30,14 +30,18 @@ elseif ($pages == 'Home') {
     include('../PAGES/HOME/home.php');
 } elseif ($pages == 'Package') {
     include('../PAGES/HOME/package.php');
+}elseif ($pages == 'Sub_Package') {
+    include('../PAGES/HOME/sub_package.php');
 }
 // End home
 
-// Customer
-elseif ($pages == 'Customer') {
-    include('../PAGES/CUSTOMER/customer.php');
+// Customers
+elseif ($pages == 'Data Customers') {
+    include('../PAGES/DATA_CUSTOMERS/customers.php');
+}elseif ($pages == 'data') {
+    include('../PAGES/DATA_CUSTOMERS/data.php');
 }
-// End customer
+// End customers
 
 // Package setting
 elseif ($pages == 'Package Setting') {

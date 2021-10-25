@@ -15,11 +15,10 @@
                             <p class="txt_powered_by">Powered by Laundry&trade;</p>
                         </button>
                     </a>
-
                 </div>
 
                 <div class="col-3">
-                    <a href="main.php?page=Package">
+                    <a href="">
                         <button class="btn_package shadow">
                             <p class="txt_head_package">Package</p>
                             <h1 class="txt_name_package ">Fast</h1>
@@ -30,7 +29,7 @@
                 </div>
 
                 <div class="col-3">
-                    <a href="main.php?page=Package">
+                    <a href="">
                         <button class="btn_package shadow">
                             <p class="txt_head_package">Package</p>
                             <h1 class="txt_name_package">Super</h1>

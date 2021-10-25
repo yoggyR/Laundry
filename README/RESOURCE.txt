@@ -1,16 +1,21 @@
 ICON  
 ====
-1.  352267_chat_icon  					 = https://www.iconfinder.com/search?q=chat&price=free&style=solid&license=gte__1
-2.  216242_home_icon 					 = https://www.iconfinder.com/search?q=home&price=free&style=solid&license=gte__1
-3.  171447_users_group_icon 				 = https://www.iconfinder.com/search?q=users&price=free&style=solid&license=gte__1
-4.  623070_box_label_storage_delivery_gift_icon 	 = https://www.iconfinder.com/search?q=package&price=free&style=solid&license=gte__1
-5.  3533402_business_management_plan_project_report_icon = https://www.iconfinder.com/search?q=report&price=free&style=solid&license=gte__1
-6.  1564506_close_exit_logout_power_icon		 = https://www.iconfinder.com/search?q=log+out&price=free&style=solid&license=gte__1
-7.  2102050_calendar_interface_year_icon 		 = https://www.iconfinder.com/search?q=calendar&price=free&style=solid&license=gte__1
-8.  134224_add_plus_new_icon				 = https://www.iconfinder.com/search?q=add&price=free&license=gte__1
-9.  5208399_delete_garbage_recycle_remove_trash_icon	 = https://www.iconfinder.com/search?q=trash&price=free&style=solid&license=gte__1
-10. 353430_checkbox_pen_edit_pencil_icon		 = https://www.iconfinder.com/search?q=edit&price=free&style=solid&license=gte__1
-11. 352072_arrow_play_icon				 = https://www.iconfinder.com/search?q=arrow&price=free&style=solid&license=gte__1
+1.  352267_chat_icon  					 		= https://www.iconfinder.com/search?q=chat&price=free&style=solid&license=gte__1
+2.  216242_home_icon 					 		= https://www.iconfinder.com/search?q=home&price=free&style=solid&license=gte__1
+3.  171447_users_group_icon 				 		= https://www.iconfinder.com/search?q=users&price=free&style=solid&license=gte__1
+4.  623070_box_label_storage_delivery_gift_icon 	 		= https://www.iconfinder.com/search?q=package&price=free&style=solid&license=gte__1
+5.  3533402_business_management_plan_project_report_icon 		= https://www.iconfinder.com/search?q=report&price=free&style=solid&license=gte__1
+6.  1564506_close_exit_logout_power_icon		 		= https://www.iconfinder.com/search?q=log+out&price=free&style=solid&license=gte__1
+7.  2102050_calendar_interface_year_icon 		 		= https://www.iconfinder.com/search?q=calendar&price=free&style=solid&license=gte__1
+8.  134224_add_plus_new_icon				 		= https://www.iconfinder.com/search?q=add&price=free&license=gte__1
+9.  5208399_delete_garbage_recycle_remove_trash_icon	 		= https://www.iconfinder.com/search?q=trash&price=free&style=solid&license=gte__1
+10. 353430_checkbox_pen_edit_pencil_icon		 		= https://www.iconfinder.com/search?q=edit&price=free&style=solid&license=gte__1
+11. 352072_arrow_play_icon				 		= https://www.iconfinder.com/search?q=arrow&price=free&style=solid&license=gte__1
+12. 7097271_washing_bubble_detergent powder_t-shirt_laundry_icon 	= https://www.iconfinder.com/search?q=laundry&price=free&license=gte__1
+13. 7097281_washing_folding_clothes_basket_laundry_icon			= https://www.iconfinder.com/search?q=laundry&price=free&license=gte__1
+14. 7011187_hand_person_clothes_over_people_icon			= https://www.iconfinder.com/search?q=laundry&price=free&license=gte__1
+15. 290143_cash_money_payment_wallet_icon				= https://www.iconfinder.com/search?q=money&price=free&style=outline&license=gte__1
+16. 3209291_contacts_customers_family_group_team_icon			= https://www.iconfinder.com/search?q=customers&price=free&style=outline&license=gte__1
 
 LOGO
 ====

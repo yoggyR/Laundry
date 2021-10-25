@@ -252,11 +252,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    border: 2px solid gray;
 }
 
 thead {
-    background-color: #ecececff;
-    margin-right: 10px;
+    background-color: #30397E;
+    color: white;
 }
 
 .txt_content_package_setting {
@@ -323,8 +324,7 @@ thead {
 }
 
 .receptacle_btn_next_or_back {
-    margin-left: 870px;
-    width: 300px;
+    width: 270px;
 }
 
 .extra_next_or_back {
@@ -352,32 +352,227 @@ thead {
 /* ------------------------LIMIT------------------------ */
 
 /* REPORT */
+.receptacle_data_report {
+    margin-right: 120px;
+}
+
+.label_data_report {
+    width: 200px;
+    height: 160px;
+    background-color: #30397E;
+    border: none;
+    border-radius: 15px;
+}
+
+.label_data_report:hover {
+    background-color: #2A9DC9;
+}
+
+.txt_head_data_report {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.txt_real_data_report {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.txt_real_data_report_profit {
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.img_data_report {
+    width: 60px;
+    margin-top: -12px;
+    margin-left: 135px;
+}
+
+.img_data_report_profit {
+    width: 60px;
+    margin-top: -2px;
+    margin-left: 135px;
+}
+
+.txt_powered_by_report {
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -11px;
+    color: white;
+}
+
+.txt_powered_by_report_profit {
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -14px;
+    color: white
+}
+
+.receptacle_data_table_report {
+    padding: 5px;
+    margin-top: 28px;
+    border-radius: 15px;
+}
+
+.form_search_data_table_reoprt {
+    width: 300px;
+    margin-bottom: -13px;
+}
+
+.input_search_data_table_report {
+    border: 1px solid #30397E;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.btn_search_data_table_report {
+    background-color: #30397E;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #30397E;
+    height: 30px;
+    font-size: 12px;
+}
+
+.btn_search_data_table_report:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
 .table_report {
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    border: 2px solid gray;
 }
 
 .txt_data_table_report {
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.txt_data_status_on_proses {
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-.txt_data_status_done {
+.txt_data_status_taken {
     background-color: green;
     color: white;
     border-radius: 10px;
     font-weight: bold;
 }
 
+.txt_data_status_finished {
+    background-color: darkorange;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.txt_data_status_on_process {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.receptacle_btn_next_or_back_report {
+    width: 230px;
+    height: 16px;
+}
+
+.extra_next_or_back_report {
+    border: 1px solid #30397E;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.btn_next_or_back_report {
+    background-color: #30397E;
+    color: white;
+}
+
+.btn_next_or_back_report:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+.arrow_next_and_back_report {
+    width: 9px;
+    margin-top: -2px;
+}
+
 /* //REPORT\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* PACKAGE & SUB PACKAGE*/
+.form-label_package_and_subpackage {
+    font-weight: bold;
+}
+
+.img_label_package_and_subpackage {
+    width: 20px;
+    margin-top: -6px;
+}
+
+.label_package_and_subpackage {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txt_custumer_id_package_and_subpackage {
+    margin-top: 4px;
+}
+
+.btn_package_process {
+    background-color: #30397E;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_package_process:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+.btn_cancel_subpackage {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_cancel_subpackage:hover {
+    background-color: red;
+    color: white;
+}
+
+.btn_subpackage_pay {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn_subpackage_pay:hover {
+    background-color: green;
+    color: white;
+}
+
+/* //PACKAGE & SUB PACKAGE\\ */
 
 /* ------------------------LIMIT------------------------ */
 
@@ -385,17 +580,17 @@ thead {
 .img_not_found {
     width: 200px;
     margin-top: 100px;
-    margin-left: 420px;
+    margin-left: 458px;
     margin-bottom: 30px;
 }
 
 .txt_announcement_not_found {
-    margin-left: 440px;
+    margin-left: 477px;
     font-weight: bold;
 }
 
 .txt_announcement_content_not_found {
-    margin-left: 380px;
+    margin-left: 420px;
 }
 
 /* //NOT FOUND\\ */

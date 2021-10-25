@@ -30,44 +30,42 @@
     margin-left: 13px;
 }
 
-.form_search_head {
+/* .form_search_head {
     margin-right: 200px;
-}
+} */
 
-.input_search {
+/* .input_search {
     border-radius: 10px;
-}
+} */
 
-.btn_search {
+/* .btn_search {
     background-color: #30397E;
     color: white;
     border-radius: 10px;
-}
+} */
 
-.btn_search:hover {
+/* .btn_search:hover {
     background-color: #2A9DC9;
     color: white;
     border: 1px solid #30397E;
+} */
+.calendar_head{
+    margin-left: 70px;
 }
 
 .img_calendar {
     width: 20px;
     margin-top: -5px;
-    margin-right: 5px;
 }
 
-.btn_calendar {
-    margin-right: 324px;
-}
-
-.img_chat {
+/* .img_chat {
     width: 20px;
     margin-top: -3px;
 }
 
 .img_chat:hover {
     content: url(../ASSET/ICON/BACK/352267_chat_icon.svg);
-}
+} */
 
 .btn_profile {
     margin-right: 5px;

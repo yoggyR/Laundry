@@ -18,15 +18,15 @@
         </div>
 
 
-        <table class="table table_package_setting table-bordered">
+        <table class="table table_package_setting table-bordered table-hover">
             <thead>
                 <tr>
-                    <th scope="col">No</th>
-                    <th scope="col">Name Service Packages</th>
-                    <th scope="col">Date Created</th>
-                    <th scope="col">Date Modified</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Action</th>
+                    <th>No</th>
+                    <th>Name Service Packages</th>
+                    <th>Date Created</th>
+                    <th>Date Modified</th>
+                    <th>Status</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -136,7 +136,7 @@
                 </tr>
             </tbody>
         </table>
-        <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group receptacle_btn_next_or_back" role="group" aria-label="Second group">
                 <button type="button" class="btn extra_next_or_back btn_next_or_back" disabled><img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon - Edit.svg" class="arrow_next_and_back"> Back
                 </button>

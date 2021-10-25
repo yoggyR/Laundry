@@ -23,19 +23,16 @@
             <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" class="img_logo">
         </a>
 
-        <form class="d-flex form_search_head">
+        <!-- <form class="d-flex form_search_head">
             <input class="form-control me-2 input_search" type="search" placeholder="Search for anything" aria-label="Search">
             <button class="btn btn_search " type="submit">Search</button>
-        </form>
+        </form> -->
 
-        <div class="dropdown btn_calendar" title="Calendar">
-            <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="img_calendar"> Today, <span style="font-weight: bold;">October 17</span>
-            </a>
-
+        <div title="Calendar" class="calendar_head">
+                <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="img_calendar"> Today, <span style="font-weight: bold;">23 October 2021</span>
         </div>
 
-        <a href=""><img src="../../ASSET/ICON/FRONT/352267_chat_icon.svg" alt="" class="img_chat"></a>
+        <!-- <a href=""><img src="../../ASSET/ICON/FRONT/352267_chat_icon.svg" alt="" class="img_chat"></a> -->
 
         <div class="dropdown btn_profile">
             <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">

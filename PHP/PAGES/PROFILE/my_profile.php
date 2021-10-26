@@ -7,7 +7,7 @@
         <div class="container receptacle_myprofile">
             <div class="row justify-content-center">
                 <div class="col-4">
-                    <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="Profile">
+                    <img style="height: 300px; width: 280px; border-radius: 10px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="Profile">
                 </div>
                 <div class="col-8" style="margin-left: -50px;">
                     <form action="" method="POST">

@@ -21,7 +21,6 @@
 .btn_change_image {
     background-color: rgb(206, 114, 2);
     color: white;
-    border-radius: 10px;
 }
 
 .btn_change_image:hover {
@@ -32,7 +31,6 @@
 .btn_save_edit_profile {
     background-color: darkgreen;
     color: white;
-    border-radius: 10px;
 }
 
 .btn_save_edit_profile:hover {
@@ -43,7 +41,6 @@
 .btn_cancel_edit_profile {
     background-color: darkred;
     color: white;
-    border-radius: 10px;
 }
 
 .btn_cancel_edit_profile:hover {
@@ -72,7 +69,6 @@
 .btn_save_change_password {
     background-color: darkgreen;
     color: white;
-    border-radius: 10px;
     font-weight: bold;
 }
 
@@ -84,7 +80,6 @@
 .btn_cancel_change_password {
     background-color: darkred;
     color: white;
-    border-radius: 10px;
     font-weight: bold;
 }
 
@@ -104,7 +99,7 @@
     height: 200px;
     background-color: #30397E;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .btn_package:hover {
@@ -164,7 +159,6 @@
 .form_search_customer_id {
     width: 300px;
     height: 55px;
-    border-radius: 10px;
     border: 2px solid #30397E;
     text-align: center;
 }
@@ -178,7 +172,6 @@
     color: white;
     width: 300px;
     height: 55px;
-    border-radius: 10px;
 }
 
 .btn_search_customer_id:hover {
@@ -210,7 +203,6 @@
 .btn_create_new_package {
     background-color: #30397E;
     color: white;
-    border-radius: 10px;
     border: 1px solid #30397E;
 
 }
@@ -233,13 +225,11 @@
 
 .input_search_package_setting {
     border: 1px solid #30397E;
-    border-radius: 10px;
 }
 
 .btn_search_package_setting {
     background-color: #30397E;
     color: white;
-    border-radius: 10px;
     border: 1px solid #30397E;
 }
 
@@ -268,7 +258,7 @@ thead {
 .txt_status_active {
     background-color: rgb(3, 180, 3);
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
     padding-left: 27px;
     padding-right: 27px;
@@ -278,7 +268,7 @@ thead {
 .txt_status_non_active {
     background-color: rgb(41, 40, 40);
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
@@ -288,7 +278,6 @@ thead {
 .btn_edit_package {
     background-color: rgb(206, 114, 2);
     color: white;
-    border-radius: 10px;
     width: 40px;
     height: 40px;
 }
@@ -307,7 +296,6 @@ thead {
 .btn_delete_package {
     background-color: darkred;
     color: white;
-    border-radius: 10px;
     width: 40px;
     height: 40px;
 }
@@ -329,7 +317,6 @@ thead {
 
 .extra_next_or_back {
     border: 1px solid #30397E;
-    border-radius: 10px;
 }
 
 .btn_next_or_back {
@@ -361,7 +348,7 @@ thead {
     height: 160px;
     background-color: #30397E;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .label_data_report:hover {
@@ -425,7 +412,7 @@ thead {
 .receptacle_data_table_report {
     padding: 5px;
     margin-top: 28px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .form_search_data_table_reoprt {
@@ -435,7 +422,6 @@ thead {
 
 .input_search_data_table_report {
     border: 1px solid #30397E;
-    border-radius: 10px;
     height: 30px;
     font-size: 12px;
 }
@@ -443,7 +429,6 @@ thead {
 .btn_search_data_table_report {
     background-color: #30397E;
     color: white;
-    border-radius: 10px;
     border: 1px solid #30397E;
     height: 30px;
     font-size: 12px;
@@ -470,21 +455,21 @@ thead {
 .txt_data_status_taken {
     background-color: green;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
 }
 
 .txt_data_status_finished {
     background-color: darkorange;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
 }
 
 .txt_data_status_on_process {
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
     padding-right: 8px;
     padding-left: 8px;
@@ -497,7 +482,6 @@ thead {
 
 .extra_next_or_back_report {
     border: 1px solid #30397E;
-    border-radius: 10px;
     font-size: 12px;
     margin-top: -15px;
 }
@@ -522,52 +506,39 @@ thead {
 /* ------------------------LIMIT------------------------ */
 
 /* PACKAGE & SUB PACKAGE*/
-.form-label_package_and_subpackage {
+.form-label_package {
     font-weight: bold;
+    font-size: 12px;
 }
 
-.img_label_package_and_subpackage {
+.input_font_size {
+    font-size: 12px;
+}
+
+.img_label_package {
     width: 20px;
     margin-top: -6px;
 }
 
-.label_package_and_subpackage {
+.label_package {
     font-size: 20px;
     font-weight: bold;
 }
 
-.txt_custumer_id_package_and_subpackage {
+.txt_custumer_id_package {
     margin-top: 4px;
 }
 
 .btn_package_process {
-    background-color: #30397E;
+    background-color: darkgreen;
     color: white;
     font-weight: bold;
+    margin-top: -11px;
+    margin-bottom: 12px;
+    font-size: 15px;
 }
 
 .btn_package_process:hover {
-    background-color: #2A9DC9;
-    color: white;
-}
-
-.btn_cancel_subpackage {
-    background-color: darkred;
-    color: white;
-    font-weight: bold;
-}
-
-.btn_cancel_subpackage:hover {
-    background-color: red;
-    color: white;
-}
-
-.btn_subpackage_pay {
-    background-color: darkgreen;
-    color: white;
-}
-
-.btn_subpackage_pay:hover {
     background-color: green;
     color: white;
 }

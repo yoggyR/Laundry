@@ -30,8 +30,6 @@ elseif ($pages == 'Home') {
     include('../PAGES/HOME/home.php');
 } elseif ($pages == 'Package') {
     include('../PAGES/HOME/package.php');
-}elseif ($pages == 'Sub_Package') {
-    include('../PAGES/HOME/sub_package.php');
 }
 // End home
 

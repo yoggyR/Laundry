@@ -8,7 +8,7 @@
                 <div class="col-4">
                     <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="orang tua">
                     <div style="margin-left: 70px; margin-top: 20px;">
-                        <button type="submit" class="btn btn_change_image" style="font-weight: bold;">Change Image</button>
+                        <button type="submit" class="btn btn_change_image" style="font-weight: bold;">Change image</button>
                     </div>
 
                 </div>
@@ -23,7 +23,7 @@
                             <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="amir@laundry.com">
                         </div>
                         <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Phone Number</label>
+                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Phone number</label>
                             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="0895801121100">
                         </div>
                         <div class="mb-3">
@@ -31,8 +31,8 @@
                             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Pangeran Antasari Street No. 22 Pejaten, South Jakarta">
                         </div>
                         <div class="mb-4">
-                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Access Rights Level</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Super Admin" disabled>
+                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Access rights level</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Super admin" disabled>
                         </div>
                         <button type="submit" class="btn btn_save_edit_profile" style="font-weight: bold;">Save</button>
                         <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn btn_cancel_edit_profile" style="font-weight: bold;">Cancel</a>

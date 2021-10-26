@@ -32,7 +32,7 @@
                         <div class="mb-3">
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Access Rights
                                 Level</label>
-                            <p>Super Admin</p>
+                            <p>Super admin</p>
                         </div>
                         <br>
                     </form>

@@ -416,7 +416,7 @@ thead {
 }
 
 .form_search_data_table_reoprt {
-    width: 300px;
+    width: 500px;
     margin-bottom: -13px;
 }
 
@@ -424,6 +424,7 @@ thead {
     border: 1px solid #30397E;
     height: 30px;
     font-size: 12px;
+    width: 180px;
 }
 
 .btn_search_data_table_report {
@@ -439,9 +440,30 @@ thead {
     color: white;
 }
 
+.btn_export_to_excel {
+    background-color: #30397E;
+    color: white;
+    border: 1px solid #30397E;
+    height: 30px;
+    width: 130px;
+    font-size: 11px;
+    margin-left: 427px;
+}
+
+.btn_export_to_excel:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+.img_export_to_excel {
+    width: 20px;
+    margin-top: -2px;
+    margin-left: 4px;
+}
+
 .table_report {
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 20px;
     text-align: center;
     border: 2px solid gray;

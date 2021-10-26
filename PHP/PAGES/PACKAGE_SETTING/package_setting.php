@@ -6,7 +6,7 @@
 
         <div class="row align-items-start receptacle_create_and_seacrh">
             <div class="col-6">
-                <a href="main.php?page=Create New Package" type="button" class="btn btn_create_new_package"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="img_create_new_package"> Create New Package</a>
+                <a href="main.php?page=Create new package" type="button" class="btn btn_create_new_package"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="img_create_new_package"> Create new package</a>
             </div>
 
             <div class="col-6 ">
@@ -22,9 +22,9 @@
             <thead>
                 <tr>
                     <th>No</th>
-                    <th>Name Service Packages</th>
-                    <th>Date Created</th>
-                    <th>Date Modified</th>
+                    <th>Name service packages</th>
+                    <th>Date created</th>
+                    <th>Date modified</th>
                     <th>Status</th>
                     <th>Action</th>
                 </tr>
@@ -45,7 +45,7 @@
                     </td>
                     <td><label for="" class="txt_status_active">Active</label></td>
                     <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
                         |
                         <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>
@@ -66,7 +66,7 @@
                     </td>
                     <td><label for="" class="txt_status_active">Active</label></td>
                     <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
                         |
                         <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>
@@ -87,7 +87,7 @@
                     </td>
                     <td><label for="" class="txt_status_active">Active</label></td>
                     <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
                         |
                         <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>
@@ -108,7 +108,7 @@
                     </td>
                     <td><label for="" class="txt_status_non_active">Non Active</label></td>
                     <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
                         |
                         <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>
@@ -129,7 +129,7 @@
                     </td>
                     <td><label for="" class="txt_status_non_active">Non Active</label></td>
                     <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit Package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
                         |
                         <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                     </td>

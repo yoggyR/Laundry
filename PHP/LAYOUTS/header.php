@@ -19,7 +19,7 @@
 <body>
     <!-- HEADER -->
     <header class="navbar sticky-top  flex-md-nowrap p-0">
-        <a class="navbar-brand " type="button" data-bs-toggle="modal" data-bs-target="#about" title="About Us Laundry&trade;">
+        <a class="navbar-brand " type="button" data-bs-toggle="modal" data-bs-target="#about" title="About us">
             <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" class="img_logo">
         </a>
 
@@ -43,9 +43,9 @@
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item item_profile" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=My Profile">My Profile</a></li>
-                <li><a class="dropdown-item item_profile" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Edit Profile">Edit Profile</a></li>
-                <li><a class="dropdown-item item_profile" href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Change Password">Change Password</a></li>
+                <li><a class="dropdown-item item_profile" href="main.php?page=My profile">My profile</a></li>
+                <li><a class="dropdown-item item_profile" href="main.php?page=Edit profile">Edit profile</a></li>
+                <li><a class="dropdown-item item_profile" href="main.php?page=Change password">Change password</a></li>
                 </li>
             </ul>
         </div>
@@ -57,7 +57,7 @@
         <div class=" modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="aboutLabel">About Us</h5>
+                    <h5 class="modal-title" id="aboutLabel">About us</h5>
                 </div>
                 <div class="modal-body">
                     <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" alt="" class="img_emblem">

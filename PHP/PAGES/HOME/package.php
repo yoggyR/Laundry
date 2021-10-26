@@ -3,13 +3,13 @@
 </div>
 <div class='row'>
     <div class="md-col-12">
-        <div class="container border" style="width: 900px;">
+        <div class="container border shadow" style="width: 900px;">
             <div class="row pt-2">
                 <div class="col">
                     <img src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon - Copy.svg" class="img_label_package"> <label class="label_package">Regular</label>
                 </div>
                 <div class="col" style="margin-left: 435px;">
-                    <label class="txt_custumer_id_package">Customer Id : <span style="font-weight: bold;">LNY-846291</span></label>
+                    <label class="txt_custumer_id_package">Customer id : <span style="font-weight: bold;">LNY-846291</span></label>
                 </div>
             </div>
             <form class="row g-4 pt-4">
@@ -34,28 +34,28 @@
                 </div>
 
                 <div class="col-md-4" style="margin-left: 25px;">
-                    <label for="phone" class="form-label_package">Phone Number</label>
+                    <label for="phone" class="form-label_package">Phone number</label>
                     <input type="text" class="form-control input_font_size" id="phon" maxlength="13" placeholder="Enter phone number customer">
                 </div>
 
                 <div class="col-md-3" style="margin-left: 23px;">
-                    <label for="Order Date" class="form-label_package">Price Already Paid</label>
+                    <label for="Order Date" class="form-label_package">Price already paid</label>
                     <input type="text" class="form-control input_font_size" id="Order Date" placeholder="IDR">
                 </div>
 
                 <div class="col-md-2">
-                    <label for="Order Date" class="form-label_package">Unpaid Price</label>
+                    <label for="Order Date" class="form-label_package">Unpaid price</label>
                     <input type="text" class="form-control input_font_size" id="Order Date" placeholder="IDR 50. 000" disabled>
                 </div>
 
                 <div class="col-md-2">
-                    <label for="Pick Up Date" class="form-label_package">Price to Pay</label>
+                    <label for="Pick Up Date" class="form-label_package">Price to pay</label>
                     <input type="text" class="form-control input_font_size" id="Pick Up Date" placeholder="IDR 50.000" disabled>
                 </div>
 
                 <div class="col-md-4" style="margin-left: 25px;">
                     <label for="address" class="form-label_package">Address</label>
-                    <input type="text" class="form-control input_font_size" id="address" placeholder="Enter Customer address">
+                    <input type="text" class="form-control input_font_size" id="address" placeholder="Enter customer address">
                 </div>
 
                 <div class="col-md-2" style="margin-left: 23px;">
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="col-md-5">
-                    <label for="Finished Process" class="form-label_package">Finished Process</label>
+                    <label for="Finished Process" class="form-label_package">Finished process</label>
                     <div class="row">
                         <div class="col">
                             <select id="Finished Process" class="form-select input_font_size">

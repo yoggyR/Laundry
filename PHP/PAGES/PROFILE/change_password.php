@@ -11,17 +11,17 @@
                 <div class="col-md-11">
                     <form action="" method="POST" class="form_change_password">
                         <div class="mb-3">
-                            <label for="formGroupExampleInput" class="form-label" style="font-weight: bold;">Current Password</label>
-                            <input type="password" class="form-control" id="formGroupExampleInput" placeholder="Enter Your Current Password" required>
+                            <label for="formGroupExampleInput" class="form-label" style="font-weight: bold;">Current password</label>
+                            <input type="password" class="form-control" id="formGroupExampleInput" placeholder="Enter your current password" required>
                         </div>
                         <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">New Password</label>
-                            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Enter New Password" required>
+                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">New password</label>
+                            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Enter new password" required>
                         </div>
                         <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Confirm New
-                                Password</label>
-                            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Enter Confirm New Password" required>
+                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Confirm new
+                                password</label>
+                            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Enter confirm new password" required>
                         </div>
                         <button type="submit" class="btn btn_save_change_password">Save</button>
                         <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn btn_cancel_change_password">Cancel</a>

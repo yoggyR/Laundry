@@ -5,19 +5,19 @@ $pages = isset($_GET['page']) ? $_GET['page'] : '';
 
 // ==Beginning==
 // My profile
-if ($pages == 'My Profile') {
+if ($pages == 'My profile') {
     include('../PAGES/PROFILE/my_profile.php');
 }
 // End my profile
 
 // Edit profile
-elseif ($pages == 'Edit Profile') {
+elseif ($pages == 'Edit profile') {
     include('../PAGES/PROFILE/edit_profile.php');
 }
 // End edit profile
 
 // Change password
-elseif ($pages == 'Change Password') {
+elseif ($pages == 'Change password') {
     include('../PAGES/PROFILE/change_password.php');
 }
 // End change password
@@ -34,7 +34,7 @@ elseif ($pages == 'Home') {
 // End home
 
 // Customers
-elseif ($pages == 'Data Customers') {
+elseif ($pages == 'Data customers') {
     include('../PAGES/DATA_CUSTOMERS/customers.php');
 }elseif ($pages == 'data') {
     include('../PAGES/DATA_CUSTOMERS/data.php');
@@ -42,11 +42,11 @@ elseif ($pages == 'Data Customers') {
 // End customers
 
 // Package setting
-elseif ($pages == 'Package Setting') {
+elseif ($pages == 'Package setting') {
     include('../PAGES/PACKAGE_SETTING/package_setting.php');
-} elseif ($pages == 'Create New Package') {
+} elseif ($pages == 'Create new package') {
     include('../PAGES/PACKAGE_SETTING/create_new_package.php');
-} elseif ($pages == 'Edit Package') {
+} elseif ($pages == 'Edit package') {
     include('../PAGES/PACKAGE_SETTING/edit_package.php');
 }
 // End package setting

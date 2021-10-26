@@ -11,10 +11,10 @@
                     <h1 class="txt_title_customer mb-4">Customers</h1>
                     <form action="">
                         <div class="mb-2">
-                            <input type="text" class="form-control form_search_customer_id" maxlength="10" placeholder="Customers Id" autocomplete="off" required>
+                            <input type="text" class="form-control form_search_customer_id" maxlength="10" placeholder="Customers id" autocomplete="off" required>
                         </div>
-                        <p class="txt_notif_customer_id">Enter Just 10 Character Customers Id</p>
-                        <a href="main.php?page=data" class="btn btn-lg btn_search_customer_id" type="submit"><span class="txt_btn_search_customer_id">Search Now</span></a>
+                        <p class="txt_notif_customer_id">Enter just 10 character customers id</p>
+                        <a href="main.php?page=data" class="btn btn-lg btn_search_customer_id" type="submit"><span class="txt_btn_search_customer_id">Search now</span></a>
                     </form>
                 </div>
                 <div class="col-md-5">

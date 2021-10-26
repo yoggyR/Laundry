@@ -8,12 +8,12 @@
                 </a>
             </li>
             <li class="nav-item mb-3">
-                <a class="nav-link" href="main.php?page=Data Customers" type="button" title="Data Customers">
+                <a class="nav-link" href="main.php?page=Data customers" type="button" title="Data customers">
                     <img src="../../ASSET/ICON/FRONT/171447_users_group_icon.svg" alt="" class="img_customers">
                 </a>
             </li>
             <li class=" nav-item mb-3">
-                <a class="nav-link" href="main.php?page=Package Setting" type="button" title="Package Setting">
+                <a class="nav-link" href="main.php?page=Package setting" type="button" title="Package setting">
                     <img src="../../ASSET/ICON/FRONT/623070_box_label_storage_delivery_gift_icon.svg" alt="" class="img_package_setting">
                 </a>
             </li>
@@ -43,7 +43,7 @@
             </div>
             <div class="modal-body">
                 <img src="../../ASSET/ILLUSTRATION/undraw_cancel_u1it.svg" alt="" class="img_pop_up mb-3">
-                <p class="txt_announcement">Come Back Soon!</p>
+                <p class="txt_announcement">Come back soon!</p>
                 <p class="txt_announcement_content">Are you sure you want to log out?</p>
             </div>
             <div class="modal-footer">

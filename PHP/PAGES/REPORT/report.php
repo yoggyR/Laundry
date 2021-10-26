@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-1 receptacle_data_report" style="margin-left: 40px;">
                 <label class="label_data_report shadow">
-                    <p class="txt_head_data_report">On Process</p>
+                    <p class="txt_head_data_report">On process</p>
                     <h1 class="txt_real_data_report">03</h1>
                     <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/7097271_washing_bubble_detergent powder_t-shirt_laundry_icon.svg" alt="">
                     <p class="txt_powered_by_report">Powered by Laundry&trade;</p>
@@ -46,25 +46,34 @@
             </div>
         </div>
         <div class="shadow receptacle_data_table_report">
-            <form class="d-flex form_search_data_table_reoprt">
-                <input class="form-control me-2 input_search_data_table_report" type="search" placeholder="Search data in the table" aria-label="Search">
-                <button class="btn btn_search_data_table_report" type="submit">Search</button>
-            </form>
+            <div class="row">
+                <div class="col-6">
+                    <form class="d-flex form_search_data_table_reoprt">
+                        <input class="form-control me-2 input_search_data_table_report" type="search" placeholder="Search data in the table" aria-label="Search">
+                        <button class="btn btn_search_data_table_report" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <button class="btn btn_export_to_excel" type="button">Export to excel<img src="../../ASSET/ICON/PACKAGE/7422413_exel_spreadsheet_sheets_table_icon.svg" class="img_export_to_excel"></button>
+                </div>
+            </div>
+
+
             <table class="table table-bordered table_report table-hover">
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Customers Name</th>
-                        <th>Customers Id</th>
-                        <th>Package Name</th>
+                        <th>Customers name</th>
+                        <th>Customers id</th>
+                        <th>Package name</th>
                         <th>Level</th>
                         <th>Weight</th>
                         <th>Order</th>
-                        <th>Finished Process</th>
+                        <th>Finished process</th>
                         <th>Taken</th>
-                        <th>Price Already Paid</th>
-                        <th>Unpaid Price</th>
-                        <th>Price to Pay</th>
+                        <th>Price already paid</th>
+                        <th>Unpaid price</th>
+                        <th>Price to pay</th>
                         <th>Status</th>
                     </tr>
                 </thead>
@@ -191,7 +200,7 @@
                             <p class="txt_data_table_report">IDR 56.000</p>
                         </td>
                         <td>
-                            <p class="txt_data_table_report txt_data_status_on_process">On Process</p>
+                            <p class="txt_data_table_report txt_data_status_on_process">On process</p>
                         </td>
                     </tr>
                     <!-- ============== -->
@@ -233,7 +242,7 @@
                             <p class="txt_data_table_report">IDR 60.000</p>
                         </td>
                         <td>
-                            <p class="txt_data_table_report txt_data_status_on_process">On Process</p>
+                            <p class="txt_data_table_report txt_data_status_on_process">On process</p>
                         </td>
                     </tr>
                     <!-- ============== -->
@@ -275,7 +284,7 @@
                             <p class="txt_data_table_report">IDR 140.000</p>
                         </td>
                         <td>
-                            <p class="txt_data_table_report txt_data_status_on_process">On Process</p>
+                            <p class="txt_data_table_report txt_data_status_on_process">On process</p>
                         </td>
                     </tr>
                     <!-- ============== -->

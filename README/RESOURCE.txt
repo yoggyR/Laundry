@@ -16,6 +16,7 @@ ICON
 14. 7011187_hand_person_clothes_over_people_icon			= https://www.iconfinder.com/search?q=laundry&price=free&license=gte__1
 15. 290143_cash_money_payment_wallet_icon				= https://www.iconfinder.com/search?q=money&price=free&style=outline&license=gte__1
 16. 3209291_contacts_customers_family_group_team_icon			= https://www.iconfinder.com/search?q=customers&price=free&style=outline&license=gte__1
+17. 7422413_exel_spreadsheet_sheets_table_icon				= https://www.iconfinder.com/search?q=exel&price=free&license=gte__1
 
 LOGO
 ====

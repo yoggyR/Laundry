@@ -40,7 +40,7 @@
                         </label>
                     </div>
                     <a class="w-100 btn btn-lg btn_login mb-2" type="submit" href="../../PHP/LAYOUTS/main.php">Log in</a>
-                    <a class="btn_forgot_password" href="../BEGINNING/forgot_password.php">Forgot Password?</a>
+                    <a class="btn_forgot_password" href="../BEGINNING/forgot_password.php">Forgot password?</a>
                     <p class="txt_copyright_login">&copy;2021 Laundry&trade;</p>
                 </form>
             </div>

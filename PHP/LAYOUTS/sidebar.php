@@ -8,7 +8,7 @@
                 </a>
             </li>
             <li class="nav-item mb-3">
-                <a class="nav-link" href="main.php?page=Data customers" type="button" title="Data customers">
+                <a class="nav-link" href="main.php?page=Customers" type="button" title="Customers">
                     <img src="../../ASSET/ICON/FRONT/171447_users_group_icon.svg" alt="" class="img_customers">
                 </a>
             </li>

@@ -3,150 +3,150 @@
 </div>
 <div class='row'>
     <div class="md-col-12">
+        <div class="countainer" style="width: 1150px; margin: auto;">
+            <div class="row align-items-start receptacle_create_and_seacrh">
+                <div class="col-6">
+                    <a href="main.php?page=Create new package" type="button" class="btn btn_create_new_package"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="img_create_new_package"> Create new package</a>
+                </div>
 
-        <div class="row align-items-start receptacle_create_and_seacrh">
-            <div class="col-6">
-                <a href="main.php?page=Create new package" type="button" class="btn btn_create_new_package"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="img_create_new_package"> Create new package</a>
+                <div class="col-6 ">
+                    <form class="d-flex form_search_package_setting">
+                        <input class="form-control me-2 input_search_package_setting" type="search" placeholder="Search data in the table" aria-label="Search">
+                        <button class="btn btn_search_package_setting" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
 
-            <div class="col-6 ">
-                <form class="d-flex form_search_package_setting">
-                    <input class="form-control me-2 input_search_package_setting" type="search" placeholder="Search data in the table" aria-label="Search">
-                    <button class="btn btn_search_package_setting" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
+            <table class="table table_package_setting table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Name packages</th>
+                        <th>Date created</th>
+                        <th>Date modified</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="txt_content_package_setting">1</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">Regular</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">13 March 2021</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting"> 17 October 2021</p>
+                        </td>
+                        <td><label for="" class="txt_status_active">Active</label></td>
+                        <td>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            |
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                        </td>
+                    </tr>
+                    <!-- ============== -->
+                    <tr>
+                        <td>
+                            <p class="txt_content_package_setting">2</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">Fast</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">10 April 2021</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting"> 17 October 2021</p>
+                        </td>
+                        <td><label for="" class="txt_status_active">Active</label></td>
+                        <td>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            |
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                        </td>
+                    </tr>
+                    <!-- ============== -->
+                    <tr>
+                        <td>
+                            <p class="txt_content_package_setting">3</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">Super</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">30 May 2021</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting"> 17 October 2021</p>
+                        </td>
+                        <td><label for="" class="txt_status_active">Active</label></td>
+                        <td>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            |
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                        </td>
+                    </tr>
+                    <!-- ============== -->
+                    <tr>
+                        <td>
+                            <p class="txt_content_package_setting">4</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">Giant</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">05 July 2021</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting"> 17 October 2021</p>
+                        </td>
+                        <td><label for="" class="txt_status_non_active">Non Active</label></td>
+                        <td>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            |
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                        </td>
+                    </tr>
+                    <!-- ============== -->
+                    <tr>
+                        <td>
+                            <p class="txt_content_package_setting">5</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">Monster</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting">22 August 2021</p>
+                        </td>
+                        <td>
+                            <p class="txt_content_package_setting"> 17 October 2021</p>
+                        </td>
+                        <td><label for="" class="txt_status_non_active">Non Active</label></td>
+                        <td>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            |
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group receptacle_btn_next_or_back" role="group" aria-label="Second group">
+                    <button type="button" class="btn extra_next_or_back btn_next_or_back" disabled><img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon - Edit.svg" class="arrow_next_and_back"> Back
+                    </button>
 
+                    <button type="button" class="btn extra_next_or_back" style="background-color: gray; color: white;">1</button>
+                    <button type="button" class="btn extra_next_or_back">2</button>
+                    <button type="button" class="btn extra_next_or_back">3</button>
 
-        <table class="table table_package_setting table-bordered table-hover">
-            <thead>
-                <tr>
-                    <th>No</th>
-                    <th>Name service packages</th>
-                    <th>Date created</th>
-                    <th>Date modified</th>
-                    <th>Status</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <p class="txt_content_package_setting">1</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">Regular</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">13 March 2021</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting"> 17 October 2021</p>
-                    </td>
-                    <td><label for="" class="txt_status_active">Active</label></td>
-                    <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
-                        |
-                        <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                    </td>
-                </tr>
-                <!-- ============== -->
-                <tr>
-                    <td>
-                        <p class="txt_content_package_setting">2</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">Fast</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">10 April 2021</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting"> 17 October 2021</p>
-                    </td>
-                    <td><label for="" class="txt_status_active">Active</label></td>
-                    <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
-                        |
-                        <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                    </td>
-                </tr>
-                <!-- ============== -->
-                <tr>
-                    <td>
-                        <p class="txt_content_package_setting">3</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">Super</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">30 May 2021</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting"> 17 October 2021</p>
-                    </td>
-                    <td><label for="" class="txt_status_active">Active</label></td>
-                    <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
-                        |
-                        <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                    </td>
-                </tr>
-                <!-- ============== -->
-                <tr>
-                    <td>
-                        <p class="txt_content_package_setting">4</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">Giant</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">05 July 2021</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting"> 17 October 2021</p>
-                    </td>
-                    <td><label for="" class="txt_status_non_active">Non Active</label></td>
-                    <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
-                        |
-                        <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                    </td>
-                </tr>
-                <!-- ============== -->
-                <tr>
-                    <td>
-                        <p class="txt_content_package_setting">5</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">Monster</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting">22 August 2021</p>
-                    </td>
-                    <td>
-                        <p class="txt_content_package_setting"> 17 October 2021</p>
-                    </td>
-                    <td><label for="" class="txt_status_non_active">Non Active</label></td>
-                    <td>
-                        <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
-                        |
-                        <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
-            <div class="btn-group receptacle_btn_next_or_back" role="group" aria-label="Second group">
-                <button type="button" class="btn extra_next_or_back btn_next_or_back" disabled><img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon - Edit.svg" class="arrow_next_and_back"> Back
-                </button>
-
-                <button type="button" class="btn extra_next_or_back" style="background-color: gray; color: white;">1</button>
-                <button type="button" class="btn extra_next_or_back">2</button>
-                <button type="button" class="btn extra_next_or_back">3</button>
-
-                <button type="button" class="btn extra_next_or_back btn_next_or_back">Next <img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon.svg" class="arrow_next_and_back">
-                </button>
+                    <button type="button" class="btn extra_next_or_back btn_next_or_back">Next <img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon.svg" class="arrow_next_and_back">
+                    </button>
+                </div>
             </div>
         </div>
     </div>

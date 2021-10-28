@@ -10,6 +10,11 @@ body {
     background-size: cover;
 }
 
+.con_all {
+    width: 760px;
+    margin: auto;
+}
+
 /* //ALL\\ */
 
 /* ------------------------LIMIT------------------------ */
@@ -37,11 +42,9 @@ body {
 
 /* LOG IN */
 .receptacle_login {
-    width: 760px;
-    margin-top: 75px;
-    margin-left: 250px;
     background-color: white;
     border-radius: 10px;
+    margin-top: 62px;
 }
 
 .img_washing_machine {
@@ -102,16 +105,14 @@ body {
 
 /* FORGOT_PASSWORD */
 .receptacle_forgot {
-    width: 760px;
-    margin-top: 30px;
-    margin-left: 250px;
+    margin-top: 29px;
     background-color: white;
     border-radius: 10px;
     padding: 40px 100px 0px 100px;
 }
 
 .txt_label_forgot {
-    font-weight: 800;
+    font-weight: bold;
     text-align: center;
     color: #30397E;
 }
@@ -142,16 +143,14 @@ body {
 
 /* VERIFICATION */
 .receptacle_verification {
-    width: 760px;
-    margin-top: 18px;
-    margin-left: 250px;
+    margin-top: 16px;
     background-color: white;
     border-radius: 10px;
     padding: 40px 100px 0px 100px;
 }
 
 .txt_label_verification {
-    font-weight: 800;
+    font-weight: bold;
     text-align: center;
     color: #30397E;
 }
@@ -190,16 +189,14 @@ body {
 
 /* NEW_PASSWORD*/
 .receptacle_new_password {
-    width: 760px;
-    margin-top: 9px;
-    margin-left: 262px;
+    margin-top: 8px;
     background-color: white;
     border-radius: 10px;
     padding: 40px 100px 0px 100px;
 }
 
 .txt_label_new_password {
-    font-weight: 800;
+    font-weight: bold;
     text-align: center;
     color: #30397E;
 }
@@ -268,5 +265,6 @@ h5 {
 }
 
 /* //POP UP DONE\\ */
+
 
 /* -------------------------END------------------------- */

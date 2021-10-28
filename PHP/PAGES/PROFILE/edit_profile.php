@@ -8,7 +8,7 @@
                 <div class="col-4">
                     <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="orang tua">
                     <div style="margin-left: 70px; margin-top: 20px;">
-                        <button type="submit" class="btn btn_change_image" style="font-weight: bold;">Change image</button>
+                        <button type="submit" class="btn btn_change_image" style="font-weight: bold;"><img src="../../ASSET/ICON/PACKAGE/211677_image_icon.svg" class="img_edit_profile">Change image</button>
                     </div>
 
                 </div>
@@ -34,8 +34,8 @@
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Access rights level</label>
                             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Super admin" disabled>
                         </div>
-                        <button type="submit" class="btn btn_save_edit_profile" style="font-weight: bold;">Save</button>
-                        <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn btn_cancel_edit_profile" style="font-weight: bold;">Cancel</a>
+                        <button type="submit" class="btn btn_save_edit_profile" style="font-weight: bold;"><img src="../../ASSET/ICON/PACKAGE/2639912_save_icon.svg" class="img_edit_profile">Save</button>
+                        <a href="/PHP/PROJECT/Laundry/PHP/LAYOUTS/main.php?page=Home" type="button" class="btn btn_cancel_edit_profile" style="font-weight: bold;"><img src="../../ASSET/ICON/PACKAGE/4945336_business_close_document_files_folder_icon.svg" class="img_edit_profile">Cancel</a>
                     </form>
                 </div>
             </div>

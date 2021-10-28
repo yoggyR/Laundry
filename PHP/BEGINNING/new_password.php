@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="countainer">
+    <div class="countainer con_all">
         <div class="row receptacle_new_password shadow">
             <div class="col-md-12">
                 <form>

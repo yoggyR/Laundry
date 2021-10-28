@@ -48,6 +48,12 @@
     color: white;
 }
 
+.img_edit_profile {
+    width: 20px;
+    margin-top: -3px;
+    margin-right: 4px;
+}
+
 /* //EDIT PROFILE\\ */
 
 /* ------------------------LIMIT------------------------ */
@@ -86,6 +92,12 @@
 .btn_cancel_change_password:hover {
     background-color: red;
     color: white;
+}
+
+.img_btn_change_password {
+    width: 20px;
+    margin-top: -4px;
+    margin-right: 4px;
 }
 
 /* //CHANGE PASSWORD\\ */
@@ -140,58 +152,98 @@
 
 /* ------------------------LIMIT------------------------ */
 
-/* CUSTOMER */
-.receptacle_customer {
+/* CUSTOMERS */
+.receptacle_customers {
     margin-top: 60px;
     margin-left: 150px;
 }
 
-.txt_title_customer {
+.txt_title_customers {
     font-weight: bold;
     color: #30397E;
 }
 
-.txt_title_customer_different_colour {
+.txt_title_customers_different_colour {
     font-weight: bold;
     color: #2A9DC9;
 }
 
-.form_search_customer_id {
+.form_search_customers_id {
     width: 300px;
     height: 55px;
     border: 2px solid #30397E;
     text-align: center;
 }
 
-.txt_notif_customer_id {
+.txt_notif_customers_id {
     font-size: 12px;
 }
 
-.btn_search_customer_id {
+.btn_search_customers_id {
     background-color: #30397E;
     color: white;
     width: 300px;
     height: 55px;
 }
 
-.btn_search_customer_id:hover {
+.btn_search_customers_id:hover {
     background-color: #2A9DC9;
     color: white;
     border: 1px solid #30397E;
 }
 
-.txt_btn_search_customer_id {
+.txt_btn_search_customers_id {
     font-weight: bold;
     font-size: 24px;
 }
 
-.img_customer_ilustration {
+.img_customers_ilustration {
     width: 380px;
     margin-left: -50px;
     margin-top: -20px;
 }
 
-/* //CUSTOMER\\ */
+/* //CUSTOMERS\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* DATA CUSTOMERS*/
+.count_data_customers {
+    width: 730px;
+    height: 483px;
+    margin: auto;
+}
+
+.img_data_customers {
+    width: 30px;
+    height: 30px;
+}
+
+.label_data_customers {
+    font-weight: bold;
+    color: #30397E;
+}
+
+.btn_process_data_customers {
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    width: 135px;
+}
+
+.btn_process_data_customers:hover {
+    background-color: green;
+    color: white;
+}
+
+.img_process_data_customers {
+    width: 17px;
+    margin-top: -3px;
+    margin-right: 4px;
+
+}
+
+/* //DATA CUSTOMERS\\ */
 
 /* ------------------------LIMIT------------------------ */
 
@@ -335,6 +387,84 @@ thead {
 }
 
 /* //PACKAGE SETTING\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* CREATE NEW & EDIT PACKAGE */
+.cnpe_countainer {
+    width: 1000px;
+    margin: auto;
+}
+
+.cnpe_label {
+    font-weight: bold;
+}
+
+.cnpe_span {
+    background-color: #30397E;
+    color: white;
+}
+
+.cnpe_span_min {
+    background-color: darkorange;
+    color: white;
+}
+
+.cnpe_span_max {
+    background-color: darkred;
+    color: white;
+}
+
+.cnpe_span_day {
+    background-color: #30397E;
+    color: white;
+}
+
+.cnpe_btn_new {
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    width: 234px;
+}
+
+.cnpe_btn_new:hover {
+    background-color: green;
+    color: white;
+}
+
+.cnpe_btn_delete {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    width: 234px;
+}
+
+.cnpe_btn_delete:hover {
+    background-color: red;
+    color: white;
+}
+
+.cnpe_img {
+    width: 20px;
+    margin-top: -4px;
+    margin-right: 5px;
+}
+
+.cnpe_btn_save {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 900px;
+    font-weight: bold;
+    background-color: #30397E;
+    color: white;
+}
+
+.cnpe_btn_save:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+/* //CREATE NEW & EDIT PACKAGE\\ */
 
 /* ------------------------LIMIT------------------------ */
 
@@ -528,9 +658,9 @@ thead {
 /* ------------------------LIMIT------------------------ */
 
 /* PACKAGE & SUB PACKAGE*/
-.form-label_package {
+.form_label_package {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .input_font_size {
@@ -558,11 +688,18 @@ thead {
     margin-top: -11px;
     margin-bottom: 12px;
     font-size: 15px;
+    width: 110px;
 }
 
 .btn_package_process:hover {
     background-color: green;
     color: white;
+}
+
+.img_package_process {
+    width: 17px;
+    margin-top: -4px;
+    margin-right: 4px;
 }
 
 /* //PACKAGE & SUB PACKAGE\\ */

@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="countainer">
+    <div class="countainer con_all">
         <div class="row receptacle_login shadow">
             <div class="col-md-6">
                 <img src="../../ASSET/FOTO/alexandra-poliakova-EXCroywwrEw-unsplash.jpg" class="img-fluid img_washing_machine">

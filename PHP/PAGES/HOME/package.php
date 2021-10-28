@@ -3,23 +3,23 @@
 </div>
 <div class='row'>
     <div class="md-col-12">
-        <div class="container border shadow" style="width: 900px;">
+        <div class="container border shadow" style="margin:auto; width: 930px;">
             <div class="row pt-2">
                 <div class="col">
                     <img src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon - Copy.svg" class="img_label_package"> <label class="label_package">Regular</label>
                 </div>
-                <div class="col" style="margin-left: 435px;">
+                <div class="col" style="margin-left: 470px;">
                     <label class="txt_custumer_id_package">Customer id : <span style="font-weight: bold;">LNY-846291</span></label>
                 </div>
             </div>
             <form class="row g-4 pt-4">
                 <div class="col-md-4" style="margin-left: 25px;">
-                    <label for="name" class="form-label_package">Name</label>
+                    <label for="name" class="form_label_package">Name</label>
                     <input type="text" class="form-control input_font_size" id="name" placeholder="Enter customer name">
                 </div>
 
                 <div class="col-md-3" style="margin-left: 23px;">
-                    <label for="inputState" class="form-label_package">Level</label>
+                    <label for="inputState" class="form_label_package">Level</label>
                     <select id="inputState" class="form-select input_font_size">
                         <option selected>Choose</option>
                         <option value="">1</option>
@@ -29,42 +29,50 @@
                 </div>
 
                 <div class="col-md-4">
-                    <label for="weight" class="form-label_package">Weight</label>
+                    <label for="weight" class="form_label_package">Weight</label>
                     <input type="text" class="form-control input_font_size" id="weight" placeholder="Laundry weight in kg">
                 </div>
 
                 <div class="col-md-4" style="margin-left: 25px;">
-                    <label for="phone" class="form-label_package">Phone number</label>
+                    <label for="phone" class="form_label_package">Phone number</label>
                     <input type="text" class="form-control input_font_size" id="phon" maxlength="13" placeholder="Enter phone number customer">
                 </div>
 
-                <div class="col-md-3" style="margin-left: 23px;">
-                    <label for="Order Date" class="form-label_package">Price already paid</label>
+                <div class="col-md-2" style="margin-left: 23px;">
+                    <label for="Order Date" class="form_label_package">Pay hire</label>
                     <input type="text" class="form-control input_font_size" id="Order Date" placeholder="IDR">
                 </div>
 
-                <div class="col-md-2">
-                    <label for="Order Date" class="form-label_package">Unpaid price</label>
-                    <input type="text" class="form-control input_font_size" id="Order Date" placeholder="IDR 50. 000" disabled>
-                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col">
 
-                <div class="col-md-2">
-                    <label for="Pick Up Date" class="form-label_package">Price to pay</label>
-                    <input type="text" class="form-control input_font_size" id="Pick Up Date" placeholder="IDR 50.000" disabled>
+                            <label for="Order Date" class="form_label_package">Price already paid</label>
+                            <input type="text" class="form-control input_font_size" id="Order Date" placeholder="IDR 20.000" disabled>
+                        </div>
+                        <div class="col">
+                            <label for="Order Date" class="form_label_package">Unpaid price</label>
+                            <input type="text" class="form-control input_font_size" id="Order Date" placeholder="IDR 30. 000" disabled>
+                        </div>
+                        <div class="col">
+                            <label for="Pick Up Date" class="form_label_package">Price to pay</label>
+                            <input type="text" class="form-control input_font_size" id="Pick Up Date" placeholder="IDR 50.000" disabled>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4" style="margin-left: 25px;">
-                    <label for="address" class="form-label_package">Address</label>
+                    <label for="address" class="form_label_package">Address</label>
                     <input type="text" class="form-control input_font_size" id="address" placeholder="Enter customer address">
                 </div>
 
                 <div class="col-md-2" style="margin-left: 23px;">
-                    <label for="Order Date" class="form-label_package">Order</label>
+                    <label for="Order Date" class="form_label_package">Order</label>
                     <input type="text" class="form-control input_font_size" id="Order Date" placeholder="23-10-2021" disabled>
                 </div>
 
                 <div class="col-md-5">
-                    <label for="Finished Process" class="form-label_package">Finished process</label>
+                    <label for="Finished Process" class="form_label_package">Finished process</label>
                     <div class="row">
                         <div class="col">
                             <select id="Finished Process" class="form-select input_font_size">
@@ -94,12 +102,12 @@
                 </div>
 
                 <div class="col-md-12" style="margin-left: 25px;">
-                    <label for="Note" class="form-label_package">Note</label>
-                    <textarea class="form-control input_font_size" placeholder="Enter notes from customer" id="Note" style="height: 80px; width: 801px;"></textarea>
+                    <label for="Note" class="form_label_package">Note</label>
+                    <textarea class="form-control input_font_size" placeholder="Enter notes from customer" id="Note" style="height: 80px; width: 828px;"></textarea>
                 </div>
 
                 <div class="col-md-1" style="margin-left: 743px;">
-                    <button type="button" class="btn btn_package_process" data-bs-toggle="modal" data-bs-target="#process">Process</button>
+                    <button type="button" class="btn btn_package_process" data-bs-toggle="modal" data-bs-target="#process"><img src="../../ASSET/ICON/PACKAGE/1608521_arrow_circle_up_icon.svg" class="img_package_process">Process</button>
                 </div>
             </form>
         </div>

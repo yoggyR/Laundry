@@ -17,6 +17,10 @@ ICON
 15. 290143_cash_money_payment_wallet_icon				= https://www.iconfinder.com/search?q=money&price=free&style=outline&license=gte__1
 16. 3209291_contacts_customers_family_group_team_icon			= https://www.iconfinder.com/search?q=customers&price=free&style=outline&license=gte__1
 17. 7422413_exel_spreadsheet_sheets_table_icon				= https://www.iconfinder.com/search?q=exel&price=free&license=gte__1
+18. 2639912_save_icon							= https://www.iconfinder.com/search?q=save&style=solid&license=gte__1&price=free
+19. 4945336_business_close_document_files_folder_icon			= https://www.iconfinder.com/search?q=cancel&style=solid&license=gte__1&price=free
+20. 1608521_arrow_circle_up_icon					= https://www.iconfinder.com/search?q=up&price=free&style=solid&license=gte__1
+21. 211677_image_icon							= https://www.iconfinder.com/search?q=image&price=free&style=solid&license=gte__1
 
 LOGO
 ====

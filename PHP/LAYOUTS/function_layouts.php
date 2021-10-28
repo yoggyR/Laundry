@@ -34,9 +34,9 @@ elseif ($pages == 'Home') {
 // End home
 
 // Customers
-elseif ($pages == 'Data customers') {
+elseif ($pages == 'Customers') {
     include('../PAGES/DATA_CUSTOMERS/customers.php');
-}elseif ($pages == 'data') {
+}elseif ($pages == 'Data customers') {
     include('../PAGES/DATA_CUSTOMERS/data.php');
 }
 // End customers

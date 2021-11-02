@@ -47,7 +47,7 @@
                 <p class="txt_announcement_content">Are you sure you want to log out?</p>
             </div>
             <div class="modal-footer">
-                <a type="button" class="btn btn_choice" href="../BEGINNING/log_in.php">Yes</a>
+                <a type="button" class="btn btn_choice" href="../BEGINNING/log_out.php">Yes</a>
                 <button type="button" class="btn btn_choice" data-bs-dismiss="modal">No</button>
             </div>
         </div>

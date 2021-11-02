@@ -49,7 +49,7 @@
     color: white;
     border: 1px solid #30397E;
 } */
-.calendar_head{
+.calendar_head {
     margin-left: 70px;
 }
 
@@ -72,7 +72,18 @@
 }
 
 .menu_profile {
-    margin-left: -105px;
+    margin-left: -90px;
+}
+
+.label_dropdown_profile {
+    font-weight: bold;
+    text-align: center;
+    color: #30397E;
+}
+
+.label_dropdown_profile:hover{
+    background-color: white;
+    color: #2A9DC9;
 }
 
 .item_profile:hover {

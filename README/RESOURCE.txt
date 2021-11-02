@@ -21,6 +21,7 @@ ICON
 19. 4945336_business_close_document_files_folder_icon			= https://www.iconfinder.com/search?q=cancel&style=solid&license=gte__1&price=free
 20. 1608521_arrow_circle_up_icon					= https://www.iconfinder.com/search?q=up&price=free&style=solid&license=gte__1
 21. 211677_image_icon							= https://www.iconfinder.com/search?q=image&price=free&style=solid&license=gte__1
+22. 1564534_customer_man_user_account_profile_icon			= https://www.iconfinder.com/search?q=profile&price=free&style=solid&license=gte__1
 
 LOGO
 ====

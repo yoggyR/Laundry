@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION["email"])) {
+    header("Location: ../BEGINNING/log_in.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,17 +35,17 @@
         </form> -->
 
         <div title="Calendar" class="calendar_head">
-                <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="img_calendar"> Today, <span style="font-weight: bold;">23 October 2021</span>
+            <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="img_calendar"> Today, <span style="font-weight: bold;"><?php echo date('d-M-Y') ?></span>
         </div>
 
         <!-- <a href=""><img src="../../ASSET/ICON/FRONT/352267_chat_icon.svg" alt="" class="img_chat"></a> -->
 
         <div class="dropdown btn_profile">
             <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" width="30" height="30" class="rounded-circle">
+                <img src="../../ASSET/ICON/PACKAGE/1564534_customer_man_user_account_profile_icon.svg" width="30" height="30" class="rounded-circle">
             </a>
             <ul class="dropdown-menu menu_profile" aria-labelledby="dropdownMenuLink">
-                <li><label class="dropdown-item " style="font-weight: bold;">Hi, Amir Seilsepour</label></li>
+                <li><label class="dropdown-item label_dropdown_profile">Hi, Admin</label></li>
                 <li>
                     <hr class="dropdown-divider">
                 </li>

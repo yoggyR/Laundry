@@ -7,27 +7,25 @@
         <div class="container receptacle_myprofile">
             <div class="row justify-content-center">
                 <div class="col-4">
-                    <img style="height: 300px; width: 280px; border-radius: 10px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="Profile">
+                    <img style="height: 300px; width: 280px; border-radius: 10px;" src="../../ASSET/ICON/PACKAGE/1564534_customer_man_user_account_profile_icon.svg" class="img-thumbnail" alt="Profile">
                 </div>
                 <div class="col-8" style="margin-left: -50px;">
                     <form action="" method="POST">
                         <div class="mb-3">
                             <label for="formGroupExampleInput" class="form-label" style="font-weight: bold;">Name</label>
-                            <p>Amir Seilsepour</p>
+                            <p>Admin</p>
                         </div>
                         <div class="mb-3">
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Email</label>
-                            <p>amir@laundry.com</p>
+                            <p>admin@laundry.com</p>
                         </div>
                         <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Phone
-                                Number</label>
-                            <p>0895801121100</p>
+                            <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Phone Number</label>
+                            <p>-</p>
                         </div>
                         <div class="mb-3">
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Address</label>
-                            <p>Pangeran Antasari Street No. 22 Pejaten, South Jakarta
-                            </p>
+                            <p>-</p>
                         </div>
                         <div class="mb-3">
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Access Rights

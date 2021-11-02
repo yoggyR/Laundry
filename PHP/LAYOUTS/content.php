@@ -3,7 +3,7 @@
 
     <!-- PAGES -->
     <?php
-    include('function_layouts.php');
+    include('../FUNCTIONS/function_layouts.php');
     ?>
     <!-- //PAGES\\ -->
 

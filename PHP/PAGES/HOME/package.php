@@ -1,3 +1,8 @@
+<?php
+if (!isset($_SESSION["email"])) {
+    header("Location: ../../BEGINNING/log_in.php");
+}
+?>
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"><label for="" style="color: rgb(134, 133, 133);">Home</label>
     <label><span style="font-weight: bold; margin-left: -536px;"> / <?php echo ($pages); ?> </span></label><a href="main.php?page=Home" type="button" class="btn-close pa" title="Close this page"></a>
 </div>
@@ -68,7 +73,7 @@
 
                 <div class="col-md-2" style="margin-left: 23px;">
                     <label for="Order Date" class="form_label_package">Order</label>
-                    <input type="text" class="form-control input_font_size" id="Order Date" placeholder="23-10-2021" disabled>
+                    <input type="text" class="form-control input_font_size" id="Order Date" placeholder="<?php echo date ('d-m-Y') ?>" disabled>
                 </div>
 
                 <div class="col-md-5">
@@ -76,26 +81,49 @@
                     <div class="row">
                         <div class="col">
                             <select id="Finished Process" class="form-select input_font_size">
-                                <option selected>27</option>
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
+                                <?php
+                                for ($i = 1; $i <= 31; $i++) {
+                                    echo "<option value='$i'>$i</option>";
+                                }
+                                ?>
                             </select>
                         </div>
                         <div class="col">
                             <select id="Finished Process" class="form-select input_font_size">
-                                <option selected>10</option>
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
+                                <?php
+                                $month = [
+                                    '01' => 'January',
+                                    '02' => 'February',
+                                    '03' => 'March',
+                                    '04' => 'April',
+                                    '05' => 'May',
+                                    '06' => 'June',
+                                    '07' => 'July',
+                                    '08' => 'August',
+                                    '09' => 'September',
+                                    '10' => 'October',
+                                    '11' => 'November',
+                                    '12' => 'December',
+                                ];
+                                foreach ($month as $key => $val) {
+                                    echo "<option value='$key'>$key</option>";
+                                }
+                                ?>
                             </select>
                         </div>
                         <div class="col">
                             <select id="Finished Process" class="form-select input_font_size">
-                                <option selected>2021</option>
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
+                                <?php
+                                $th_awal = date('Y') - 5;
+                                $th_akhir = date('Y') + 4;
+                                for ($i = $th_akhir; $i >= $th_awal; $i--) {
+                                    if (date('Y') == $i) {
+                                        $isSelected = 'selected="selected"';
+                                    }
+                                    echo "<option value='$i' $isSelected>$i</option>";
+                                    $isSelected = '';
+                                }
+                                ?>
                             </select>
                         </div>
                     </div>

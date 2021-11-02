@@ -6,8 +6,8 @@
         <div class="container" style="margin-top: 5px;">
             <div class="row justify-content-center">
                 <div class="col-4">
-                    <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/FOTO/amir-seilsepour-5vg_SarQimA-unsplash.jpg" class="img-thumbnail" alt="orang tua">
-                    <div style="margin-left: 70px; margin-top: 20px;">
+                    <img style="height: 300px; width: 280px; border-radius: 20px;" src="../../ASSET/ICON/PACKAGE/1564534_customer_man_user_account_profile_icon.svg" class="img-thumbnail" alt="orang tua">
+                    <div style="margin-left: 60px; margin-top: 20px;">
                         <button type="submit" class="btn btn_change_image" style="font-weight: bold;"><img src="../../ASSET/ICON/PACKAGE/211677_image_icon.svg" class="img_edit_profile">Change image</button>
                     </div>
 
@@ -16,19 +16,19 @@
                     <form action="" method="POST">
                         <div class="mb-3">
                             <label for="formGroupExampleInput" class="form-label" style="font-weight: bold;">Name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Amir Seilsepour">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your first name or nickname">
                         </div>
                         <div class="mb-3">
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Email</label>
-                            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="amir@laundry.com">
+                            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Enter your email">
                         </div>
                         <div class="mb-3">
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Phone number</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="0895801121100">
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your phone number">
                         </div>
                         <div class="mb-3">
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Address</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Pangeran Antasari Street No. 22 Pejaten, South Jakarta">
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your address">
                         </div>
                         <div class="mb-4">
                             <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Access rights level</label>

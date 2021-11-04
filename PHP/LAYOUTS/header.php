@@ -3,6 +3,10 @@ session_start();
 if (!isset($_SESSION["email"])) {
     header("Location: ../BEGINNING/log_in.php");
 }
+include('../CONFIG/connect_database.php');
+$query = "SELECT * FROM user";
+$result = mysqli_query($connect, $query);
+$data = mysqli_fetch_assoc($result);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,26 +38,16 @@ if (!isset($_SESSION["email"])) {
             <button class="btn btn_search " type="submit">Search</button>
         </form> -->
 
-        <div title="Calendar" class="calendar_head">
+        <div title="Date" class="date_head">
             <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="img_calendar"> Today, <span style="font-weight: bold;"><?php echo date('d-M-Y') ?></span>
         </div>
 
         <!-- <a href=""><img src="../../ASSET/ICON/FRONT/352267_chat_icon.svg" alt="" class="img_chat"></a> -->
 
-        <div class="dropdown btn_profile">
-            <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="../../ASSET/ICON/PACKAGE/1564534_customer_man_user_account_profile_icon.svg" width="30" height="30" class="rounded-circle">
+        <div class="btn_profile" title="Hi, <?php echo $data["name"]; ?>">
+            <a type="button" class="btn" href="main.php?page=My profile">
+                <img src="../../ASSET/FOTO/<?php echo $data["image"]; ?>" width="30" height="30" class="rounded-circle">
             </a>
-            <ul class="dropdown-menu menu_profile" aria-labelledby="dropdownMenuLink">
-                <li><label class="dropdown-item label_dropdown_profile">Hi, Admin</label></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item item_profile" href="main.php?page=My profile">My profile</a></li>
-                <li><a class="dropdown-item item_profile" href="main.php?page=Edit profile">Edit profile</a></li>
-                <li><a class="dropdown-item item_profile" href="main.php?page=Change password">Change password</a></li>
-                </li>
-            </ul>
         </div>
     </header>
     <!-- //HEADER// -->

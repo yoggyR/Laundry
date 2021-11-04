@@ -5,21 +5,20 @@
 <?php
 include('../CONFIG/connect_database.php');
 include('function_profile.php');
-$id = $_GET['id'];
-$editProfile = show("SELECT * FROM user WHERE id = $id")[0];
+$id             = $_GET['id'];
+$editProfile    = show("SELECT * FROM user WHERE id = $id")[0];
 
 if (isset($_POST['save'])) {
     if (edit($_POST) > 0) {
         echo "
-    <script>
-        alert ('Profil berhasil diubah');
-        document.location.href = 'main.php?page=My profile'; 
-    </script>
+            <script>
+                alert ('Profil berhasil diubah');
+                document.location.href = 'main.php?page=My profile'; 
+            </script>
     ";
-    }else {
+    } else {
         echo "Gagal";
     }
-    
 }
 ?>
 
@@ -63,5 +62,5 @@ if (isset($_POST['save'])) {
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </div>

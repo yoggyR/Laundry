@@ -4,8 +4,8 @@ include('../CONFIG/connect_database.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST['email']) && !empty($_POST['password'])) {
-        $emailUser = $_POST['email'];
-        $passwordUser = $_POST['password'];
+        $emailUser      = $_POST['email'];
+        $passwordUser   = $_POST['password'];
 
         $query = "SELECT * FROM user WHERE email = '" . $emailUser . "'";
         $result = mysqli_query($connect, $query);
@@ -27,9 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $eror = true;
     }
 }
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">

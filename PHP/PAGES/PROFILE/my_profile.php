@@ -4,7 +4,7 @@
 </div>
 <?php
 include('../CONFIG/connect_database.php');
-include('function_profile.php');
+include('../FUNCTIONS/function_profile.php');
 $dataProfile = show("SELECT * FROM user");
 ?>
 <div class='row'>

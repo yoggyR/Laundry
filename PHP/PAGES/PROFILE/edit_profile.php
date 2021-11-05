@@ -4,7 +4,7 @@
 
 <?php
 include('../CONFIG/connect_database.php');
-include('function_profile.php');
+include('../FUNCTIONS/function_profile.php');
 $id             = $_GET['id'];
 $editProfile    = show("SELECT * FROM user WHERE id = $id")[0];
 

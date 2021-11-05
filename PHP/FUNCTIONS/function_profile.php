@@ -4,15 +4,15 @@ include('../CONFIG/connect_database.php');
 // Connect \\
 // =======================================
 // My profile
-function show($dataProfil)
+function show($operation)
 {
     global $connect;
-    $result = mysqli_query($connect, $dataProfil);
+    $result = mysqli_query($connect, $operation);
     $box = [];
     while ($data = mysqli_fetch_assoc($result)) {
         $box[] = $data;
     }
-    return $box;
+    return($box);
 }
 // My profile \\
 // =======================================

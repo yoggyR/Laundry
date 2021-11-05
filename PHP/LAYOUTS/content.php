@@ -3,7 +3,7 @@
 
     <!-- PAGES -->
     <?php
-    include('function_layouts.php');
+    include('../CONFIG/pages_divider.php');
     ?>
     <!-- //PAGES\\ -->
 

@@ -1,4 +1,4 @@
-<!-- Grab and show page -->
+<!-- Pages divider -->
 <?php
 
 $pages = isset($_GET['page']) ? $_GET['page'] : '';
@@ -65,4 +65,4 @@ else {
 // ==End pages==
 
 ?>
-<!-- //Grab and show page\\ -->
+<!-- //Pages divider\\ -->

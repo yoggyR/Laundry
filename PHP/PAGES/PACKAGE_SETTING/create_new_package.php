@@ -127,8 +127,8 @@
                     </div>
                 </div>
             </form>
-            <div>
-                <button type="button" class="btn cnpe_btn_save"><img src="../../ASSET/ICON/PACKAGE/2639912_save_icon.svg" class="cnpe_img">Save</button>
+            <div class="pt-4">
+                <button type="button" class="btn cnpe_btn_save_new"><img src="../../ASSET/ICON/PACKAGE/2639912_save_icon.svg" class="cnpe_img">Save</button>
             </div>
         </div>
     </div>

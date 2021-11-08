@@ -3,8 +3,8 @@
 </div>
 <div class='row'>
     <div class="md-col-12">
-        <div class="countainer" style="width: 1150px; margin: auto;">
-            <div class="row align-items-start receptacle_create_and_seacrh">
+        <div class="countainer count_package_setting">
+            <div class="row align-items-start receptacle_package_setting">
                 <div class="col-6">
                     <a href="main.php?page=Create new package" type="button" class="btn btn_create_new_package"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="img_create_new_package"> Create new package</a>
                 </div>

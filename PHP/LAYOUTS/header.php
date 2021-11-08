@@ -29,24 +29,18 @@ $data = mysqli_fetch_assoc($result);
 <body>
     <!-- HEADER -->
     <header class="navbar sticky-top  flex-md-nowrap p-0">
-        <a class="navbar-brand " type="button" data-bs-toggle="modal" data-bs-target="#about" title="About us">
+        <a class="navbar-brand" type="button" data-bs-toggle="modal" data-bs-target="#about" title="About us">
             <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" class="img_logo">
         </a>
-
-        <!-- <form class="d-flex form_search_head">
-            <input class="form-control me-2 input_search" type="search" placeholder="Search for anything" aria-label="Search">
-            <button class="btn btn_search " type="submit">Search</button>
-        </form> -->
 
         <div title="Date" class="date_head">
             <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="img_calendar"> Today, <span style="font-weight: bold;"><?php echo date('d-M-Y') ?></span>
         </div>
 
-        <!-- <a href=""><img src="../../ASSET/ICON/FRONT/352267_chat_icon.svg" alt="" class="img_chat"></a> -->
-
-        <div class="btn_profile" title="Hi, <?php echo $data["name"]; ?>">
+        <div class="btn_profile" title="My profile">
+            <label>Hi, <?php echo $data["name"]; ?></label>
             <a type="button" class="btn" href="main.php?page=My profile">
-                <img src="../../ASSET/FOTO/<?php echo $data["image"]; ?>" width="30" height="30" class="rounded-circle">
+                <img src="../../ASSET/FOTO/<?php echo $data["image"]; ?>" width="30" height="30" class="rounded-circle img_header_profile">
             </a>
         </div>
     </header>

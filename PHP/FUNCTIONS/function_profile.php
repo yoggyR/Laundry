@@ -26,12 +26,14 @@ function edit($profilUser)
     $email        = htmlspecialchars($profilUser['email']);
     $phone_number = htmlspecialchars($profilUser['phone_number']);
     $address      = htmlspecialchars($profilUser['address']);
+    $image        = htmlspecialchars($profilUser['image']);
 
     mysqli_query($connect, "UPDATE  user 
                             SET     name         ='$name', 
                                     email        ='$email', 
                                     phone_number ='$phone_number', 
-                                    address      ='$address' 
+                                    address      ='$address',
+                                    image        ='$image'
                             WHERE   id           ='$id'");
     return mysqli_affected_rows($connect);
 }

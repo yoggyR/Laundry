@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-2 border-bottom">
-    <label><span style="font-weight: bold;"> <?php echo ($pages); ?> </span></label>
+    <label><span class="fw-bold"> <?php echo ($pages); ?> </span></label>
     <a href="main.php?page=Home" type="button" class="btn-close" title="Close this page"></a>
 </div>
 <?php
@@ -18,23 +18,23 @@ $dataProfile = show("SELECT * FROM user");
                     <div class="col-8" style="margin-left: -50px;">
                         <form action="" method="POST">
                             <div class="mb-3">
-                                <label for="formGroupExampleInput" class="form-label" style="font-weight: bold;">Name</label>
+                                <label for="formGroupExampleInput" class="form-label fw-bold">Name</label>
                                 <p><?php echo $profile["name"]; ?></p>
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Email</label>
+                                <label for="formGroupExampleInput2" class="form-label fw-bold">Email</label>
                                 <p><?php echo $profile["email"]; ?></p>
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Phone Number</label>
+                                <label for="formGroupExampleInput2" class="form-label fw-bold">Phone Number</label>
                                 <p><?php echo $profile["phone_number"]; ?></p>
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Address</label>
+                                <label for="formGroupExampleInput2" class="form-label fw-bold">Address</label>
                                 <p><?php echo $profile["address"]; ?></p>
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label" style="font-weight: bold;">Access Rights
+                                <label for="formGroupExampleInput2" class="form-label fw-bold">Access Rights
                                     Level</label>
                                 <p><?php echo $profile["access"]; ?></p>
                             </div>

@@ -3,7 +3,7 @@
 </div>
 <div class='row'>
     <div class="md-col-12">
-        <div class="countainer" style="width: 1152px; margin: auto;">
+        <div class="countainer count_data_report">
             <div class="row">
                 <div class="col-1 receptacle_data_report" style="margin-left: 38px;">
                     <label class="label_data_report shadow">

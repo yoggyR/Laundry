@@ -13,15 +13,15 @@
 /* HEADER */
 .navbar {
     background-color: #EEEEEE;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 10px;
 }
 
 .navbar-brand {
     background-color: white;
     width: 90px;
     height: 70px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .img_logo {
@@ -30,27 +30,8 @@
     margin-left: 13px;
 }
 
-/* .form_search_head {
-    margin-right: 200px;
-} */
-
-/* .input_search {
-    border-radius: 10px;
-} */
-
-/* .btn_search {
-    background-color: #30397E;
-    color: white;
-    border-radius: 10px;
-} */
-
-/* .btn_search:hover {
-    background-color: #2A9DC9;
-    color: white;
-    border: 1px solid #30397E;
-} */
 .date_head {
-    margin-left: 45px;
+    margin-left: 130px;
 }
 
 .img_calendar {
@@ -58,37 +39,15 @@
     margin-top: -5px;
 }
 
-/* .img_chat {
-    width: 20px;
-    margin-top: -3px;
-}
-
-.img_chat:hover {
-    content: url(../ASSET/ICON/BACK/352267_chat_icon.svg);
-} */
-
 .btn_profile {
     margin-right: 5px;
-}
-
-.menu_profile {
-    margin-left: -90px;
-}
-
-.label_dropdown_profile {
     font-weight: bold;
-    text-align: center;
     color: #30397E;
 }
 
-.label_dropdown_profile:hover{
+.img_header_profile {
     background-color: white;
-    color: #2A9DC9;
-}
-
-.item_profile:hover {
-    background-color: #30397E;
-    color: white;
+    border: 2px solid white;
 }
 
 /* //HEADER\\ */
@@ -105,7 +64,7 @@
     padding: 185px 15px 0;
     width: 90px;
     background-color: #EEEEEE;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 10px;
 }
 
 .img_home {

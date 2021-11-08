@@ -36,15 +36,32 @@
 /* ------------------------LIMIT------------------------ */
 
 /* EDIT PROFILE */
-.btn_change_image {
-    background-color: rgb(206, 114, 2);
-    color: white;
-    font-weight: bold;
+.img_change_image_profile {
+    height: 300px;
+    width: 280px;
+    border-radius: 10px;
+    margin-top: 5px;
 }
 
-.btn_change_image:hover {
+.label_btn_change_image {
+    background-color: rgb(206, 114, 2);
+    color: white;
+    padding: 8px;
+    width: 170px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.label_btn_change_image:hover {
     background-color: orange;
     color: white;
+}
+
+input[type="file"] {
+    display: none;
 }
 
 .btn_save_edit_profile {
@@ -269,7 +286,12 @@
 /* ------------------------LIMIT------------------------ */
 
 /* PACKAGE SETTING*/
-.receptacle_create_and_seacrh {
+.count_package_setting {
+    width: 1150px;
+    margin: auto;
+}
+
+.receptacle_package_setting {
     margin-top: 22px;
 }
 
@@ -471,10 +493,38 @@ thead {
     margin-right: 5px;
 }
 
+.cnpe_btn_turn_on {
+    width: 130px;
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+}
+
+.cnpe_btn_turn_on:hover {
+    background-color: green;
+    color: white;
+}
+
+.cnpe_btn_turn_off {
+    width: 130px;
+    font-weight: bold;
+    background-color: darkred;
+    color: white;
+}
+
+.cnpe_btn_turn_off:hover {
+    background-color: red;
+    color: white;
+}
+
+.cnpe_img_on_of {
+    width: 20px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
 .cnpe_btn_save {
     width: 100px;
-    margin-top: 30px;
-    margin-left: 900px;
     font-weight: bold;
     background-color: #30397E;
     color: white;
@@ -485,11 +535,30 @@ thead {
     color: white;
 }
 
+.cnpe_btn_save_new {
+    width: 100px;
+    margin-left: 900px;
+    font-weight: bold;
+    background-color: #30397E;
+    color: white;
+}
+
+.cnpe_btn_save_new:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+
 /* //CREATE NEW & EDIT PACKAGE\\ */
 
 /* ------------------------LIMIT------------------------ */
 
 /* REPORT */
+.count_data_report {
+    width: 1152px;
+    margin: auto;
+}
+
 .receptacle_data_report {
     margin-right: 120px;
 }

@@ -40,7 +40,7 @@ $data = mysqli_fetch_assoc($result);
         <div class="btn_profile" title="My profile">
             <label>Hi, <?php echo $data["name"]; ?></label>
             <a type="button" class="btn" href="main.php?page=My profile">
-                <img src="../../ASSET/FOTO/<?php echo $data["image"]; ?>" width="30" height="30" class="rounded-circle img_header_profile">
+                <img src="../../DATABASE/IMAGE/<?php echo $data["image"]; ?>" width="30" height="30" class="rounded-circle img_header_profile">
             </a>
         </div>
     </header>

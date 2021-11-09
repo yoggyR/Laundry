@@ -13,7 +13,7 @@ $dataProfile = show("SELECT * FROM user");
             <div class="row justify-content-center">
                 <?php foreach ($dataProfile as $profile) : ?>
                     <div class="col-4">
-                        <img style="height: 300px; width: 280px; border-radius: 10px;" src="../../ASSET/FOTO/<?php echo $profile["image"]; ?>" class="img-thumbnail" alt="Profile">
+                        <img src="../../DATABASE/IMAGE/<?php echo $profile["image"]; ?>" class="img-thumbnail img_my_profile" alt="Profile">
                     </div>
                     <div class="col-8" style="margin-left: -50px;">
                         <form action="" method="POST">

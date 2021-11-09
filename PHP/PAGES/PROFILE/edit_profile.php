@@ -12,12 +12,14 @@ if (isset($_POST['save'])) {
     if (edit($_POST) > 0) {
         echo "
             <script>
-                alert ('Profil berhasil diubah');
+                alert ('Profile changed successfully');
                 document.location.href = 'main.php?page=My profile'; 
-            </script>
-    ";
-    } else {
-        echo "Gagal";
+            </script>";
+    } else{
+        echo "
+            <script>
+                alert ('Profile failed to change');
+            </script>";
     }
 }
 ?>
@@ -28,15 +30,15 @@ if (isset($_POST['save'])) {
             <div class="row justify-content-center">
                 <form action="" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="id" value="<?php echo $editProfile["id"]; ?>">
+                    <input type="hidden" name="oldImage" value="<?php echo $editProfile["image"]; ?>">
                     <div class="row">
                         <div class="col-4">
-                            <img src="../../ASSET/FOTO/<?php echo $editProfile["image"]; ?>" class="img-thumbnail img_change_image_profile" alt="Foto profile">
-
+                            <img src="../../DATABASE/IMAGE/<?php echo $editProfile["image"]; ?>" class="img-thumbnail img_change_image_profile" alt="Foto profile">
                             <div>
                                 <label for="change_image" class="label_btn_change_image"><img src="../../ASSET/ICON/PACKAGE/211677_image_icon.svg" class="img_edit_profile">
                                     Change image
                                 </label>
-                                <input type="file" id="change_image" accept="image/*" name="image">
+                                <input type="file" class="btn_change_image_profile" id="change_image" accept="image/*" name="image">
                             </div>
                         </div>
                         <div class="col-8">

@@ -4,8 +4,8 @@ include('../CONFIG/connect_database.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST['email']) && !empty($_POST['password'])) {
-        $emailUser      = $_POST['email'];
-        $passwordUser   = $_POST['password'];
+        $emailUser      = htmlspecialchars($_POST['email']);
+        $passwordUser   = htmlspecialchars($_POST['password']);
 
         $query = "SELECT * FROM user WHERE email = '" . $emailUser . "'";
         $result = mysqli_query($connect, $query);
@@ -67,11 +67,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <h2 class="txt_label_login">Laundry&trade;</h2>
 
                     <div class="form-floating mb-2">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off" name="email" required>
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off" name="email">
                         <label for="floatingInput">Email address</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" required>
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
                         <label for="floatingPassword">Password</label>
                     </div>
                     <div class="checkbox mb-2">

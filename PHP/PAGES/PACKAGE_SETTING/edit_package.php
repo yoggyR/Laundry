@@ -123,8 +123,8 @@
                     <div class="col-4 pt-3" style="margin-left: 725px;">
                         <div class="row pb-2">
                             <div class="col">
-                                <button type="button" class="btn cnpe_btn_turn_on"><img src="../../ASSET/ICON/PACKAGE/2203535_botton_launch_on_point_icon.svg" class="cnpe_img_on_of">Turn on</button>
-                                <!-- <button type="button" class="btn cnpe_btn_turn_off"><img src="../../ASSET/ICON/PACKAGE/2203535_botton_launch_on_point_icon.svg" class="cnpe_img">Turn off</button> -->
+                                <button type="button" id="on" class="btn cnpe_btn_turn_on" onclick="buttonOnOff()"><img src="../../ASSET/ICON/PACKAGE/2203535_botton_launch_on_point_icon.svg" class="cnpe_img_on_of">Turn on</button>
+                                <button type="button" id="off" class="btn cnpe_btn_turn_off" onclick="buttonOnOff()"><img src="../../ASSET/ICON/PACKAGE/326677_on_radio_icon.svg" class="cnpe_img">Turn off</button>
                             </div>
                             <div class="col">
                                 <button type="button" class="btn cnpe_btn_save"><img src="../../ASSET/ICON/PACKAGE/2639912_save_icon.svg" class="cnpe_img">Save</button>

@@ -24,6 +24,7 @@ ICON
 22. 1564534_customer_man_user_account_profile_icon			= https://www.iconfinder.com/search?q=profile&price=free&style=solid&license=gte__1
 23. 3440841_business_male_man_office_people_icon			= https://www.iconfinder.com/search?q=person&price=free&license=gte__1
 24. 2203535_botton_launch_on_point_icon					= https://www.iconfinder.com/search?q=on&price=free&style=solid&license=gte__1
+25. 326677_on_radio_icon						= https://www.iconfinder.com/search?q=on&style=solid&price=free&license=gte__1
 
 LOGO
 ====

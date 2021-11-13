@@ -4,28 +4,28 @@
         <ul class="nav flex-column">
             <li class="nav-item mb-3">
                 <a class="nav-link" href="main.php?page=Home" type="button" title="Home">
-                    <img src="../../ASSET/ICON/FRONT/216242_home_icon.svg" alt="" class="img_home">
+                    <img src="../../ASSET/ICON/FRONT/bxs-home.svg" alt="" class="img_home">
                 </a>
             </li>
             <li class="nav-item mb-3">
                 <a class="nav-link" href="main.php?page=Customers" type="button" title="Customers">
-                    <img src="../../ASSET/ICON/FRONT/171447_users_group_icon.svg" alt="" class="img_customers">
+                    <img src="../../ASSET/ICON/FRONT/iconmonstr-user-31.svg" alt="" class="img_customers">
                 </a>
             </li>
             <li class=" nav-item mb-3">
                 <a class="nav-link" href="main.php?page=Package setting" type="button" title="Package setting">
-                    <img src="../../ASSET/ICON/FRONT/623070_box_label_storage_delivery_gift_icon.svg" alt="" class="img_package_setting">
+                    <img src="../../ASSET/ICON/FRONT/bxs-box.svg" alt="" class="img_package_setting">
                 </a>
             </li>
 
             <li class="nav-item mb-3">
                 <a class="nav-link" href="main.php?page=Report" type="button" title="Report">
-                    <img src="../../ASSET/ICON/FRONT/3533402_business_management_plan_project_report_icon.svg" alt="" class="img_report">
+                    <img src="../../ASSET/ICON/FRONT/bxs-note.svg" alt="" class="img_report">
                 </a>
             </li>
             <li class="nav-item mb-3">
                 <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" title="Log out">
-                    <img src="../../ASSET/ICON/FRONT/1564506_close_exit_logout_power_icon.svg" alt="" class="img_logout">
+                    <img src="../../ASSET/ICON/FRONT/bxs-log-out-circle.svg" alt="" class="img_logout">
                 </a>
             </li>
         </ul>

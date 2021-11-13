@@ -16,7 +16,7 @@ if (!isset($_SESSION["email"])) {
                         <button class="btn_package shadow">
                             <p class="txt_head_package">Package</p>
                             <h1 class="txt_name_package ">Regular</h1>
-                            <img class="img_package" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
+                            <img class="img_package" src="../../ASSET/LOGO/johnny-automatic-Services-5 - Copy.svg" alt="">
                             <p class="txt_powered_by">Powered by Laundry&trade;</p>
                         </button>
                     </a>
@@ -27,7 +27,7 @@ if (!isset($_SESSION["email"])) {
                         <button class="btn_package shadow">
                             <p class="txt_head_package">Package</p>
                             <h1 class="txt_name_package ">Fast</h1>
-                            <img class="img_package" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
+                            <img class="img_package" src="../../ASSET/LOGO/johnny-automatic-Services-5 - Copy.svg" alt="">
                             <p class="txt_powered_by">Powered by Laundry&trade;</p>
                         </button>
                     </a>
@@ -38,7 +38,7 @@ if (!isset($_SESSION["email"])) {
                         <button class="btn_package shadow">
                             <p class="txt_head_package">Package</p>
                             <h1 class="txt_name_package">Super</h1>
-                            <img class="img_package" src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon.svg" alt="">
+                            <img class="img_package" src="../../ASSET/LOGO/johnny-automatic-Services-5 - Copy.svg" alt="">
                             <p class="txt_powered_by">Powered by Laundry&trade;</p>
                         </button>
                     </a>

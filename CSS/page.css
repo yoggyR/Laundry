@@ -96,7 +96,7 @@
 
 .img_edit_profile {
     width: 20px;
-    margin-top: -3px;
+    margin-top: -4px;
     margin-right: 4px;
 }
 
@@ -261,7 +261,7 @@
 }
 
 .img_data_customers {
-    width: 30px;
+    width: 22px;
     height: 30px;
 }
 
@@ -316,7 +316,7 @@
 }
 
 .img_create_new_package {
-    width: 15px;
+    width: 25px;
     margin-top: -4px;
     margin-left: -5px;
 }
@@ -392,8 +392,8 @@ thead {
 
 .img_edit_package {
     width: 30px;
-    margin-left: -7px;
-    margin-top: -4px;
+    margin-left: -8px;
+    margin-top: -1.5px;
 }
 
 .btn_delete_package {
@@ -433,7 +433,7 @@ thead {
 }
 
 .arrow_next_and_back {
-    width: 15px;
+    width: 12px;
     margin-top: -2px;
 }
 
@@ -496,7 +496,7 @@ thead {
 }
 
 .cnpe_img {
-    width: 20px;
+    width: 22px;
     margin-top: -4px;
     margin-right: 5px;
 }
@@ -516,6 +516,7 @@ thead {
 .cnpe_btn_turn_off {
     width: 130px;
     font-weight: bold;
+    display: none;
     background-color: darkred;
     color: white;
 }
@@ -526,9 +527,9 @@ thead {
 }
 
 .cnpe_img_on_of {
-    width: 20px;
+    width: 25px;
     margin-top: -3px;
-    margin-right: 5px;
+    margin-right: 2px;
 }
 
 .cnpe_btn_save {
@@ -609,13 +610,13 @@ thead {
 
 .img_data_report {
     width: 60px;
-    margin-top: -12px;
+    margin-top: -15px;
     margin-left: 135px;
 }
 
 .img_data_report_profit {
     width: 60px;
-    margin-top: -2px;
+    margin-top: -3px;
     margin-left: 135px;
 }
 
@@ -684,7 +685,7 @@ thead {
 }
 
 .img_export_to_excel {
-    width: 20px;
+    width: 15px;
     margin-top: -2px;
     margin-left: 4px;
 }
@@ -766,7 +767,7 @@ thead {
 }
 
 .img_label_package {
-    width: 20px;
+    width: 25px;
     margin-top: -6px;
 }
 

@@ -39,8 +39,8 @@ $dataProfile = show("SELECT * FROM user");
                                 <p><?php echo $profile["access"]; ?></p>
                             </div>
                         </form>
-                        <a type="button" href="main.php?page=Edit profile&id=<?php echo $profile['id']; ?>" class="btn btn_edit_and_change "><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_btn_my_profile">Edit profile</a>
-                        <a type="button" href="main.php?page=Change password" class="btn btn_edit_and_change"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_btn_my_profile">Change password</a>
+                        <a type="button" href="main.php?page=Edit profile&id=<?php echo $profile['id']; ?>" class="btn btn_edit_and_change "><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_btn_my_profile">Edit profile</a>
+                        <a type="button" href="main.php?page=Change password" class="btn btn_edit_and_change"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_btn_my_profile">Change password</a>
                     </div>
                 <?php endforeach; ?>
             </div>

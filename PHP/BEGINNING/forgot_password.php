@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../../CSS/beginning.css">
     <!-- /LINK CSS -->
     <!-- LINK LOGO -->
-    <link rel="shortcut icon" href="../../ASSET/LOGO/g839.png">
+    <link rel="shortcut icon" href="../../ASSET/LOGO/johnny-automatic-Services-5.svg">
     <!-- /LINK LOGO -->
 </head>
 

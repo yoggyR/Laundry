@@ -51,6 +51,7 @@ body {
     margin-left: -12px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    height: 500px;
 }
 
 .form_login {
@@ -58,13 +59,14 @@ body {
 }
 
 .img_logo_login {
-    margin-left: 128px;
-    width: 75px;
+    margin-left: 120px;
+    width: 100px;
+    margin-top: 10px;
 }
 
 .txt_label_login {
     font-weight: bold;
-    margin-top: -40px;
+    margin-top: -20px;
     margin-bottom: 30px;
     text-align: center;
     color: #30397E;

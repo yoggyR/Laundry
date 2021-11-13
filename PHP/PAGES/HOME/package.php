@@ -11,7 +11,7 @@ if (!isset($_SESSION["email"])) {
         <div class="container border shadow" style="margin:auto; width: 930px;">
             <div class="row pt-2">
                 <div class="col">
-                    <img src="../../ASSET/ICON/PACKAGE/753105_washer_laundry_machine_wash_washing_icon - Copy.svg" class="img_label_package"> <label class="label_package">Regular</label>
+                    <img src="../../ASSET/LOGO/johnny-automatic-Services-5.svg" class="img_label_package"> <label class="label_package">Regular</label>
                 </div>
                 <div class="col" style="margin-left: 470px;">
                     <label class="txt_custumer_id_package">Customer id : <span style="font-weight: bold;">LNY-846291</span></label>
@@ -135,7 +135,7 @@ if (!isset($_SESSION["email"])) {
                 </div>
 
                 <div class="col-md-1" style="margin-left: 743px;">
-                    <button type="button" class="btn btn_package_process" data-bs-toggle="modal" data-bs-target="#process"><img src="../../ASSET/ICON/PACKAGE/1608521_arrow_circle_up_icon.svg" class="img_package_process">Process</button>
+                    <button type="button" class="btn btn_package_process" data-bs-toggle="modal" data-bs-target="#process"><img src="../../ASSET/ICON/PACKAGE/bxs-up-arrow-circle.svg" class="img_package_process">Process</button>
                 </div>
             </form>
         </div>

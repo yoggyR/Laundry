@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../../CSS/beginning.css">
     <!-- /LINK CSS -->
     <!-- LINK LOGO -->
-    <link rel="shortcut icon" href="../../ASSET/LOGO/g839.png">
+    <link rel="shortcut icon" href="../../ASSET/LOGO/johnny-automatic-Services-5.svg">
     <!-- /LINK LOGO -->
 </head>
 
@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <p style="color: red;">USERNAME TIDAK TERDAFTAR DI SISTEM !!!</p>
                 <?php endif; ?>
                 <form class="form_login" action="" method="POST">
-                    <img class="mb-4 img_logo_login" src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg">
+                    <img class="mb-4 img_logo_login" src="../../ASSET/LOGO/johnny-automatic-Services-5.svg">
                     <h2 class="txt_label_login">Laundry&trade;</h2>
 
                     <div class="form-floating mb-2">

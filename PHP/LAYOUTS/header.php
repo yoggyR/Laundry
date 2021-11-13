@@ -22,7 +22,7 @@ $data = mysqli_fetch_assoc($result);
     <link rel="stylesheet" href="../../CSS/page.css">
     <!-- /LINK CSS -->
     <!-- LINK LOGO -->
-    <link rel="shortcut icon" href="../../ASSET/LOGO/g839.png">
+    <link rel="shortcut icon" href="../../ASSET/LOGO/johnny-automatic-Services-5.svg">
     <!-- /LINK LOGO -->
 </head>
 
@@ -30,11 +30,11 @@ $data = mysqli_fetch_assoc($result);
     <!-- HEADER -->
     <header class="navbar sticky-top  flex-md-nowrap p-0">
         <a class="navbar-brand" type="button" data-bs-toggle="modal" data-bs-target="#about" title="About us">
-            <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" class="img_logo">
+            <img src="../../ASSET/LOGO/johnny-automatic-Services-5.svg" class="img_logo">
         </a>
 
         <div title="Date" class="date_head">
-            <img src="../../ASSET/ICON/FRONT/2102050_calendar_interface_year_icon.svg" class="img_calendar"> Today, <span style="font-weight: bold;"><?php echo date('d-M-Y') ?></span>
+            <img src="../../ASSET/ICON/PACKAGE/bxs-calendar.svg" class="img_calendar"> Today, <span style="font-weight: bold;"><?php echo date('d-M-Y') ?></span>
         </div>
 
         <div class="btn_profile" title="My profile">
@@ -54,7 +54,7 @@ $data = mysqli_fetch_assoc($result);
                     <h5 class="modal-title" id="aboutLabel">About us</h5>
                 </div>
                 <div class="modal-body">
-                    <img src="../../ASSET/LOGO/753105_washer_laundry_machine_wash_washing_icon-Edit.svg" alt="" class="img_emblem">
+                    <img src="../../ASSET/LOGO/johnny-automatic-Services-5.svg" alt="" class="img_emblem">
                     <p class="txt_title">Laundry&trade;</p>
                     <p class="txt_description">Laundry&trade; was founded in 2021, and currently has spread throughout the territory
                         of the Republic of Indonesia. We Laundry&trade; have several months of washing experience.

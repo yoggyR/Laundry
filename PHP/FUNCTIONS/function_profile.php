@@ -49,7 +49,7 @@ function changeImage()
     $nameImage    = $_FILES['image']['name'];
     $folderName   = $_FILES['image']['tmp_name'];
 
-    $imageExtensionvalidation = ['jpg', 'jpeg', 'png'];
+    $imageExtensionvalidation = ['jpg', 'jpeg', 'png', 'svg'];
     $extensionImage           = explode('.', $nameImage);
     $extensionImage           = strtolower(end($extensionImage));
 

@@ -35,7 +35,7 @@ if (isset($_POST['save'])) {
                         <div class="col-4">
                             <img src="../../DATABASE/IMAGE/<?php echo $editProfile["image"]; ?>" class="img-thumbnail img_change_image_profile" alt="Foto profile">
                             <div>
-                                <label for="change_image" class="label_btn_change_image"><img src="../../ASSET/ICON/PACKAGE/211677_image_icon.svg" class="img_edit_profile">
+                                <label for="change_image" class="label_btn_change_image"><img src="../../ASSET/ICON/PACKAGE/bxs-image.svg" class="img_edit_profile">
                                     Change image
                                 </label>
                                 <input type="file" class="btn_change_image_profile" id="change_image" accept="image/*" name="image">
@@ -62,8 +62,8 @@ if (isset($_POST['save'])) {
                                 <label for="formGroupExampleInput2" class="form-label fw-bold">Access rights level</label>
                                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your access rights level" name="access" value="<?php echo $editProfile["access"]; ?>" disabled>
                             </div>
-                            <button type="submit" class="btn btn_save_edit_profile" name="save"><img src="../../ASSET/ICON/PACKAGE/2639912_save_icon.svg" class="img_edit_profile">Save</button>
-                            <a href="main.php?page=My profile" type="button" class="btn btn_cancel_edit_profile"><img src="../../ASSET/ICON/PACKAGE/4945336_business_close_document_files_folder_icon.svg" class="img_edit_profile">Cancel</a>
+                            <button type="submit" class="btn btn_save_edit_profile" name="save"><img src="../../ASSET/ICON/PACKAGE/bxs-save.svg" class="img_edit_profile">Save</button>
+                            <a href="main.php?page=My profile" type="button" class="btn btn_cancel_edit_profile"><img src="../../ASSET/ICON/PACKAGE/close-circle-fill.svg" class="img_edit_profile">Cancel</a>
                         </div>
                     </div>
                 </form>

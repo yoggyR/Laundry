@@ -4,7 +4,7 @@
 <div class='row'>
     <div class="md-col-12">
         <div class="countainer border shadow count_data_customers">
-            <label for="" class="label_data_customers pb-4 ms-3 pt-3"><img src="../../ASSET/LOGO/g839.png" class="img_data_customers"> Laundry&trade;</label>
+            <label for="" class="label_data_customers pb-4 ms-3 pt-3"><img src="../../ASSET/LOGO/johnny-automatic-Services-5.svg" class="img_data_customers"> Laundry&trade;</label>
             <table class="table table-borderless ms-4">
                 <tr>
                     <th style="width: 153px;">Customer id</th>
@@ -75,7 +75,7 @@
                 </tr>
                 <tr>
                     <th colspan="4"></th>
-                    <td colspan="2"><button type="button" class="btn btn_process_data_customers"><img src="../../ASSET/ICON/PACKAGE/1608521_arrow_circle_up_icon.svg" class="img_process_data_customers">Process</button></td>
+                    <td colspan="2"><button type="button" class="btn btn_process_data_customers"><img src="../../ASSET/ICON/PACKAGE/bxs-up-arrow-circle.svg" class="img_process_data_customers">Process</button></td>
                 </tr>
             </table>
         </div>

@@ -103,11 +103,11 @@
                     <div class="col-md-6">
                         <div class="row pb-2">
                             <div class="col">
-                                <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="cnpe_img">New level</button>
+                                <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/bx-plus.svg" class="cnpe_img">New level</button>
                             </div>
                             <div class="col">
                                 <div class="input-group flex-nowrap">
-                                    <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="cnpe_img">Delete level</button>
+                                    <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="cnpe_img">Delete level</button>
                                 </div>
                             </div>
                         </div>
@@ -116,11 +116,11 @@
                     <div class="col-md-6">
                         <div class="row pb-2">
                             <div class="col">
-                                <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="cnpe_img">New processing time</button>
+                                <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/bx-plus.svg" class="cnpe_img">New processing time</button>
                             </div>
                             <div class="col">
                                 <div class="input-group flex-nowrap">
-                                    <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="cnpe_img">Delete processing time</button>
+                                    <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="cnpe_img">Delete processing time</button>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                 </div>
             </form>
             <div class="pt-4">
-                <button type="button" class="btn cnpe_btn_save_new"><img src="../../ASSET/ICON/PACKAGE/2639912_save_icon.svg" class="cnpe_img">Save</button>
+                <button type="button" class="btn cnpe_btn_save_new"><img src="../../ASSET/ICON/PACKAGE/bxs-save.svg" class="cnpe_img">Save</button>
             </div>
         </div>
     </div>

@@ -1,34 +1,34 @@
 ICON  
 ====
-1.  352267_chat_icon  					 		= https://www.iconfinder.com/search?q=chat&price=free&style=solid&license=gte__1
-2.  216242_home_icon 					 		= https://www.iconfinder.com/search?q=home&price=free&style=solid&license=gte__1
-3.  171447_users_group_icon 				 		= https://www.iconfinder.com/search?q=users&price=free&style=solid&license=gte__1
-4.  623070_box_label_storage_delivery_gift_icon 	 		= https://www.iconfinder.com/search?q=package&price=free&style=solid&license=gte__1
-5.  3533402_business_management_plan_project_report_icon 		= https://www.iconfinder.com/search?q=report&price=free&style=solid&license=gte__1
-6.  1564506_close_exit_logout_power_icon		 		= https://www.iconfinder.com/search?q=log+out&price=free&style=solid&license=gte__1
-7.  2102050_calendar_interface_year_icon 		 		= https://www.iconfinder.com/search?q=calendar&price=free&style=solid&license=gte__1
-8.  134224_add_plus_new_icon				 		= https://www.iconfinder.com/search?q=add&price=free&license=gte__1
-9.  5208399_delete_garbage_recycle_remove_trash_icon	 		= https://www.iconfinder.com/search?q=trash&price=free&style=solid&license=gte__1
-10. 353430_checkbox_pen_edit_pencil_icon		 		= https://www.iconfinder.com/search?q=edit&price=free&style=solid&license=gte__1
-11. 352072_arrow_play_icon				 		= https://www.iconfinder.com/search?q=arrow&price=free&style=solid&license=gte__1
-12. 7097271_washing_bubble_detergent powder_t-shirt_laundry_icon 	= https://www.iconfinder.com/search?q=laundry&price=free&license=gte__1
-13. 7097281_washing_folding_clothes_basket_laundry_icon			= https://www.iconfinder.com/search?q=laundry&price=free&license=gte__1
-14. 7011187_hand_person_clothes_over_people_icon			= https://www.iconfinder.com/search?q=laundry&price=free&license=gte__1
-15. 290143_cash_money_payment_wallet_icon				= https://www.iconfinder.com/search?q=money&price=free&style=outline&license=gte__1
-16. 3209291_contacts_customers_family_group_team_icon			= https://www.iconfinder.com/search?q=customers&price=free&style=outline&license=gte__1
-17. 7422413_exel_spreadsheet_sheets_table_icon				= https://www.iconfinder.com/search?q=exel&price=free&license=gte__1
-18. 2639912_save_icon							= https://www.iconfinder.com/search?q=save&style=solid&license=gte__1&price=free
-19. 4945336_business_close_document_files_folder_icon			= https://www.iconfinder.com/search?q=cancel&style=solid&license=gte__1&price=free
-20. 1608521_arrow_circle_up_icon					= https://www.iconfinder.com/search?q=up&price=free&style=solid&license=gte__1
-21. 211677_image_icon							= https://www.iconfinder.com/search?q=image&price=free&style=solid&license=gte__1
-22. 1564534_customer_man_user_account_profile_icon			= https://www.iconfinder.com/search?q=profile&price=free&style=solid&license=gte__1
-23. 3440841_business_male_man_office_people_icon			= https://www.iconfinder.com/search?q=person&price=free&license=gte__1
-24. 2203535_botton_launch_on_point_icon					= https://www.iconfinder.com/search?q=on&price=free&style=solid&license=gte__1
-25. 326677_on_radio_icon						= https://www.iconfinder.com/search?q=on&style=solid&price=free&license=gte__1
+1.  bxs-home			= https://boxicons.com/?query=home
+2.  bxs-box			= https://boxicons.com/?query=box
+3.  bxs-calendar		= https://boxicons.com/?query=calendar
+4.  bxs-log-out-circle		= https://boxicons.com/?query=log
+5.  bxs-user			= https://boxicons.com/?query=user
+6.  bxs-up-arrow-circle		= https://boxicons.com/?query=arrow
+7.  bxs-save			= https://boxicons.com/?query=save
+8.  bxs-trash			= https://boxicons.com/?query=trash
+9.  close-circle-fill		= https://remixicon.com/
+10. file-excel-2-fill		= https://remixicon.com/
+11. bxs-image			= https://boxicons.com/?query=image
+12. bx-plus			= https://boxicons.com/?query=plus
+13. bxs-right-arrow		= https://boxicons.com/?query=arrow
+14. bxs-left-arrow		= https://boxicons.com/?query=arrow
+15. bxs-edit			= https://boxicons.com/?query=edit
+16. bx-radio-circle		= https://boxicons.com/?query=radio
+17. bx-radio-circle-marked	= https://boxicons.com/?query=radio
+18. iconmonstr-user-31		= https://iconmonstr.com/user-31-svg/
+19. iconmonstr-customer-2	= https://iconmonstr.com/customer-2-svg/
+20. iconmonstr-banknote-15	= https://iconmonstr.com/banknote-15-svg/
+21. johnny-automatic-Services-5	= https://publicdomainvectors.org/en/free-clipart/US-National-Park-Maps-pictogram-for-a-laundry-facility-vector-image/22576.html
+22. iconmonstr-thumb-10		= https://iconmonstr.com/thumb-10-svg/
+23. iconmonstr-process-2	= https://iconmonstr.com/process-2-svg/
+24. iconmonstr-basket-18	= https://iconmonstr.com/basket-18-svg/
+25. bxs-note			= https://boxicons.com/?query=note
 
 LOGO
 ====
-1.  753105_washer_laundry_machine_wash_washing_icon 	 = https://www.iconfinder.com/search?q=laundry&price=free&style=solid&license=gte__1
+1.  johnny-automatic-Services-5	= https://publicdomainvectors.org/en/free-clipart/US-National-Park-Maps-pictogram-for-a-laundry-facility-vector-image/22576.html
 
 IMAGE/FOTO
 ===========

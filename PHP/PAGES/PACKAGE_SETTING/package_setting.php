@@ -6,7 +6,7 @@
         <div class="countainer count_package_setting">
             <div class="row align-items-start receptacle_package_setting">
                 <div class="col-6">
-                    <a href="main.php?page=Create new package" type="button" class="btn btn_create_new_package"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="img_create_new_package"> Create new package</a>
+                    <a href="main.php?page=Create new package" type="button" class="btn btn_create_new_package"><img src="../../ASSET/ICON/PACKAGE/bx-plus.svg" class="img_create_new_package"> Create new package</a>
                 </div>
 
                 <div class="col-6 ">
@@ -44,9 +44,9 @@
                         </td>
                         <td><label for="" class="txt_status_active">Active</label></td>
                         <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
                             |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                         </td>
                     </tr>
                     <!-- ============== -->
@@ -65,9 +65,9 @@
                         </td>
                         <td><label for="" class="txt_status_active">Active</label></td>
                         <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
                             |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                         </td>
                     </tr>
                     <!-- ============== -->
@@ -86,9 +86,9 @@
                         </td>
                         <td><label for="" class="txt_status_active">Active</label></td>
                         <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
                             |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                         </td>
                     </tr>
                     <!-- ============== -->
@@ -107,9 +107,9 @@
                         </td>
                         <td><label for="" class="txt_status_non_active">Non Active</label></td>
                         <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
                             |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                         </td>
                     </tr>
                     <!-- ============== -->
@@ -128,23 +128,23 @@
                         </td>
                         <td><label for="" class="txt_status_non_active">Non Active</label></td>
                         <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/353430_checkbox_pen_edit_pencil_icon.svg" class="img_edit_package"></a>
+                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
                             |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
                         </td>
                     </tr>
                 </tbody>
             </table>
             <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="btn-group receptacle_btn_next_or_back" role="group" aria-label="Second group">
-                    <button type="button" class="btn extra_next_or_back btn_next_or_back" disabled><img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon - Edit.svg" class="arrow_next_and_back"> Back
+                    <button type="button" class="btn extra_next_or_back btn_next_or_back" disabled><img src="../../ASSET/ICON/PACKAGE/bxs-left-arrow.svg" class="arrow_next_and_back"> Back
                     </button>
 
                     <button type="button" class="btn extra_next_or_back" style="background-color: gray; color: white;">1</button>
                     <button type="button" class="btn extra_next_or_back">2</button>
                     <button type="button" class="btn extra_next_or_back">3</button>
 
-                    <button type="button" class="btn extra_next_or_back btn_next_or_back">Next <img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon.svg" class="arrow_next_and_back">
+                    <button type="button" class="btn extra_next_or_back btn_next_or_back">Next <img src="../../ASSET/ICON/PACKAGE/bxs-right-arrow.svg" class="arrow_next_and_back">
                     </button>
                 </div>
             </div>

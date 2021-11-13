@@ -26,7 +26,6 @@
 
 .img_logo {
     width: 60px;
-    margin-top: -11px;
     margin-left: 13px;
 }
 
@@ -73,7 +72,7 @@
 }
 
 .img_home:hover {
-    content: url(../ASSET/ICON/BACK/216242_home_icon.svg);
+    content: url(../ASSET/ICON/BACK/bxs-home.svg);
 }
 
 .img_customers {
@@ -81,7 +80,7 @@
 }
 
 .img_customers:hover {
-    content: url(../ASSET/ICON/BACK/171447_users_group_icon.svg);
+    content: url(../ASSET/ICON/BACK/iconmonstr-user-31.svg);
 }
 
 .img_package_setting {
@@ -89,7 +88,7 @@
 }
 
 .img_package_setting:hover {
-    content: url(../ASSET/ICON/BACK/623070_box_label_storage_delivery_gift_icon.svg);
+    content: url(../ASSET/ICON/BACK/bxs-box.svg);
 }
 
 .img_report {
@@ -97,7 +96,7 @@
 }
 
 .img_report:hover {
-    content: url(../ASSET/ICON/BACK/3533402_business_management_plan_project_report_icon.svg);
+    content: url(../ASSET/ICON/BACK/bxs-note.svg);
 }
 
 .img_logout {
@@ -106,7 +105,7 @@
 }
 
 .img_logout:hover {
-    content: url(../ASSET/ICON/BACK/1564506_close_exit_logout_power_icon.svg);
+    content: url(../ASSET/ICON/BACK/bxs-log-out-circle.svg);
 }
 
 .txt_copyright {
@@ -167,7 +166,7 @@ h5 {
 .img_emblem {
     width: 150px;
     margin-left: 152px;
-    margin-top: -13px;
+    margin-top: -5px;
 }
 
 .txt_title {
@@ -175,7 +174,7 @@ h5 {
     font-size: 45px;
     text-align: center;
     color: #30397E;
-    margin-top: -40px;
+    margin-top: -10px;
 }
 
 .txt_description {

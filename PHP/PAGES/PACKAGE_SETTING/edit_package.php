@@ -103,31 +103,31 @@
                     <div class="col-md-6">
                         <div class="row pb-2">
                             <div class="col">
-                                <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="cnpe_img">New level</button>
+                                <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/bx-plus.svg" class="cnpe_img">New level</button>
                             </div>
                             <div class="col">
-                                <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="cnpe_img">Delete level</button>
+                                <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="cnpe_img">Delete level</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="row pb-2">
                             <div class="col">
-                                <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/134224_add_plus_new_icon.svg" class="cnpe_img">New processing time</button>
+                                <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/bx-plus.svg" class="cnpe_img">New processing time</button>
                             </div>
                             <div class="col">
-                                <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/5208399_delete_garbage_recycle_remove_trash_icon.svg" class="cnpe_img">Delete processing time</button>
+                                <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="cnpe_img">Delete processing time</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-4 pt-3" style="margin-left: 725px;">
                         <div class="row pb-2">
                             <div class="col">
-                                <button type="button" id="on" class="btn cnpe_btn_turn_on" onclick="buttonOnOff()"><img src="../../ASSET/ICON/PACKAGE/2203535_botton_launch_on_point_icon.svg" class="cnpe_img_on_of">Turn on</button>
-                                <button type="button" id="off" class="btn cnpe_btn_turn_off" onclick="buttonOnOff()"><img src="../../ASSET/ICON/PACKAGE/326677_on_radio_icon.svg" class="cnpe_img">Turn off</button>
+                                <button type="button" id="on" class="btn cnpe_btn_turn_on" onclick="buttonOnOff()"><img src="../../ASSET/ICON/PACKAGE/bx-radio-circle-marked.svg" class="cnpe_img_on_of">Turn on</button>
+                                <button type="button" id="off" class="btn cnpe_btn_turn_off" onclick="buttonOnOff()"><img src="../../ASSET/ICON/PACKAGE/bx-radio-circle.svg" class="cnpe_img_on_of">Turn off</button>
                             </div>
                             <div class="col">
-                                <button type="button" class="btn cnpe_btn_save"><img src="../../ASSET/ICON/PACKAGE/2639912_save_icon.svg" class="cnpe_img">Save</button>
+                                <button type="button" class="btn cnpe_btn_save"><img src="../../ASSET/ICON/PACKAGE/bxs-save.svg" class="cnpe_img">Save</button>
                             </div>
                         </div>
                     </div>

@@ -23,8 +23,8 @@
                                 password</label>
                             <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Enter confirm new password" required>
                         </div>
-                        <button type="submit" class="btn btn_save_change_password"><img src="../../ASSET/ICON/PACKAGE/2639912_save_icon.svg" class="img_btn_change_password">Save</button>
-                        <a href="main.php?page=My profile" type="button" class="btn btn_cancel_change_password"><img src="../../ASSET/ICON/PACKAGE/4945336_business_close_document_files_folder_icon.svg" class="img_btn_change_password">Cancel</a>
+                        <button type="submit" class="btn btn_save_change_password"><img src="../../ASSET/ICON/PACKAGE/bxs-save.svg" class="img_btn_change_password">Save</button>
+                        <a href="main.php?page=My profile" type="button" class="btn btn_cancel_change_password"><img src="../../ASSET/ICON/PACKAGE/close-circle-fill.svg" class="img_btn_change_password">Cancel</a>
                     </form>
                 </div>
             </div>

@@ -4,14 +4,12 @@
 <!-- /LINK JAVASCRIPT -->
 
 <!-- SYNTAX JAVASCRIPT/JQUERY -->
-<script type="text/javascript">
-    $(document).ready(function() {
-        // button on and off
-        function buttonOnOff() {
-            $("#on").toggle()
-            $("#off").toggle()
-        }
-    })
+<script>
+    // button on and off
+    function buttonOnOff() {
+        $("#on").toggle()
+        $("#off").toggle()
+    }
 </script>
 <!-- /SYNTAX JAVASCRIPT/JQUERY -->
 </body>

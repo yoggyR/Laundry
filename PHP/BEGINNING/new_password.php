@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../../CSS/beginning.css">
     <!-- /LINK CSS -->
     <!-- LINK LOGO -->
-    <link rel="shortcut icon" href="../../ASSET/LOGO/g839.png">
+    <link rel="shortcut icon" href="../../ASSET/LOGO/johnny-automatic-Services-5.svg">
     <!-- /LINK LOGO -->
 </head>
 
@@ -32,7 +32,7 @@
                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                         <label for="floatingPassword">Confirm new password</label>
                     </div>
-                    <a class="w-100 btn btn-lg btn_reset" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Reset</a>
+                    <a class="w-100 btn btn-lg btn_reset" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Save</a>
                     <p class="mt-2">Did you remember your password? <span><a class="btn_try_FVC" href="../BEGINNING/log_in.php">Try logging in</a></span></p>
                     <p class="txt_copyright_FVC">&copy;2021 Laundry&trade;</p>
                 </form>

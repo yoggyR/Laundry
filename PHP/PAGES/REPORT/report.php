@@ -9,7 +9,7 @@
                     <label class="label_data_report shadow">
                         <p class="txt_head_data_report">On process</p>
                         <h1 class="txt_real_data_report">03</h1>
-                        <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/7097271_washing_bubble_detergent powder_t-shirt_laundry_icon.svg" alt="">
+                        <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/iconmonstr-process-2.svg" alt="">
                         <p class="txt_powered_by_report">Powered by Laundry&trade;</p>
                     </label>
                 </div>
@@ -17,7 +17,7 @@
                     <label class="label_data_report shadow">
                         <p class="txt_head_data_report">Finished</p>
                         <h1 class="txt_real_data_report">01</h1>
-                        <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/7097281_washing_folding_clothes_basket_laundry_icon.svg" alt="">
+                        <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/iconmonstr-thumb-10.svg" alt="">
                         <p class="txt_powered_by_report">Powered by Laundry&trade;</p>
                     </label>
                 </div>
@@ -25,7 +25,7 @@
                     <label class="label_data_report shadow">
                         <p class="txt_head_data_report">Taken</p>
                         <h1 class="txt_real_data_report">01</h1>
-                        <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/7011187_hand_person_clothes_over_people_icon.svg" alt="">
+                        <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/iconmonstr-basket-18.svg" alt="">
                         <p class="txt_powered_by_report">Powered by Laundry&trade;</p>
                     </label>
                 </div>
@@ -33,7 +33,7 @@
                     <label class="label_data_report shadow">
                         <p class="txt_head_data_report">Customers</p>
                         <h1 class="txt_real_data_report">05</h1>
-                        <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/3209291_contacts_customers_family_group_team_icon.svg" alt="">
+                        <img class="img_data_report" src="../../ASSET/ICON/PACKAGE/iconmonstr-customer-2.svg" alt="">
                         <p class="txt_powered_by_report">Powered by Laundry&trade;</p>
                     </label>
                 </div>
@@ -41,7 +41,7 @@
                     <label class="label_data_report shadow">
                         <p class="txt_head_data_report">Profit</p>
                         <h1 class="txt_real_data_report_profit">IDR 201.000</h1>
-                        <img class="img_data_report_profit" src="../../ASSET/ICON/PACKAGE/290143_cash_money_payment_wallet_icon.svg" alt="">
+                        <img class="img_data_report_profit" src="../../ASSET/ICON/PACKAGE/iconmonstr-banknote-15.svg" alt="">
                         <p class="txt_powered_by_report_profit">Powered by Laundry&trade;</p>
                     </label>
                 </div>
@@ -55,7 +55,7 @@
                         </form>
                     </div>
                     <div class="col-6">
-                        <button class="btn btn_export_to_excel" type="button">Export to excel<img src="../../ASSET/ICON/PACKAGE/7422413_exel_spreadsheet_sheets_table_icon.svg" class="img_export_to_excel"></button>
+                        <button class="btn btn_export_to_excel" type="button">Export to excel<img src="../../ASSET/ICON/PACKAGE/file-excel-2-fill.svg" class="img_export_to_excel"></button>
                     </div>
                 </div>
                 <table class="table table-bordered table_report table-hover">
@@ -293,14 +293,14 @@
 
                 <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
                     <div class="btn-group receptacle_btn_next_or_back_report" role="group" aria-label="Second group">
-                        <button type="button" class="btn extra_next_or_back_report btn_next_or_back_report" disabled><img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon - Edit.svg" class="arrow_next_and_back_report"> Back
+                        <button type="button" class="btn extra_next_or_back_report btn_next_or_back_report" disabled><img src="../../ASSET/ICON/PACKAGE/bxs-left-arrow.svg" class="arrow_next_and_back_report"> Back
                         </button>
 
                         <button type="button" class="btn extra_next_or_back_report" style="background-color: gray; color: white;">1</button>
                         <button type="button" class="btn extra_next_or_back_report">2</button>
                         <button type="button" class="btn extra_next_or_back_report">3</button>
 
-                        <button type="button" class="btn extra_next_or_back_report btn_next_or_back_report">Next <img src="../../ASSET/ICON/PACKAGE/352072_arrow_play_icon.svg" class="arrow_next_and_back_report">
+                        <button type="button" class="btn extra_next_or_back_report btn_next_or_back_report">Next <img src="../../ASSET/ICON/PACKAGE/bxs-right-arrow.svg" class="arrow_next_and_back_report">
                         </button>
                     </div>
                 </div>

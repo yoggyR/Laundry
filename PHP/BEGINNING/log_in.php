@@ -19,6 +19,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($emailUser == $dataUser['email'] && hash('sha256', $passwordUser) == $dataUser['password']) {
             $_SESSION['email'] = $dataUser['email'];
+            if (isset($_POST['remember'])) {
+                setcookie('login', $dataUser['email'], time() + 120, '/');
+            }
             header("location: ../LAYOUTS/main.php?page=Home");
         } else {
             $erorAuth = true;
@@ -76,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                     <div class="checkbox mb-2">
                         <label>
-                            <input type="checkbox" value="remember-me"> Remember me
+                            <input type="checkbox" name="remember"> Remember me
                         </label>
                     </div>
                     <button class="w-100 btn btn-lg btn_login mb-2" type="submit" name="submit">Log in</button>

@@ -1,8 +1,12 @@
 <?php
 session_start();
+if (isset($_COOKIE['login']) && !isset($_SESSION['email'])) {
+    $_SESSION['email'] = $_COOKIE['login'];
+}
 if (!isset($_SESSION["email"])) {
     header("Location: ../BEGINNING/log_in.php");
 }
+
 include('../CONFIG/connect_database.php');
 $query = "SELECT * FROM user";
 $result = mysqli_query($connect, $query);
@@ -34,7 +38,7 @@ $data = mysqli_fetch_assoc($result);
         </a>
 
         <div title="Date" class="date_head">
-            <img src="../../ASSET/ICON/PACKAGE/bxs-calendar.svg" class="img_calendar"> Today, <span style="font-weight: bold;"><?php echo date('d-M-Y') ?></span>
+            <img src="../../ASSET/ICON/PACKAGE/bxs-calendar.svg" class="img_calendar"> Today, <span style="font-weight: bold; color: #30397E;"><?php echo date('d-M-Y') ?></span>
         </div>
 
         <div class="btn_profile" title="My profile">

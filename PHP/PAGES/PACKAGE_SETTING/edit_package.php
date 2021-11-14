@@ -120,9 +120,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 pt-3" style="margin-left: 725px;">
+                    <div class="col-4 pt-3" style="margin-left: 678px;">
                         <div class="row pb-2">
-                            <div class="col">
+                            <div class="col" style="margin-left: 68px;">
                                 <button type="button" id="on" class="btn cnpe_btn_turn_on" onclick="buttonOnOff()"><img src="../../ASSET/ICON/PACKAGE/bx-radio-circle-marked.svg" class="cnpe_img_on_of">Turn on</button>
                                 <button type="button" id="off" class="btn cnpe_btn_turn_off" onclick="buttonOnOff()"><img src="../../ASSET/ICON/PACKAGE/bx-radio-circle.svg" class="cnpe_img_on_of">Turn off</button>
                             </div>

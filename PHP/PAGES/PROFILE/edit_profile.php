@@ -15,7 +15,7 @@ if (isset($_POST['save'])) {
                 alert ('Profile changed successfully');
                 document.location.href = 'main.php?page=My profile'; 
             </script>";
-    } else{
+    } else {
         echo "
             <script>
                 alert ('Profile failed to change');

@@ -3,7 +3,7 @@ session_start();
 if (isset($_COOKIE['login']) && !isset($_SESSION['email'])) {
     $_SESSION['email'] = $_COOKIE['login'];
 }
-if (!isset($_SESSION["email"])) {
+else if (!isset($_SESSION["email"])) {
     header("Location: ../BEGINNING/log_in.php");
 }
 

@@ -59,7 +59,7 @@ function changeImage()
                 </script>";
         return false;
     }
-    
+
     move_uploaded_file($folderName, '../../DATABASE/IMAGE/' . $nameImage);
     return $nameImage;
 }

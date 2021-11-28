@@ -16,54 +16,65 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `a`
+-- Table structure for table `package_setting`
 --
 
-DROP TABLE IF EXISTS `a`;
+DROP TABLE IF EXISTS `package_setting`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `a` (
+CREATE TABLE `package_setting` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `password` varchar(100) NOT NULL,
-  `phone_number` int(13) NOT NULL,
-  `address` varchar(200) NOT NULL,
-  `image` varchar(100) NOT NULL,
-  `access` varchar(100) DEFAULT NULL,
+  `name_packages` varchar(100) DEFAULT NULL,
+  `date_created` varchar(100) DEFAULT NULL,
+  `date_modified` varchar(100) DEFAULT NULL,
+  `status` varchar(100) DEFAULT NULL,
+  `price_per_kg` int(11) DEFAULT NULL,
+  `min_weight` float DEFAULT NULL,
+  `max_weight` float DEFAULT NULL,
+  `processing_time` int(11) DEFAULT NULL,
+  `level_1` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `a`
+-- Dumping data for table `package_setting`
 --
 
-LOCK TABLES `a` WRITE;
-/*!40000 ALTER TABLE `a` DISABLE KEYS */;
-/*!40000 ALTER TABLE `a` ENABLE KEYS */;
+LOCK TABLES `package_setting` WRITE;
+/*!40000 ALTER TABLE `package_setting` DISABLE KEYS */;
+INSERT INTO `package_setting` VALUES (6,'Regular','28-11-2021','-','Active',5000,1,100,3,2000);
+/*!40000 ALTER TABLE `package_setting` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `b`
+-- Table structure for table `user`
 --
 
-DROP TABLE IF EXISTS `b`;
+DROP TABLE IF EXISTS `user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `b` (
+CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(1000) NOT NULL,
+  `phone_number` varchar(13) DEFAULT NULL,
+  `address` varchar(200) DEFAULT NULL,
+  `image` varchar(100) DEFAULT NULL,
+  `access` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `b`
+-- Dumping data for table `user`
 --
 
-LOCK TABLES `b` WRITE;
-/*!40000 ALTER TABLE `b` DISABLE KEYS */;
-/*!40000 ALTER TABLE `b` ENABLE KEYS */;
+LOCK TABLES `user` WRITE;
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES (7,'Admin','admin@laundry.com','8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918','0895801121100','Jl. Mekar sari, Kota Prabumulih','icons_user.png','Super admin');
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -79,4 +90,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-10-16 20:24:00
+-- Dump completed on 2021-11-28 13:46:50

@@ -1,6 +1,10 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-2 border-bottom">
     <label><span style="font-weight: bold;"> <?php echo ($pages); ?> </span></label>
 </div>
+<?php
+include('../FUNCTIONS/function_package-setting.php');
+$dataPackage = show("SELECT * FROM package_setting");
+?>
 <div class='row'>
     <div class="md-col-12">
         <div class="countainer count_package_setting">
@@ -29,113 +33,36 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <p class="txt_content_package_setting">1</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">Regular</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">13 March 2021</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting"> 17 October 2021</p>
-                        </td>
-                        <td><label for="" class="txt_status_active">Active</label></td>
-                        <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
-                            |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                        </td>
-                    </tr>
-                    <!-- ============== -->
-                    <tr>
-                        <td>
-                            <p class="txt_content_package_setting">2</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">Fast</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">10 April 2021</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting"> 17 October 2021</p>
-                        </td>
-                        <td><label for="" class="txt_status_active">Active</label></td>
-                        <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
-                            |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                        </td>
-                    </tr>
-                    <!-- ============== -->
-                    <tr>
-                        <td>
-                            <p class="txt_content_package_setting">3</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">Super</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">30 May 2021</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting"> 17 October 2021</p>
-                        </td>
-                        <td><label for="" class="txt_status_active">Active</label></td>
-                        <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
-                            |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                        </td>
-                    </tr>
-                    <!-- ============== -->
-                    <tr>
-                        <td>
-                            <p class="txt_content_package_setting">4</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">Giant</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">05 July 2021</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting"> 17 October 2021</p>
-                        </td>
-                        <td><label for="" class="txt_status_non_active">Non Active</label></td>
-                        <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
-                            |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                        </td>
-                    </tr>
-                    <!-- ============== -->
-                    <tr>
-                        <td>
-                            <p class="txt_content_package_setting">5</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">Monster</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting">22 August 2021</p>
-                        </td>
-                        <td>
-                            <p class="txt_content_package_setting"> 17 October 2021</p>
-                        </td>
-                        <td><label for="" class="txt_status_non_active">Non Active</label></td>
-                        <td>
-                            <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
-                            |
-                            <a class="btn btn_delete_package" type="button" title="Delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
-                        </td>
-                    </tr>
+                    <?php $no = 1; ?>
+                    <?php foreach ($dataPackage as $package) : ?>
+                        <tr>
+                            <td>
+                                <p class="txt_content_package_setting"><?php echo $no; ?></p>
+                            </td>
+                            <td>
+                                <p class="txt_content_package_setting"><?php echo $package["name_packages"]; ?></p>
+                            </td>
+                            <td>
+                                <p class="txt_content_package_setting"><?php echo $package["date_created"]; ?></p>
+                            </td>
+                            <td>
+                                <p class="txt_content_package_setting"><?php echo $package["date_modified"]; ?></p>
+                            </td>
+                            <td>
+                                <p class="txt_content_package_setting"><?php echo $package["status"]; ?></p>
+                            </td>
+                            <td>
+                                <a class="btn btn_edit_package" type="button" title="Edit" href="main.php?page=Edit package&id=<?php echo $package['id']; ?>"><img src="../../ASSET/ICON/PACKAGE/bxs-edit.svg" class="img_edit_package"></a>
+                                |
+                                <a class="btn btn_delete_package" type="button" title="Delete" href="main.php?page=delete&id=<?php echo $package['id']; ?>"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="img_delete_package" data-bs-toggle="modal" data-bs-target="#delete"></a>
+                            </td>
+                        </tr>
+                        <?php $no++; ?>
+                    <?php endforeach; ?>
                 </tbody>
             </table>
-            <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
+
+            <!-- <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="btn-group receptacle_btn_next_or_back" role="group" aria-label="Second group">
                     <button type="button" class="btn extra_next_or_back btn_next_or_back" disabled><img src="../../ASSET/ICON/PACKAGE/bxs-left-arrow.svg" class="arrow_next_and_back"> Back
                     </button>
@@ -146,7 +73,7 @@
 
                     <button type="button" class="btn extra_next_or_back btn_next_or_back">Next <img src="../../ASSET/ICON/PACKAGE/bxs-right-arrow.svg" class="arrow_next_and_back">
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

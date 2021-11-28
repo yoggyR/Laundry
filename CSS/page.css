@@ -13,9 +13,9 @@
     margin-top: 40px;
 }
 
-.img_my_profile{
-    height: 300px; 
-    width: 280px; 
+.img_my_profile {
+    height: 300px;
+    width: 280px;
     border-radius: 10px;
     margin-top: 5px;
 }
@@ -68,7 +68,7 @@
     color: white;
 }
 
-.btn_change_image_profile{
+.btn_change_image_profile {
     display: none;
 }
 
@@ -256,7 +256,7 @@
 /* DATA CUSTOMERS*/
 .count_data_customers {
     width: 730px;
-    height: 483px;
+    height: auto;
     margin: auto;
 }
 
@@ -443,7 +443,7 @@ thead {
 
 /* CREATE NEW & EDIT PACKAGE */
 .cnpe_countainer {
-    width: 1000px;
+    width: 600px;
     margin: auto;
 }
 
@@ -475,7 +475,7 @@ thead {
     background-color: darkgreen;
     color: white;
     font-weight: bold;
-    width: 234px;
+    width: 300px;
 }
 
 .cnpe_btn_new:hover {
@@ -487,7 +487,7 @@ thead {
     background-color: darkred;
     color: white;
     font-weight: bold;
-    width: 234px;
+    width: 300px;
 }
 
 .cnpe_btn_delete:hover {
@@ -545,14 +545,26 @@ thead {
 }
 
 .cnpe_btn_save_new {
-    width: 100px;
-    margin-left: 900px;
+    width: 130px;
+    margin-left: 470px;
     font-weight: bold;
     background-color: #30397E;
     color: white;
 }
 
 .cnpe_btn_save_new:hover {
+    background-color: #2A9DC9;
+    color: white;
+}
+
+.cnpe_btn_save_edit {
+    width: 130px;
+    font-weight: bold;
+    background-color: #30397E;
+    color: white;
+}
+
+.cnpe_btn_save_edit:hover {
     background-color: #2A9DC9;
     color: white;
 }

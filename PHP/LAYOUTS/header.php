@@ -38,7 +38,7 @@ $data = mysqli_fetch_assoc($result);
         </a>
 
         <div title="Date" class="date_head">
-            <img src="../../ASSET/ICON/PACKAGE/bxs-calendar.svg" class="img_calendar"> Today, <span style="font-weight: bold; color: #30397E;"><?php echo date('d-M-Y') ?></span>
+            <img src="../../ASSET/ICON/PACKAGE/bxs-calendar.svg" class="img_calendar"> Today, <span style="font-weight: bold; color: #30397E;"><?php echo date('d-M-Y'); ?></span>
         </div>
 
         <div class="btn_profile" title="My profile">

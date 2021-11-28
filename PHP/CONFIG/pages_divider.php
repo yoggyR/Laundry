@@ -48,6 +48,8 @@ elseif ($pages == 'Package setting') {
     include('../PAGES/PACKAGE_SETTING/create_new_package.php');
 } elseif ($pages == 'Edit package') {
     include('../PAGES/PACKAGE_SETTING/edit_package.php');
+}elseif ($pages == 'delete') {
+    include('../PAGES/PACKAGE_SETTING/delete_package.php');
 }
 // End package setting \\
 

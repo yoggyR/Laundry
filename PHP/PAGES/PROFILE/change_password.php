@@ -1,9 +1,38 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-2 border-bottom">
     <label><span class="fw-bold"> <?php echo ($pages); ?> </span></label>
 </div>
+
 <?php
 include('../CONFIG/connect_database.php');
-
+$oldPassword = hash('sha256', $_POST['currentPassword']);
+$emailUs = $_POST['email'];
+$show = mysqli_query($connect, "SELECT * FROM user WHERE email = '$emailUs' AND password = '$oldPassword' ");
+$data = mysqli_fetch_assoc($show);
+if ($data) {
+    $newPassword = !empty($_POST['newPassword']) ? $_POST['newPassword'] : "";
+    $confrimPass = !empty($_POST['confirmNewpassword']) ? $_POST['confirmNewpassword'] : "";
+    if ($newPassword == $confrimPass) {
+        $passOk = hash('sha256', $confrimPass);
+        $change = mysqli_query($connect, "UPDATE user SET password = '$passOk' WHERE id = '$data[id]' ");
+        if ($change) {
+            echo "
+            <script>
+                alert ('Your password has been changed successfully');
+                document.location.href = 'main.php?page=My profile'; 
+            </script>";
+        }
+    } else {
+        echo "
+            <script>
+                alert ('Your password was not changed successfully');
+            </script>";
+    }
+} else {
+    echo "
+            <script>
+                alert ('Your old password doesn't match');
+            </script>";
+}
 ?>
 
 <div class='row'>
@@ -15,6 +44,7 @@ include('../CONFIG/connect_database.php');
                 </div>
                 <div class="col-md-11">
                     <form action="" method="POST" class="form_change_password">
+                        <input type="hidden" name="email" value="<?php echo $_SESSION['email']; ?>">
                         <div class="mb-3">
                             <label for="Current password" class="form-label fw-bold">Current password</label>
                             <input type="password" class="form-control" id="Current password" placeholder="Enter your current password" name="currentPassword">

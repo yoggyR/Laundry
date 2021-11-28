@@ -13,7 +13,6 @@
                     <th style="width: 153px;">Order</th>
                     <td style="width: 10px;">:</td>
                     <td style="width: 177px;">23-10-2021</td>
-
                 </tr>
                 <tr>
                     <th>Name</th>
@@ -34,7 +33,7 @@
                 <tr>
                     <th>Address</th>
                     <td>:</td>
-                    <td>Jl. Antasari, Jakarta</td>
+                    <td>Jl. Antasari, No. 105, RT/RW 003/004, Kel. Majasari, Kec. Prabumulih Selatan, Kota Prabumulih</td>
                     <th>Price to pay</th>
                     <td>:</td>
                     <td>IDR 1.000.000</td>
@@ -75,7 +74,7 @@
                 </tr>
                 <tr>
                     <th colspan="4"></th>
-                    <td colspan="2"><button type="button" class="btn btn_process_data_customers"><img src="../../ASSET/ICON/PACKAGE/bxs-up-arrow-circle.svg" class="img_process_data_customers">Process</button></td>
+                    <td colspan="2" class="pb-2"><button type="button" class="btn btn_process_data_customers"><img src="../../ASSET/ICON/PACKAGE/bxs-up-arrow-circle.svg" class="img_process_data_customers">Process</button></td>
                 </tr>
             </table>
         </div>

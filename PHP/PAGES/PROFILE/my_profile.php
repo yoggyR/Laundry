@@ -17,7 +17,7 @@ $dataProfile = show("SELECT * FROM user");
                     </div>
                     <div class="col-8" style="margin-left: -50px;">
                         <form action="" method="POST">
-                            
+
                             <div class="mb-3">
                                 <label for="formGroupExampleInput" class="form-label fw-bold">Name</label>
                                 <p><?php echo $profile["name"]; ?></p>

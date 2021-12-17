@@ -25,6 +25,8 @@ ICON
 23. iconmonstr-process-2	= https://iconmonstr.com/process-2-svg/
 24. iconmonstr-basket-18	= https://iconmonstr.com/basket-18-svg/
 25. bxs-note			= https://boxicons.com/?query=note
+26. bx-calendar-alt		= https://boxicons.com/?query=calendar
+27. iconmonstr-check-mark-7	= https://iconmonstr.com/check-mark-7-svg/
 
 LOGO
 ====

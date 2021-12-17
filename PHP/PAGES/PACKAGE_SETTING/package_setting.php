@@ -1,10 +1,15 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-2 border-bottom">
     <label><span style="font-weight: bold;"> <?php echo ($pages); ?> </span></label>
 </div>
+
 <?php
 include('../FUNCTIONS/function_package-setting.php');
 $dataPackage = show("SELECT * FROM package_setting");
+if (isset($_POST["search"])) {
+    $dataPackage = search($_POST["keyword"]);
+}
 ?>
+
 <div class='row'>
     <div class="md-col-12">
         <div class="countainer count_package_setting">
@@ -14,9 +19,9 @@ $dataPackage = show("SELECT * FROM package_setting");
                 </div>
 
                 <div class="col-6 ">
-                    <form class="d-flex form_search_package_setting">
-                        <input class="form-control me-2 input_search_package_setting" type="search" placeholder="Search data in the table" aria-label="Search">
-                        <button class="btn btn_search_package_setting" type="submit">Search</button>
+                    <form class="d-flex form_search_package_setting" action="" method="POST">
+                        <input class="form-control me-2 input_search_package_setting" type="search" placeholder="Search data in the table" aria-label="Search" name="keyword" autocomplete="off">
+                        <button class="btn btn_search_package_setting" type="submit" name="search">Search</button>
                     </form>
                 </div>
             </div>
@@ -74,9 +79,9 @@ $dataPackage = show("SELECT * FROM package_setting");
                     <button type="button" class="btn extra_next_or_back btn_next_or_back">Next <img src="../../ASSET/ICON/PACKAGE/bxs-right-arrow.svg" class="arrow_next_and_back">
                     </button>
                 </div> -->
-            </div>
         </div>
     </div>
+</div>
 </div>
 
 <!-- NOTIF DELETE -->

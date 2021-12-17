@@ -25,13 +25,13 @@ function add($add)
     global $connect;
 
     $name_packages          = htmlspecialchars($add['name_packages']);
-    $date_created           = htmlspecialchars($add['date_created']);
+    $date_created           = date('Y-m-d');
+    $date_modified          = date('Y-m-d');
     $status                 = htmlspecialchars($add['status']);
     $price_per_kg           = htmlspecialchars($add['price_per_kg']);
     $min_weight             = htmlspecialchars($add['min_weight']);
     $max_weight             = htmlspecialchars($add['max_weight']);
     $processing_time        = htmlspecialchars($add['processing_time']);
-    $level_1                = htmlspecialchars($add['level_1']);
 
     mysqli_query($connect, "INSERT INTO package_setting 
                                 VALUES  ('', 
@@ -42,8 +42,7 @@ function add($add)
                                         '$price_per_kg', 
                                         '$min_weight', 
                                         '$max_weight', 
-                                        '$processing_time', 
-                                        '$level_1')");
+                                        '$processing_time')");
 
     return mysqli_affected_rows($connect);
 }
@@ -55,27 +54,21 @@ function edit($edit)
 
     global $connect;
 
-    $id                     = htmlspecialchars($edit['id']);
-    $date_created           = htmlspecialchars($edit['date_created']);
+    $id                     = $edit['id'];
     $name_packages          = htmlspecialchars($edit['name_packages']);
-    $date_modified          = htmlspecialchars($edit['date_modified']);
-    $status                 = htmlspecialchars($edit['status']);
+    $date_modified          = date('Y-m-d');
     $price_per_kg           = htmlspecialchars($edit['price_per_kg']);
     $min_weight             = htmlspecialchars($edit['min_weight']);
     $max_weight             = htmlspecialchars($edit['max_weight']);
     $processing_time        = htmlspecialchars($edit['processing_time']);
-    $level_1                = htmlspecialchars($edit['level_1']);
 
-    mysqli_query($connect, "UPDATE     package_setting 
+    mysqli_query($connect, "UPDATE      package_setting 
                                 SET     name_packages       = '$name_packages',
-                                        date_created        = '$date_created',
                                         date_modified       = '$date_modified',
-                                        status              = '$status',
                                         price_per_kg        = '$price_per_kg',
                                         min_weight          = '$min_weight',
                                         max_weight          = '$max_weight',
-                                        processing_time     = '$processing_time',
-                                        level_1             = '$level_1',
+                                        processing_time     = '$processing_time'
                                 WHERE   id                  = '$id'");
 
     return mysqli_affected_rows($connect);
@@ -90,3 +83,14 @@ function delete($id)
     return mysqli_affected_rows($connect);
 }
 // Delete package \\
+
+// Search
+function search($keyword)
+{
+    $query = "SELECT * FROM package_setting WHERE   name_packages LIKE '%$keyword%' OR
+                                                    date_created  LIKE '%$keyword%' OR
+                                                    date_modified LIKE '%$keyword%' OR
+                                                    status        LIKE '%$keyword%'";
+    return show($query);
+}
+// Search \\

@@ -30,6 +30,12 @@ elseif ($pages == 'Home') {
     include('../PAGES/HOME/home.php');
 } elseif ($pages == 'Package') {
     include('../PAGES/HOME/package.php');
+} elseif ($pages == 'Order process') {
+    include('../PAGES/HOME/order_process.php');
+} elseif ($pages == 'edit_order') {
+    include('../PAGES/HOME/edit_order_process.php');
+} elseif ($pages == 'delete_order') {
+    include('../PAGES/HOME/delete_order.php');
 }
 // End home \\
 
@@ -48,7 +54,7 @@ elseif ($pages == 'Package setting') {
     include('../PAGES/PACKAGE_SETTING/create_new_package.php');
 } elseif ($pages == 'Edit package') {
     include('../PAGES/PACKAGE_SETTING/edit_package.php');
-}elseif ($pages == 'delete') {
+} elseif ($pages == 'delete') {
     include('../PAGES/PACKAGE_SETTING/delete_package.php');
 }
 // End package setting \\

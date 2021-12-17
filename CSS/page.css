@@ -255,8 +255,7 @@
 
 /* DATA CUSTOMERS*/
 .count_data_customers {
-    width: 730px;
-    height: auto;
+    width: 810px;
     margin: auto;
 }
 
@@ -274,7 +273,7 @@
     background-color: darkgreen;
     color: white;
     font-weight: bold;
-    width: 135px;
+    width: 138px;
 }
 
 .btn_process_data_customers:hover {
@@ -283,10 +282,38 @@
 }
 
 .img_process_data_customers {
-    width: 17px;
+    width: 15px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.btn_process_data_finish {
+    background-color: rgb(206, 114, 2);
+    color: white;
+    font-weight: bold;
+    width: 138px;
+}
+
+.btn_process_data_finish:hover {
+    background-color: orange;
+    color: white;
+}
+
+.img_process_data_cancel {
+    width: 18px;
     margin-top: -3px;
     margin-right: 4px;
+}
 
+.label_taken {
+    border: 5px solid red;
+    padding: 5px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    width: 137px;
+    border-radius: 5px;
 }
 
 /* //DATA CUSTOMERS\\ */
@@ -768,7 +795,7 @@ thead {
 
 /* ------------------------LIMIT------------------------ */
 
-/* PACKAGE & SUB PACKAGE*/
+/* PACKAGE */
 .form_label_package {
     font-weight: bold;
     font-size: 11px;
@@ -813,7 +840,63 @@ thead {
     margin-right: 4px;
 }
 
-/* //PACKAGE & SUB PACKAGE\\ */
+/* //PACKAGE\\ */
+
+/* ------------------------LIMIT------------------------ */
+
+/* ORDER PROCESS */
+.count_order_process {
+    width: 808px;
+    margin: auto;
+}
+
+.img_order_process {
+    width: 22px;
+    height: 30px;
+}
+
+.label_order_process {
+    font-weight: bold;
+    color: #30397E;
+}
+
+.btn_process_order_done {
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    width: 138px;
+}
+
+.btn_process_order_done:hover {
+    background-color: green;
+    color: white;
+}
+
+.img_process_order_done {
+    width: 15px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.btn_process_order_cancel {
+    background-color: rgb(206, 114, 2);
+    color: white;
+    font-weight: bold;
+    width: 138px;
+}
+
+.btn_process_order_cancel:hover {
+    background-color: orange;
+    color: white;
+}
+
+.img_process_order_cancel {
+    width: 18px;
+    margin-top: -3px;
+    margin-right: 4px;
+}
+
+/* //ORDER PROCESS\\ */
 
 /* ------------------------LIMIT------------------------ */
 

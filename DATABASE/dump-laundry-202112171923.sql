@@ -16,6 +16,39 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `customers`
+--
+
+DROP TABLE IF EXISTS `customers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `customers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `package_name` varchar(100) DEFAULT NULL,
+  `customers_id` varchar(10) DEFAULT NULL,
+  `name_customers` varchar(100) DEFAULT NULL,
+  `weight` float DEFAULT NULL,
+  `phone_number` varchar(13) DEFAULT NULL,
+  `order` date DEFAULT NULL,
+  `finished` date DEFAULT NULL,
+  `address` varchar(100) DEFAULT NULL,
+  `note` varchar(300) DEFAULT NULL,
+  `price_to_pay` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=132 DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `customers`
+--
+
+LOCK TABLES `customers` WRITE;
+/*!40000 ALTER TABLE `customers` DISABLE KEYS */;
+INSERT INTO `customers` VALUES (127,'Regular','LNY-251788','',2,'','2021-12-17','0000-00-00','','',''),(128,'Regular','LNY-169321','',4,'','2021-12-17','0000-00-00','','','0'),(129,'Regular','LNY-737640','',3,'','2021-12-17','0000-00-00','','',''),(130,'Regular','LNY-665258','',2,'','2021-12-17','0000-00-00','','',''),(131,'Regular','LNY-808879','',2,'','2021-12-17','0000-00-00','','','');
+/*!40000 ALTER TABLE `customers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `package_setting`
 --
 
@@ -25,16 +58,15 @@ DROP TABLE IF EXISTS `package_setting`;
 CREATE TABLE `package_setting` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name_packages` varchar(100) DEFAULT NULL,
-  `date_created` varchar(100) DEFAULT NULL,
-  `date_modified` varchar(100) DEFAULT NULL,
+  `date_created` date DEFAULT current_timestamp(),
+  `date_modified` date DEFAULT NULL,
   `status` varchar(100) DEFAULT NULL,
   `price_per_kg` int(11) DEFAULT NULL,
   `min_weight` float DEFAULT NULL,
   `max_weight` float DEFAULT NULL,
   `processing_time` int(11) DEFAULT NULL,
-  `level_1` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,7 +75,7 @@ CREATE TABLE `package_setting` (
 
 LOCK TABLES `package_setting` WRITE;
 /*!40000 ALTER TABLE `package_setting` DISABLE KEYS */;
-INSERT INTO `package_setting` VALUES (6,'Regular','28-11-2021','-','Active',5000,1,100,3,2000);
+INSERT INTO `package_setting` VALUES (32,'Regular','2021-12-04','2021-12-17','Active',5000,1,30,3),(54,'Jumbo','2021-12-17','2021-12-17','Active',60000,31,60,5);
 /*!40000 ALTER TABLE `package_setting` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -90,4 +122,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-11-28 13:46:50
+-- Dump completed on 2021-12-17 19:23:22

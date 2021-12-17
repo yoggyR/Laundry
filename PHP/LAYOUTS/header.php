@@ -2,8 +2,7 @@
 session_start();
 if (isset($_COOKIE['login']) && !isset($_SESSION['email'])) {
     $_SESSION['email'] = $_COOKIE['login'];
-}
-else if (!isset($_SESSION["email"])) {
+} else if (!isset($_SESSION["email"])) {
     header("Location: ../BEGINNING/log_in.php");
 }
 
@@ -24,10 +23,13 @@ $data = mysqli_fetch_assoc($result);
     <link rel="stylesheet" href="../../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../../CSS/layout.css">
     <link rel="stylesheet" href="../../CSS/page.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <!-- /LINK CSS -->
     <!-- LINK LOGO -->
     <link rel="shortcut icon" href="../../ASSET/LOGO/johnny-automatic-Services-5.svg">
     <!-- /LINK LOGO -->
+    <script src="../../JS/sweetalert2.all.min.js"></script>
 </head>
 
 <body>

@@ -1,5 +1,9 @@
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-2 border-bottom"><label for="" style="color: rgb(134, 133, 133);">Package setting</label>
-    <label><span style="font-weight: bold; margin-left: -490px;"> / <?php echo ($pages); ?> </span></label><a href="main.php?page=Package setting" type="button" class="btn-close" title="Close this page"></a>
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-2 border-bottom">
+    <label for="" style="color: rgb(134, 133, 133);">Package setting</label>
+    <label>
+        <span style="font-weight: bold; margin-left: -490px;"> / <?php echo ($pages); ?></span>
+    </label>
+    <a href="main.php?page=Package setting" type="button" class="btn-close" title="Close this page"></a>
 </div>
 <?php
 include('../FUNCTIONS/function_package-setting.php');
@@ -7,7 +11,6 @@ if (isset($_POST["save"])) {
     if (add($_POST) > 0) {
         echo "
             <script>
-                alert ('Successfully');
                 document.location.href = 'main.php?page=Package setting'; 
             </script>";
     } else {
@@ -24,8 +27,7 @@ if (isset($_POST["save"])) {
             <form action="" method="POST">
                 <label class="form-label cnpe_label">Name package</label>
                 <input type="text" class="form-control" placeholder="Enter name package" name="name_packages" autocomplete="off">
-                <input type="hidden" name="date_created" value="<?php echo date('d-m-Y'); ?>">
-                <input type="hidden" name="status"  value="Active">
+                <input type="hidden" name="status" value="Active">
 
                 <label class="form-label cnpe_label pt-2">Price per kg</label>
                 <div class="input-group flex-nowrap">
@@ -50,33 +52,7 @@ if (isset($_POST["save"])) {
                     <input type="text" class="form-control" placeholder="Enter the number of days required" name="processing_time" autocomplete="off">
                     <span class="input-group-text cnpe_span">Days</span>
                 </div>
-
-                <div>
-                    <label class="form-label cnpe_label pt-2">Price per level</label>
-                    <div class="input-group flex-nowrap" style="margin-bottom: 14px;">
-                        <span class="input-group-text cnpe_span">Level 1</span>
-                        <input type="text" class="form-control" placeholder="Enter price per level" name="level_1" autocomplete="off">
-                    </div>
-                    <div class="input-group flex-nowrap" style="margin-bottom: 14px;">
-                        <span class=" input-group-text cnpe_span">Level 2</span>
-                        <input type="text" class="form-control" placeholder="Enter price per level" autocomplete="off">
-                    </div>
-                    <div class="input-group flex-nowrap" style="margin-bottom: 14px;">
-                        <span class="input-group-text cnpe_span">Level 3</span>
-                        <input type="text" class="form-control" placeholder="Enter price per level" autocomplete="off">
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <button type="button" class="btn cnpe_btn_new"><img src="../../ASSET/ICON/PACKAGE/bx-plus.svg" class="cnpe_img">New level</button>
-                        </div>
-                        <div class="col-6">
-                            <div class="input-group flex-nowrap">
-                                <button type="button" class="btn cnpe_btn_delete"><img src="../../ASSET/ICON/PACKAGE/bxs-trash.svg" class="cnpe_img">Delete level</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pt-5 pb-5">
+                <div class="pt-5">
                     <button type="submit" class="btn cnpe_btn_save_new" name="save"><img src="../../ASSET/ICON/PACKAGE/bxs-save.svg" class="cnpe_img">Save</button>
                 </div>
             </form>
